@@ -16,4 +16,7 @@
  <li>link</li>
  </ul>
 </body>
+<footer>
+<p>Footer</p>
+</footer>
 </html>  
