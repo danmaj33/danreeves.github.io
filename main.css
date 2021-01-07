@@ -1,5 +1,6 @@
 
-
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Averia+Sans+Libre:wght@300&family=Calistoga&display=swap');
 
 header {
   width: auto;  
@@ -10,6 +11,13 @@ padding: 20px;
     grid-row: 1;
     text-align: center;
 }
+
+h1,h2,li,footer {
+    font-family: 'Averia Sans Libre', cursive;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
 #headermain{
 Width:600px
 }
@@ -47,4 +55,7 @@ footer {
 }
 footer p{
     font-size: 20px;
+}
+#timeanddate{
+    font-size: 15px;  
 }
