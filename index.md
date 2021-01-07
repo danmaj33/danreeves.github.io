@@ -5,6 +5,7 @@
     <meta name="description" content="Assignment portal for Dan Reeves in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
+    <script src="mainscript.js"></script>
 </head>
 
 <header>
