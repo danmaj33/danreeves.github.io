@@ -3,12 +3,12 @@
 
 header {
     width:auto;
-    padding: 10px;
+    padding: 50px;
  background-color: rgb(17, 136, 23);
 }
 
 footer {
     width:auto;
-    padding: 10px;
+    padding: 50px;
     background-color:darkorange;
 }
