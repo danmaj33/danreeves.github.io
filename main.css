@@ -2,13 +2,40 @@
 
 
 header {
-    width:auto;
-    padding: 50px;
+  width: auto;  
+padding: 20px;
  background-color: rgb(17, 136, 23);
+ border-radius: 15px;
+ grid-column: 1/4;
+    grid-row: 1;
+    text-align: center;
+}
+#coverpicture {
+grid-column: 3;
+grid-row: 3;
+margin-top: -20px;
+
+
+}
+ul{
+    grid-column: 1;
+    grid-row: 3; 
+}
+
+body {
+    width:auto;
+    margin: 10%;
+    display: grid;
+    grid-template-columns: 4;
+    grid-template-rows: 4;
 }
 
 footer {
-    width:auto;
-    padding: 50px;
+    grid-column: 1/4;
+    grid-row: 4/4;
+    padding: 20px;
     background-color:darkorange;
+    border-radius: 15px;
+    text-align: center;
+   
 }
