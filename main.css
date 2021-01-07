@@ -14,9 +14,11 @@ padding: 20px;
 grid-column: 3;
 grid-row: 3;
 margin-top: -20px;
-
-
+width: 20%;
+margin-left: 800px;
+margin-bottom: 20px;
 }
+
 ul{
     grid-column: 1;
     grid-row: 3; 
