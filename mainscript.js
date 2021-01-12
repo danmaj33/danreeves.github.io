@@ -3,9 +3,10 @@
  * Output: last use date and time
  */
 
-    
-let oLastModif = new Date(document.lastModified);
-document.write(oLastModif);
+var date = document.lastModified;
+document.write("Last Modified: " + date); 
+
+document.getElementById("year").innerHTML = new Date().getFullYear();
 // returns: Tuesday, December 16, 2017 11:09:42
 
 
