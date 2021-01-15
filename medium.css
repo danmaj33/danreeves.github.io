@@ -1,0 +1,40 @@
+@media only screen and (min-width: 32.5em){
+
+}
+
+h1,h2,li,footer {
+    font-family: 'Averia Sans Libre', cursive;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: rgb(57, 59, 63);
+    font-size: 20px;
+}
+h2{
+    text-decoration: underline;
+}
+
+header {
+    width: auto;  
+  padding: 50px;
+  margin-top: 20px;
+   background-color: rgb(56, 221, 221);
+  text-align: center;
+  }
+  footer {
+    
+    padding: 20px;
+    background-color:rgb(0, 217, 255);
+   
+    text-align: center;
+   
+}
+footer p{
+    font-size: 10px;
+}
+#coverpicture {
+    margin-top: 10px;
+    width:100px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 6px;
+}

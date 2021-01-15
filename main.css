@@ -25,16 +25,13 @@ h2{
 }
 
 
-#headermain{
-Width:600px
-}
+
 
 #coverpicture {
-grid-column: 3/3;
-grid-row: 3/3;
-margin-top: -250px;
-width: 250px;
-margin-left: -50px;
+
+margin-top: 0px;
+width: 100px;
+float: right;
 margin-bottom: 20px;
 border-radius: 5px;
 box-shadow: 5px 5px 6px;
@@ -50,8 +47,7 @@ body {
     width:auto;
     margin-left: 10%;
     margin-right: 10%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    
    grid-auto-rows: 200px;
     background-color: rgb(220, 242, 250);
 }
