@@ -67,7 +67,7 @@ width: 200px;
     padding-left: 5px;
     padding-right: 5px;
     border-radius: 10px;
-    text-align: center;
+    text-align: left;
    }
 
 .span2 {
@@ -76,7 +76,7 @@ width: 200px;
     padding-left: 5px;
     padding-right: 5px;
     border-radius: 10px;
-    text-align: center;
+    text-align: left;
     }
 
 .span3 {
@@ -85,7 +85,7 @@ width: 200px;
     padding-left: 5px;
     padding-right: 5px;
     border-radius: 10px;
-    text-align: center;
+    text-align: left;
     }
     
  .span1,.span2,.span3{
