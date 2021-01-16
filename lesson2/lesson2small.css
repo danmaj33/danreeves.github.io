@@ -43,5 +43,6 @@
           header{
               padding-bottom: 25px;
               grid-row: 1;
+              grid-column: 1;
           }
 }
