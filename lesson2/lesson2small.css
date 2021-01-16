@@ -37,4 +37,11 @@
            border-radius: 10px;
            text-align: left;
            }
+          body{
+            grid-gap: 55px;
+          }
+          header{
+              padding-bottom: 25px;
+              grid-row: 1;
+          }
 }
