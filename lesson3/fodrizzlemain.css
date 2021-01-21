@@ -11,9 +11,13 @@ float: left;
 }
 
 
-p, h2 {
+p {
 	font-size: 16px;
 	font-family: 'Averia Libre', cursive;
+}
+h2 {
+    font-size: 16px;
+	font-family: 'Rock Salt', cursive;
 }
 li, footer {
 	font-family: 'Rock Salt', cursive;
@@ -95,16 +99,34 @@ footer {
 }
 
 #color1 {background-color: #FFF33B;
+    padding: 6px;
+    border-radius: 10px;
 }
 #color2 {background-color:#E93E3A;
+    padding: 6px;
+    border-radius: 10px;
 }
 #color3 {background-color: #F3903F;
+    padding: 6px;
+    border-radius: 10px;
 }
 #color4 {background-color:#FDC70C;
+    padding: 6px;
+    border-radius: 10px;
 }
 #color5 {background-color:#2A91FF;
+    padding: 6px;
+    border-radius: 10px;
 }
 
+#rocksalt{
+    font-family: 'Rock Salt', cursive;
+    font-size: 200%;  
+}
+#averialibre{
+    font-family: 'Averia Libre', cursive;
+    font-size: 200%;
+}
 /* Tablet Views ******************************/
 @media only screen and (min-width: 37.5em) {
 	/* Horizontal Menu Examples */
