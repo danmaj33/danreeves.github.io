@@ -94,6 +94,17 @@ footer {
 	height: 2rem;
 }
 
+#color1 {background-color: #FFF33B;
+}
+#color2 {background-color:#E93E3A;
+}
+#color3 {background-color: #F3903F;
+}
+#color4 {background-color:#FDC70C;
+}
+#color5 {background-color:#2A91FF;
+}
+
 /* Tablet Views ******************************/
 @media only screen and (min-width: 37.5em) {
 	/* Horizontal Menu Examples */
