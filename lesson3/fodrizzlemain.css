@@ -104,8 +104,9 @@ nav ul li a {
 	font-size: 0.95rem;
 }
 nav a:hover {
-	background-color: #bbb;
-	color: #36454f;
+	background-color: #FDC70C;
+    color: #E93E3A;
+    border-radius: 10px;
 }
 .active {
 	color: yellow;
