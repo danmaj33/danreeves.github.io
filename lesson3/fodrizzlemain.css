@@ -39,8 +39,11 @@ font-family: 'Averia Libre', cursive;
 color:  #2A91FF;
 text-transform: uppercase;
 }
-li, footer {
+ footer {
 	font-family: 'Rock Salt', cursive;
+}
+li {
+    font-family: 'Averia Libre', cursive;  
 }
 #persona1 {
 width: 40%
