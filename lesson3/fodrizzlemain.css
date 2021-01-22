@@ -3,28 +3,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Averia+Libre:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Averia+Libre:wght@700&family=Rock+Salt&display=swap');
 
+
+
 #logo {
 width: 40%;
 margin-top: -70px;
 margin-bottom: -70px;
-float: left;
+
+}
+#logosample {
+    margin-top: -50px;
+    width: 20%;
+    
+}
+header {
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
 
 
 p {
 	font-size: 16px;
-	font-family: 'Averia Libre', cursive;
+    font-family: 'Averia Libre', cursive;
+    color: rgb(53, 53, 53);
 }
 h2 {
-    font-size: 16px;
+    
 	font-family: 'Rock Salt', cursive;
+}
+
+h3 {
+font-family: 'Averia Libre', cursive; 
+color:  #2A91FF;
+text-transform: uppercase;
 }
 li, footer {
 	font-family: 'Rock Salt', cursive;
 }
+#persona1 {
+width: 40%
+}
+#persona2 {
+width: 20%  
+}
 
 
 /* phone or baseline views **************************/
+
 header,
 footer {
 	background-color: #2A91FF;
@@ -41,7 +66,12 @@ nav,
 main,
 footer {
 	max-width: 767px;
-	margin: 0 auto;
+    margin: 0 auto;
+}
+footer {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    line-height: -20px;
 }
 h1 {
 	font-size: 2rem;
@@ -101,22 +131,28 @@ footer {
 #color1 {background-color: #FFF33B;
     padding: 6px;
     border-radius: 10px;
+    width: 20%;
 }
 #color2 {background-color:#E93E3A;
     padding: 6px;
     border-radius: 10px;
+    width: 20%;
+    
 }
 #color3 {background-color: #F3903F;
     padding: 6px;
     border-radius: 10px;
+    width: 20%;
 }
 #color4 {background-color:#FDC70C;
     padding: 6px;
     border-radius: 10px;
+    width: 20%;
 }
 #color5 {background-color:#2A91FF;
     padding: 6px;
     border-radius: 10px;
+    width: 20%;
 }
 
 #rocksalt{
@@ -140,7 +176,8 @@ footer {
 				display: flex;
 				/*grid-template-columns: repeat(5, 1fr);*/
 				grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
-			}
+            }
+            
 
 	/* Inline-Block             */
 	/*
@@ -171,7 +208,13 @@ footer {
 		width: 100%;
 		height: auto;
 		border: 1px solid #bbb;
-	}
+    }
+    footer {
+        padding-top: -100px;
+        padding-bottom: -100px;
+    }
+    
+    
 }
 
 /* Desktop Views ****************************/
@@ -184,5 +227,7 @@ footer {
 	}
 	article:nth-child(3) {
 		grid-column: span 1;
-	}
+    }
+    
+    
 }
