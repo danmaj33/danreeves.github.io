@@ -4,7 +4,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Averia+Libre:wght@700&family=Rock+Salt&display=swap');
 
 
-
+header{
+    height: 100px;
+}
 #logo {
 width: 40%;
 margin-top: -70px;
@@ -12,7 +14,7 @@ margin-bottom: -70px;
 
 }
 #logosample {
-    margin-top: -50px;
+    margin-top: -20px;
     width: 20%;
     
 }
