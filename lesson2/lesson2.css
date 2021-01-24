@@ -43,6 +43,9 @@ width: 200px;
     border-width: 3px;
     border-color: rgb(253, 196, 132); 
     }
+    h1 {
+        letter-spacing: 10px;
+    }
 
     h1, h2, h3 {
         font-family: 'Bebas Neue', cursive;
