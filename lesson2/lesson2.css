@@ -2,7 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Vollkorn+SC&display=swap');
 
 html{
-    margin: 25px;
+    margin: auto;
+    max-width: 960px;
+    
 }
 
 header{
@@ -14,8 +16,8 @@ header{
     border-radius: 10px;
    }
    body{
-       margin:auto;
-       display:inline-grid;
+    margin:auto;
+    display:inline-grid;
     grid-gap:25px;
     grid-template-columns: 1fr 1fr  1fr ;
     grid-template-rows: 100px 1fr;
