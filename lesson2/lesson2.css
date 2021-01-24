@@ -36,12 +36,12 @@ width: 200px;
     }
 
     .span1 h2, .span2 h2, .span3 h2{
-        background-color: rgb(143, 84, 29);
+        background-color: rgb(219, 106, 0);
         border-radius: 10px;
         padding: 5px;
         border-style: solid;
     border-width: 3px;
-    border-color: rgb(39, 39, 104); 
+    border-color: rgb(253, 196, 132); 
     }
 
     h1, h2, h3 {
