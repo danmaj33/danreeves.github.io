@@ -65,11 +65,11 @@ nav {
 }
 .navigation a:hover {
 	color: white;
-    background-color: black;
+    background-color: b#E93E3A;
     border-radius: 10px;
 }
-.navigation ul li.active a {
-    background-color:  #FDC70C;
+.navigation a:active {
+    background-color:  #FFF33B;
     color: #1c263F;
 }
 
