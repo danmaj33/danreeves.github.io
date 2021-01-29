@@ -16,6 +16,7 @@ header {
     max-width: 960px;
     margin: 0 auto;
     border-radius: 10px;
+   
 }
 #logo {
     width: 60%;
@@ -41,7 +42,7 @@ nav {
 	max-width: 960px;
     background-color:#F3903F;
     border-radius: 10px;
-    margin-top: -20px;
+    margin-top: -16px;
 }
 .navigation {
 	list-style: none;
@@ -53,6 +54,7 @@ nav {
 .navigation li {
     display: none;
     font-family: 'Averia Libre', cursive;
+    text-shadow:-1px -1px 0 rgb(0, 0, 0);
     
 }
 .navigation a {
@@ -64,13 +66,16 @@ nav {
 	font-weight: 700;
 }
 .navigation a:hover {
-	color: white;
-    background-color: b#E93E3A;
+	color: #E93E3A;
+    background-color: #FFF33B;
     border-radius: 10px;
+    text-shadow:-1px -1px 0 rgb(0, 0, 0);
 }
-.navigation a:active {
-    background-color:  #FFF33B;
-    color: #1c263F;
+nav ul li.active a {
+    background-color: #FFF33B;
+    color: #E93E3A;
+    text-shadow:-1px -1px 0 rgb(255, 255, 255);
+    border-radius: 10px;
 }
 
 /* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
@@ -79,33 +84,39 @@ nav {
 .responsive li {
 	display: block;
 }
+main {
+    
+    max-width: 960px;
+    margin: 0 auto;  
+}
 .contentbox{
     display: block;
-    background-color:white;
+    background-color:#fdc90c46;
     margin: 0 auto;
-    border: 1px solid#FDC70C;
+    border: 2px solid#FDC70C;
     padding: 15px;
     font-family: 'Averia Libre', cursive;
     color: #2A91FF;
     max-width: 960px;
     border-radius: 10px;
     
-    
-}
+    }
 
 footer {
     background-color: #2A91FF;
-    /* padding-bottom: 2.5%;
-    margin-bottom: -20px; */
+    padding: 5px;
     max-width: 960px;
     margin: 0 auto;
     border-radius: 10px;
     flex-wrap: wrap;
     text-align: center;
+    margin-top: 10px;
+    
 }
 
 .prestonfooter, a {
     font-family: 'Averia Libre', cursive;
     color: beige;
     text-decoration: none;
+    text-shadow:-1px -1px 0 rgb(0, 0, 0);
 }
