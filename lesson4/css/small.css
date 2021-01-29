@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Averia+Libre:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Averia+Libre:wght@700&family=Rock+Salt&display=swap');
 
+/*      #FFF33B
+		#E93E3A
+		#F3903F
+		#FDC70C
+		#2A91FF*/
+
 
 /* Small/Phone View ***************/
 header {
@@ -70,11 +76,10 @@ nav {
 .contentbox{
     display: block;
     background-color:white;
-    margin: 50px auto;
-    border: 1px dashed black;
+    margin: 0 auto;
+    border: 1px solid black;
     padding: 15px;
     font-family: 'Averia Libre', cursive;
-    font-style: italic;
 }
 
 footer {
