@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Averia+Libre:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Averia+Libre:wght@700&family=Rock+Salt&display=swap');
 
-/*      #FFF33B
-		#E93E3A
-		#F3903F
-		#FDC70C
-		#2A91FF*/
+/*      Yellow      #FFF33B
+		Red         #E93E3A
+	Orange      	#F3903F
+	Yellow Orange	#FDC70C
+	Blue	        #2A91FF*/
 
 
 /* Small/Phone View ***************/
@@ -77,9 +77,14 @@ nav {
     display: block;
     background-color:white;
     margin: 0 auto;
-    border: 1px solid black;
+    border: 1px solid#FDC70C;
     padding: 15px;
     font-family: 'Averia Libre', cursive;
+    color: #2A91FF;
+    max-width: 960px;
+    border-radius: 10px;
+    
+    
 }
 
 footer {
