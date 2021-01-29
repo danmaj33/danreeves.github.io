@@ -70,9 +70,16 @@ nav {
 
 footer {
     background-color: #2A91FF;
-    padding-bottom: 2.5%;
-    margin-bottom: -20px;
+    /* padding-bottom: 2.5%;
+    margin-bottom: -20px; */
     max-width: 960px;
     margin: 0 auto;
     border-radius: 10px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.prestonfooter, a {
+    font-family: 'Averia Libre', cursive;
+    color: beige;
+    text-decoration: none;
 }
