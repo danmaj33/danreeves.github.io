@@ -4,7 +4,8 @@ const mainnav = document.querySelector('.navigation')
 hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive')}, false);
 
 
-window.onresize = () => {if (window.innerWidth > 760) mainnav.classList.remove('responsive')};
+
+
 
 const yearoptions = {year:'numeric'};
 document.getElementById('currentyear').textContent = new Date().toLocaleDateString('en-US', yearoptions);
