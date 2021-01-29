@@ -67,6 +67,15 @@ nav {
 .responsive li {
 	display: block;
 }
+.contentbox{
+    display: block;
+    background-color:white;
+    margin: 50px auto;
+    border: 1px dashed black;
+    padding: 15px;
+    font-family: 'Averia Libre', cursive;
+    font-style: italic;
+}
 
 footer {
     background-color: #2A91FF;
@@ -78,6 +87,7 @@ footer {
     flex-wrap: wrap;
     text-align: center;
 }
+
 .prestonfooter, a {
     font-family: 'Averia Libre', cursive;
     color: beige;
