@@ -90,7 +90,7 @@ main {
     max-width: 960px;
     margin: 0 auto;  
 }
-.contentbox , .fiveday {
+.contentbox , .fiveday, .articlebox {
     display: block;
     background-color:#fdc90c46;
     margin: 0 auto;
@@ -157,6 +157,7 @@ h1 {
 }
 .fiveday img {
     display:block;
+    
 }
 
 #articleimg {
