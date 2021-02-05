@@ -33,9 +33,14 @@
    margin-top: -15px;
 	}
 	
+	.fiveday{
+	 align-items:center;
+	}
 	.fiveday img {
 		display:inline;
-		align-self: center;
+		margin-left: auto;
+		margin-right: auto;
+		
 	}
 	main {
 		max-width: 960px;
