@@ -91,7 +91,7 @@ main {
     max-width: 960px;
     margin: 0 auto;  
 }
-.contentbox , .fiveday, .articlebox {
+.contentbox , .fiveday, .articlebox, .herobox {
     display: block;
     background-color:#fdc90c46;
     margin: 0 auto;
@@ -102,6 +102,10 @@ main {
     max-width: 960px;
     border-radius: 10px;
     
+    }
+
+    .herobox h1 {
+        padding-bottom: 20px;
     }
 
 footer {
@@ -144,19 +148,18 @@ h1 {
 	border: 0px solid #000;
 	padding: 1.5rem;
 	box-shadow: 0 0 30px #111;
-	opacity: .8;
+    opacity: .8;
+    border-radius: 150px;
+    float: left;
+    width: 100px;
 }
 .herodiv img {
     display: block;
     margin: auto;
-    width: 250px;
+    width: 275px;
 }
-.stats {
-  
-    border-radius: 150px;
-    float:left;
-    width: 100px;
-}
+
+
 .fiveday img {
     display:block;
     
