@@ -90,7 +90,7 @@ main {
     max-width: 960px;
     margin: 0 auto;  
 }
-.contentbox{
+.contentbox , .fiveday {
     display: block;
     background-color:#fdc90c46;
     margin: 0 auto;
@@ -145,4 +145,21 @@ h1 {
 	box-shadow: 0 0 30px #111;
 	opacity: .8;
 }
+.herodiv img {
+    width: auto;
+    display: block;
+    margin: auto;
+}
+.stats {
+  
+    border-radius: 150px;
+    float:left;
+}
+.fiveday img {
+    display:block;
+}
 
+#articleimg {
+    float:left;
+    margin-top: -5px;
+}
