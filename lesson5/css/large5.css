@@ -19,6 +19,7 @@
 	.herodiv img {
 	display:block;
 	margin: auto;
+	width: auto;
 	}
 	.stats {
 		border-radius: 150px;
