@@ -24,6 +24,7 @@
 	}
 	.stats {
 		border-radius: 150px;
+		width: auto;
 	}
 
 	#articleimg {
