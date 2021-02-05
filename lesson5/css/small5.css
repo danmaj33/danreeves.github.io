@@ -146,7 +146,7 @@ h1 {
 	opacity: .8;
 }
 .herodiv img {
-    width: auto;
+    width: 470px;
     display: block;
     margin: auto;
 }
@@ -162,6 +162,6 @@ h1 {
 
 #articleimg {
     float:left;
-    margin-top: -5px;
+    margin-bottom: -5px;
     padding: 5px;
 }
