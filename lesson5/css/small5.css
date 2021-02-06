@@ -141,19 +141,8 @@ h1 {
     margin: 0;
 }
 
-.stats {
-	position: absolute;
-	top: 25px;
-	right: 50px;
-	background: radial-gradient(#eee, #F3903F);
-	border: 0px solid #000;
-	padding: 1.5rem;
-	box-shadow: 0 0 30px #111;
-    opacity: .8;
-    border-radius: 150px;
-    float: left;
-    width: 100px;
-}
+
+
 .herodiv img {
     display: block;
     margin: auto;
@@ -161,10 +150,16 @@ h1 {
 }
 
 
-.fiveday img {
+
+    #Day1,
+	#Day2,
+	#Day3,
+	#Day4,
+	#Day5 { 
     display:block;
     margin-left: auto;
-		margin-right: auto;
+	margin-right: auto;
+    margin-bottom: 10px;
     
 }
 
