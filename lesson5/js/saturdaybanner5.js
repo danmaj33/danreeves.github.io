@@ -1,6 +1,4 @@
 
-
-
 function satbanner() {
     let today = new Date();
     console.log(today.getDay())
@@ -11,3 +9,4 @@ function satbanner() {
     const bannershow = document.getElementById('bannertext');
     {bannershow.classList.add('notfriday')}
     }
+}
