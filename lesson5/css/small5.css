@@ -9,6 +9,16 @@
 
 
 /* Small/Phone View ***************/
+#bannertext {
+    display: block;
+    background-color: #E93E3A;
+    color: beige;
+    font-family: 'Averia Libre', cursive;
+    font-size: 1em;
+    width: 100%;
+    padding: .5em;
+    text-align: center;
+}
 header {
     background-color: #2361a3;
     padding-bottom: 2.5%;
