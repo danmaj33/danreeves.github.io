@@ -5,12 +5,12 @@
 		Red         #E93E3A
 	Orange      	#F3903F
 	Yellow Orange	#FDC70C
-	Blue	        #2A91FF*/
+	Blue	        #123357*/
 
 
 /* Small/Phone View ***************/
 header {
-    background-color: #2A91FF;
+    background-color: #123357;
     padding-bottom: 2.5%;
     margin-bottom: -20px;
     max-width: 960px;
@@ -98,7 +98,7 @@ main {
     border: 2px solid#FDC70C;
     padding: 15px;
     font-family: 'Averia Libre', cursive;
-    color: #2A91FF;
+    color: #123357;
     max-width: 960px;
     border-radius: 10px;
     
@@ -109,7 +109,7 @@ main {
     }
 
 footer {
-    background-color: #2A91FF;
+    background-color: #123357;
     padding: 5px;
     max-width: 960px;
     margin: 0 auto;
