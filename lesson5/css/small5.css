@@ -19,6 +19,11 @@
     padding: .5em;
     text-align: center;
 }
+
+#bannertext.notfriday{
+    display: none;
+}
+
 header {
     background-color: #2361a3;
     padding-bottom: 2.5%;
