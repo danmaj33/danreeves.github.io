@@ -107,7 +107,7 @@ main {
     max-width: 960px;
     margin: 0 auto;  
 }
-.contentbox , .fiveday, .articlebox, .herobox {
+.contentbox , .fiveday, .articlebox, .herobox, .contactbox {
     display: block;
     background-color:#fdc90c46;
     margin: 0 auto;
@@ -123,11 +123,8 @@ main {
     .herobox h1 {
         padding-bottom: 20px;
     }
-
-    .contactinfo {
-        padding-bottom: 10px;
-        color: beige;
-        
+    .contactbox{
+        margin-top: 10px;
     }
 
 footer {
