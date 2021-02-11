@@ -172,7 +172,9 @@ h1 {
     width: 275px;
 }
 
-
+.fiveday{
+    display: hidden;
+}
 
     #Day1,
 	#Day2,
