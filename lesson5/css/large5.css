@@ -32,10 +32,10 @@
 	.navigation li:first-child {
 		display: none;
 	}
-	.herodiv img {
+	.heroimg {
 	display:block;
 	margin: auto;
-	width: 840px;
+	
 	
 	}
 	.stats {
@@ -50,13 +50,16 @@
 	}
 	
 	.fiveday{
-	 align-items:center;
-	 display: flex;
+	 
+	 display: block;
 	}
 
 	.fivedaycontainer{
-		display: block;
+		display: flex;
+		
 	}
+	.fivedaycontainer div{
+		display: block;
 
 	#Day1,
 	#Day2,
