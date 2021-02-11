@@ -173,7 +173,7 @@ h1 {
 }
 
 .fiveday{
-    display: hidden;
+    display: none;
 }
 
     #Day1,
