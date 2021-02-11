@@ -51,6 +51,7 @@
 	
 	.fiveday{
 	 align-items:center;
+	 display: flex;
 	}
 
 	.fivedaycontainer{
