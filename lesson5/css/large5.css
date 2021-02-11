@@ -55,7 +55,7 @@
 	}
 
 	.fivedaycontainer{
-		display: flex;
+		display: block;
 	}
 
 	#Day1,
