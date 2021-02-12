@@ -167,7 +167,8 @@ h1 {
 }
 
 .herodiv {
-    margin: 10px auto;position: relative;
+    margin: 10px auto;
+    position: relative;
 }
 .hero div h1, .hero div h2, .hero div p {
     margin: 0;
