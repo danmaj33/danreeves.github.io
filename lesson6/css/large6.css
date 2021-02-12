@@ -81,6 +81,10 @@
     padding: 3rem;
     box-shadow: 0 0 30px #777;
 	}
+	.stats h2{
+		margin-top: -40px;
+	}
+	
 
 
 	#articleimg {

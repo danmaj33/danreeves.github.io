@@ -11,11 +11,15 @@
     <link rel="stylesheet" href="css/normalize6.css">
 	<title>Fo'Drizzle: Preston, ID Town Page</title>
 	<link rel="shortcut icon" href="favicon1.ico">
-	<script src="js/saturdaybanner6.js"></script>
-	<script src="js/windchill6.js"></script>
+	<script type="text/javascript" src="js/saturdaybanner6.js"></script>
+	
+	
+	
 
 </head>
-<body onload="satbanner()">
+
+<body onload="satbanner()", onmousemove="doInputOutput()">
+	
 	<div id="bannertext" class="">
 		
 		<h3>Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</h3>
@@ -43,15 +47,21 @@
 								<h1>Town of Preston</h1>
 						 <div class="herodiv">
   							<img class="heroimg" src="images/heroimage.jpg" alt="kitty">
+							  <script src="js/windchill6.js"></script>
 	  
  <section class="stats">
    <h2>Today's Weather</h2>
-   <p>High: <span id="high">42.7</span></p>
-   <p>Low: <span id="low">35.2</span></p>
-   <p>Wind Speed: <span id="windspeed"></p>
-   <p>Wind Chill: <span id="windchill"><div id="outputDiv"></div></span></p>
+   <p>High: <span id="highnmb"><input type="text" id="highInput" size="5" value="42.5">&deg;</span></p>
+   <p>Low: <span id="lownmb"><input type="text" id="lowInput" size="5" value="32.5">&deg;</span></p>
+   <p>Wind Speed: <span id="wndmph"><input type="text" id="windspeedInput" size="5" value="12">MPH</span></p>
+   <p>Wind Chill:<div id="outputDiv"></div></p>
    <p>Forcast: <span id="forcast">Rainy</span></p>
+   
   </section>
+  
+  
+ 
+<div></div>
  </div>
 </div>
 		<br>
@@ -103,6 +113,7 @@
 		</div>
 			
 		<script src="js/lesson6.js"></script>
+		
     
 </main>
 <footer>

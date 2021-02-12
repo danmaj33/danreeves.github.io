@@ -1,4 +1,5 @@
 
+
 /* Input: get a temperature from the first text field
             get a wind speed from the second text field
  * Processing: call the second function (windChill)
@@ -9,8 +10,8 @@
     
  
  function doInputOutput() {
-    let tempF = parseFloat(document.getElementById('high').value); 
-    let speed = parseFloat(document.getElementById('windspeed').value); 
+    let tempF = parseFloat(document.getElementById('highInput').value); 
+    let speed = parseFloat(document.getElementById('windspeedInput').value); 
    let wCOutput = windChill(tempF, speed);
    document.getElementById("outputDiv").innerHTML= wCOutput;
 }
@@ -25,7 +26,4 @@ function windChill(T, S) {
 }
 
 
-{/* <input type="text" id="temperatTureInput" size="5"><br><br>
-    Wind Speed MPH <input type="text" id="windSpeedInput" size="5"><br><br>
-
-<div id="outputDiv"></div>  */}
+    
