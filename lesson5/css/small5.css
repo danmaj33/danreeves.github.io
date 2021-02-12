@@ -24,15 +24,19 @@
     display: none;
 }
 
+header, footer, nav {
+    
+    max-width: 100%;
+    margin: 0 auto;  
+}
+
 header {
     background-color: #2361a3;
     padding-bottom: 2.5%;
     margin-bottom: -20px;
-    max-width: 100%;
-    margin: 0 auto;
-    border-radius: 10px;
-   
+    border-radius: 10px; 
 }
+
 #logo {
     width: 60%;
     display: flex;
@@ -57,7 +61,6 @@ h1 {
 
 nav {
 	
-	width: 100%;
     background-color:#F3903F;
     border-radius: 10px;
     margin-top: -16px;
@@ -103,10 +106,6 @@ nav ul li.active a {
 	display: block;
 }
 
-main {
-    
-    width: 100%;  
-}
 .contentbox , .fiveday, .articlebox, .herobox, .contactbox {
     display: block;
     background-color:#fdc90c46;
@@ -115,7 +114,7 @@ main {
     padding: 15px;
     font-family: 'Averia Libre', cursive;
     color: #2361a3;
-   width: 100%;
+    max-width: 100%;
     border-radius: 10px;
     
     }
@@ -142,8 +141,6 @@ main {
 footer {
     background-color: #2361a3;
     padding: 5px;
-    width: 100%;
-    margin: 0 auto;
     border-radius: 10px;
     flex-wrap: wrap;
     text-align: center;
@@ -161,10 +158,7 @@ footer {
 }
 /* hero page css//////////////////////////////////////////// */
 
-main {
-    max-width:100%;
-    margin:0 auto;
-}
+
 
 h1 {
     text-align: center;font-size:2.5rem;text-shadow:3px 3px 5px #777;
@@ -183,7 +177,7 @@ h1 {
 .herodiv img {
     display: block;
     margin: auto;
-    width: 275px;
+    max-width: 100%;
 }
 
 .fiveday{
