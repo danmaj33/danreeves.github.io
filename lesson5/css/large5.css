@@ -32,15 +32,24 @@
 	.navigation li:first-child {
 		display: none;
 	}
-	.heroimg {
+	.herodiv img {
 	display:block;
 	margin: auto;
+	width: 800px;
 	
 	
 	}
 	.stats {
-		border-radius: 150px;
-		width: auto;
+	font-family: 'Averia Libre', cursive;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    height: 175px;
+    background-color: #1c263F99;
+    color: white;
+    border: 1px solid black;
+    padding: 3rem;
+    box-shadow: 0 0 30px #777;
 	}
 
 	#articleimg {
@@ -60,6 +69,7 @@
 	}
 	.fivedaycontainer div{
 		display: block;
+		margin-left: auto;
 	}
 
 	#Day1,
@@ -77,4 +87,35 @@
 	main {
 		max-width: 960px;
 	}
+	.contactinfo {
+    display:flex;
+	margin-left: auto;
+		margin-right: auto;
+	}
+	
+	
+	.contactbox{
+		display: flex;
+		
+		margin-top: 30px;
+	}
+	.map{
+		display:inline-block;
+		width: 250px;
+		margin-left: 200px;
+		
+		
+	}
+	
+        
+    .social {
+            margin-top: 60px;
+            margin-bottom: 20px;
+            display: block;
+			margin-left: -220px;
+        }
+    
+     .social img {
+               width: 35px;
+    }
 }

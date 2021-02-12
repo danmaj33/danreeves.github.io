@@ -123,8 +123,20 @@ main {
     .herobox h1 {
         padding-bottom: 20px;
     }
+   
     .contactbox{
         margin-top: 10px;
+       
+    }
+        
+    .social {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            display: block;
+        }
+    
+     .social img {
+               width: 35px;
     }
 
 footer {
@@ -189,11 +201,14 @@ h1 {
 
 #articleimg {
     float:left;
-    margin-bottom: -5px;
+    margin-bottom: 0px;
     padding: 5px;
     padding-right: 15px;
 }
 
-.social {
-    width: 50px;
+
+.map{
+    display:inline-block;
+    width: 250px;
+    
 }
