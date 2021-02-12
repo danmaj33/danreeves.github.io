@@ -28,7 +28,7 @@ header {
     background-color: #2361a3;
     padding-bottom: 2.5%;
     margin-bottom: -20px;
-    max-width: 960px;
+    max-width: 100%;
     margin: 0 auto;
     border-radius: 10px;
    
@@ -56,8 +56,8 @@ h1 {
 }
 
 nav {
-	margin: 0 auto;
-	max-width: 960px;
+	
+	width: 100%;
     background-color:#F3903F;
     border-radius: 10px;
     margin-top: -16px;
@@ -102,10 +102,10 @@ nav ul li.active a {
 .responsive li {
 	display: block;
 }
+
 main {
     
-    max-width: 960px;
-    margin: 0 auto;  
+    width: 100%;  
 }
 .contentbox , .fiveday, .articlebox, .herobox, .contactbox {
     display: block;
@@ -115,7 +115,7 @@ main {
     padding: 15px;
     font-family: 'Averia Libre', cursive;
     color: #2361a3;
-    max-width: 960px;
+   width: 100%;
     border-radius: 10px;
     
     }
@@ -142,7 +142,7 @@ main {
 footer {
     background-color: #2361a3;
     padding: 5px;
-    max-width: 960px;
+    width: 100%;
     margin: 0 auto;
     border-radius: 10px;
     flex-wrap: wrap;
@@ -161,7 +161,11 @@ footer {
 }
 /* hero page css//////////////////////////////////////////// */
 
-main {max-width:820px;margin:0 auto;}
+main {
+    max-width:100%;
+    margin:0 auto;
+}
+
 h1 {
     text-align: center;font-size:2.5rem;text-shadow:3px 3px 5px #777;
 }
@@ -209,7 +213,7 @@ h1 {
 
 
 .map{
-    display:inline-block;
+    display:block;
     width: 250px;
     
 }

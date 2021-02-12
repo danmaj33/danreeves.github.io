@@ -14,9 +14,25 @@
 		padding: .5em;
 		text-align: center;
 	}
+	header {
+		background-color: #2361a3;
+		padding-bottom: 2.5%;
+		margin-bottom: -20px;
+		max-width: 960px;
+		margin: 0 auto;
+		border-radius: 10px;
+	   
+	}
 	
 	#bannertext.notfriday{
 		display: none;
+	}
+	nav {
+		margin: 0 auto;
+		max-width: 960px;
+		background-color:#F3903F;
+		border-radius: 10px;
+		margin-top: -16px;
 	}
 
 	.navigation {
@@ -51,11 +67,24 @@
     padding: 3rem;
     box-shadow: 0 0 30px #777;
 	}
+	.contentbox , .fiveday, .articlebox, .herobox, .contactbox {
+		display: block;
+		background-color:#fdc90c46;
+		margin: 0 auto;
+		border: 2px solid#FDC70C;
+		padding: 15px;
+		font-family: 'Averia Libre', cursive;
+		color: #2361a3;
+	 	max-width: 960px;
+		border-radius: 10px;
+		
+		}
 
 	#articleimg {
    display:block;
    float:right;
-   margin-top: -15px;
+   margin-top: -25px;
+  
 	}
 	
 	.fiveday{
@@ -82,27 +111,23 @@
 		margin-right: auto;
 		width: 150px;
 		height: 150px;
+		margin-top: -80px;
 		
 	}
-	main {
-		max-width: 960px;
-	}
-	.contactinfo {
-    display:flex;
-	margin-left: auto;
-		margin-right: auto;
-	}
+	
+	
 	
 	
 	.contactbox{
-		display: flex;
+		display: block;
 		margin-top: 30px;
 	}
 	
-	.map{
-		display:inline-block;
+	.map {
+		
 		width: 250px;
-		margin-left: 200px;
+		float: right;
+		margin-top: -270px;
 		}
 	
         
@@ -110,10 +135,28 @@
             margin-top: 60px;
             margin-bottom: 20px;
             display: block;
-			margin-left: -220px;
+			
         }
     
      .social img {
                width: 35px;
     }
+	main {
+    
+		max-width: 960px;
+		margin: 0 auto;  
+}
+footer {
+    background-color: #2361a3;
+    padding: 5px;
+    max-width: 960px;
+    margin: 0 auto;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Averia Libre', cursive;
+    color: beige;
+    
+}
 }
