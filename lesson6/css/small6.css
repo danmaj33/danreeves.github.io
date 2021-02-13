@@ -118,6 +118,10 @@ nav ul li.active a {
     border-radius: 10px;
     
     }
+    .hero img {
+        width: 100%;
+        
+    }
 
     .herobox h1 {
         padding-bottom: 20px;
