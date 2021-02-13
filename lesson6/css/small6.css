@@ -19,6 +19,12 @@
     padding: .5em;
     text-align: center;
 }
+.stats {
+	font-family: 'Averia Libre', cursive;
+    position: black;
+    padding: 3rem;
+    
+	}
 
 #bannertext.notfriday{
     display: none;
@@ -123,11 +129,7 @@ nav ul li.active a {
 		max-width: 100%;
     	margin: 0 auto;
    }
-   .stats {
-	font-family: 'Averia Libre', cursive;
-    position: absolute;
-    
-	}
+   
 
     .herobox h1 {
         padding-bottom: 20px;
