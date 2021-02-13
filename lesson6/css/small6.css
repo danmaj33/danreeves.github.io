@@ -21,7 +21,7 @@
 }
 .stats {
 	font-family: 'Averia Libre', cursive;
-    position: block;
+    position: absolute;
     padding: 3rem;
     
 	}
