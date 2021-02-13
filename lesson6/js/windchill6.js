@@ -10,8 +10,8 @@
     
  
  function doInputOutput() {
-    let tempF = parseFloat(document.getElementById('highInput').value); 
-    let speed = parseFloat(document.getElementById('windspeedInput').value); 
+    let tempF = parseFloat(document.getElementById('highnmb').innerHTML); 
+    let speed = parseFloat(document.getElementById('wndmph').innerHTML); 
    let wCOutput = windChill(tempF, speed);
    document.getElementById("outputDiv").innerHTML= wCOutput+"F"+"&deg;";
 }
