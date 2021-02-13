@@ -13,7 +13,7 @@
     let tempF = parseFloat(document.getElementById('highInput').value); 
     let speed = parseFloat(document.getElementById('windspeedInput').value); 
    let wCOutput = windChill(tempF, speed);
-   document.getElementById("outputDiv").innerHTML= wCOutput;
+   document.getElementById("outputDiv").innerHTML= wCOutput+"F"+"&deg;";
 }
 
 
@@ -22,7 +22,9 @@
 // output the value returned by windChill to the div for the user to see
 function windChill(T, S) {
  let wC  =  35.74 + 0.6215*T-35.75*(Math.pow(S, 0.16)) + 0.4275*T*(Math.pow(S, 0.16));
- return wC;
+ let rwC = Math.round(wC);
+
+ return rwC;
 }
 
 
