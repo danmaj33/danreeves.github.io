@@ -62,13 +62,6 @@
 	.navigation li:first-child {
 		display: none;
 	}
-	.herodiv img {
-	display:block;
-	margin: auto;
-	max-width: 100%;
-	
-	
-	}
 	.stats {
 	font-family: 'Averia Libre', cursive;
     position: absolute;
