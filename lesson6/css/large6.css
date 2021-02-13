@@ -94,21 +94,6 @@
 		margin-top: -35px;
 		margin-left: -30px;
 	}
-	.smalllabel{
-        display: none;
-
-    }
-    .mediumlabel{
-        display: none;
-    }
-    .largelabel{
-        display: block;
-		font-family:'Rock Salt', cursive;
-		color: #E93E3A;
-		text-align: right;
-    }
-	
-	
 	
 	#articleimg {
    display:block;

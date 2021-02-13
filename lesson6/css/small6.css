@@ -122,27 +122,8 @@ nav ul li.active a {
     .herobox h1 {
         padding-bottom: 20px;
     }
-    .smalllabel{
-        display: block;
-        font-family:'Rock Salt', cursive;
-        color: #E93E3A;
-        color: #E93E3A;
-		text-align: right;
-    }
-    .mediumlabel{
-        display: none;
-        font-family:'Rock Salt', cursive;
-    }
-    .largelabel{
-        display: none;
-        font-family:'Rock Salt', cursive;
 
-    }
-
-    
-
-   
-    .contactbox{
+ .contactbox{
         margin-top: 10px;
        
     }

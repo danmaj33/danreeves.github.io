@@ -16,19 +16,7 @@
 	.navigation li:first-child {
 		display: none;
 	}
-	.smalllabel{
-        display: none;
-
-    }
-    .mediumlabel{
-        display: block;
-		font-family:'Rock Salt', cursive;
-		color: #E93E3A;
-		color: #E93E3A;
-		text-align: right;
-    }
-    .largelabel{
-        display: none;
+	
 
     }
 	.stats {
