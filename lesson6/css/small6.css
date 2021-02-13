@@ -116,6 +116,7 @@ nav ul li.active a {
     color: #2361a3;
     max-width: 100%;
     border-radius: 10px;
+    
     }
 
     .herobox h1 {
@@ -138,9 +139,7 @@ nav ul li.active a {
 
     }
 
-    .largelabel, .mediumlabel, .smalllabel {
-        
-    }
+    
 
    
     .contactbox{
