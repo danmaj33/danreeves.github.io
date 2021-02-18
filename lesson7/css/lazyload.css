@@ -1,6 +1,6 @@
 h1{
     text-align: center;
-    color: Yellow;
+    color: rgb(117, 117, 180);
     font-family: 'Jura', sans-serif;
 }
 
@@ -15,7 +15,7 @@ p{
 }
 
 a{
-    color: Yellow;
+    color: rgb(117, 117, 180);
     font-family: 'Jura', sans-serif;
     text-decoration: none;
 }
