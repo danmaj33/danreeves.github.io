@@ -168,7 +168,7 @@ footer {
 .gallery{
     display:grid;
     grid-template-columns: (3,1fr);  
-	grid-template-rows: repeat(3,1fr);
+	grid-template-rows: repeat(6, 1fr);
 	grid-gap: 15px;
 	grid-auto-flow: dense;
     justify-content: center;
@@ -183,7 +183,7 @@ footer {
 }
 .gallery img {
 height: 100%;
-object-fit: cover;
+
 
 }
 .gallerimg1 {
@@ -199,8 +199,10 @@ grid-row: 1/2;
 		grid-row: 1/2;
 		}
 
-.desc {
+div.desc {
 	display: block;
+	height: 25px;
+	
 }
 		
 
