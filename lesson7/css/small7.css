@@ -111,7 +111,7 @@ nav ul li.active a {
 	display: block;
 }
 
-.contentbox , .fiveday, .articlebox, .herobox, .contactbox {
+.contentbox , .fiveday, .articlebox, .herobox, .contactbox, .gallery {
     display: block;
     background-color:#fdc90c46;
     margin: 0 auto;

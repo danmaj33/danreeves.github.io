@@ -163,4 +163,9 @@ footer {
     color: beige;
     
 }
+
+/* Gallery Page>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.gallery img{
+height: 200px;
+}
 }
