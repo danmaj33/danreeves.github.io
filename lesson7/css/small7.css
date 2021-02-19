@@ -249,5 +249,8 @@ grid-row: 1/2;
 .gallery img:hover {
 box-shadow:2px 2px 2px 2px rgb(0, 0, 0)
 }
+figcaption{
 
+color: #F3903F;
+}
 
