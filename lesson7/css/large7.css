@@ -165,6 +165,12 @@ footer {
 }
 
 /* Gallery Page>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.gallery{
+    display:grid;
+    grid-template-columns: (3,1fr);  
+	grid-template-rows: repeat(8,5vw);
+	grid-gap: 15px;
+}
 .gallery img{
 height: 200px;
 }

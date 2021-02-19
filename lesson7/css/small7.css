@@ -214,3 +214,12 @@ h1 {
     width: 250px;
     
 }
+/* Gallery Page>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.gallery{
+    display:grid;
+    
+}
+.gallery img{
+    height: 200px;
+    }
