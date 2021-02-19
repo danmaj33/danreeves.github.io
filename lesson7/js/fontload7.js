@@ -1,1 +1,1 @@
-WebFont.load({google: {families: ['Averia Libre','Rock Salt']}});
+WebFont.load({google: {families: ["Averia Libre","Rock Salt"]}});
