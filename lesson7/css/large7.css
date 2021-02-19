@@ -197,7 +197,6 @@ max-width: 281px;
 .gallerimg8:hover,
 .gallerimg9:hover {
 	box-shadow: 5px 10px 8px #888888;
-}
 	}
 
 .gallerimg1 {
@@ -213,11 +212,8 @@ grid-row: 1/2;
 		grid-row: 1/2;
 		}
 
-		figcaption{
+		figcaption {
 			color: #F3903F;
-			display: block;
 			font-family: 'Averia Libre', cursive; 
-			}
-		
-
+		}
 }
