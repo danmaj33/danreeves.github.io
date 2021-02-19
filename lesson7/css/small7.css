@@ -92,14 +92,17 @@ nav {
 }
 .navigation a:hover {
 	color: #E93E3A;
-    background-color: #FFF33B;
+    border-color: #FFF33B;
+    border-style: solid;
+    border-width: 1px;
     border-radius: 10px;
     text-shadow:-1px -1px 0 rgb(0, 0, 0);
 }
 nav ul li.active a {
-    background-color: #FFF33B;
-    color: #E93E3A;
-    text-shadow:-1px -1px 0 rgb(255, 255, 255);
+    border-color: #FFF33B;
+    border-style: solid;
+    border-width: 1px;
+    color: #FFF33B;
     border-radius: 10px;
 }
 
