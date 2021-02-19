@@ -8,7 +8,7 @@
 		max-width: 1000px;
     	margin: 0 auto;
 	}
-	.contentbox , .fiveday, .articlebox, .herobox, .contactbox {
+	.contentbox , .fiveday, .articlebox, .herobox, .contactbox, .gallery {
 		display: block;
 		background-color:#fdc90c46;
 		margin: 0 auto;
@@ -165,13 +165,14 @@ footer {
 }
 
 /* Gallery Page>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
-.gallery{
+div .gallery{
     display:grid;
     grid-template-columns: (3,1fr);  
-	grid-template-rows: repeat(8,5vw);
+	grid-template-rows: repeat(3,1fr);
 	grid-gap: 15px;
 }
 .gallery img{
 height: 200px;
+object-fit: cover;
 }
 }
