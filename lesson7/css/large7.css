@@ -200,7 +200,11 @@ grid-row: 1/2;
 		grid-row: 1/2;
 		}
 
-
+		figcaption{
+			color: #F3903F;
+			display: block;
+			font-family: 'Averia Libre', cursive; 
+			}
 		
 
 }

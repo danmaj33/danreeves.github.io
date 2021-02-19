@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&family=Rock+Salt&display=swap');
+
 
 /*      Yellow      #FFF33B
 		Red         #E93E3A
@@ -250,7 +250,8 @@ grid-row: 1/2;
 box-shadow:2px 2px 2px 2px rgb(0, 0, 0)
 }
 figcaption{
-
+    display: none;
 color: #F3903F;
+font-family: 'Averia Libre', cursive; 
 }
 
