@@ -111,7 +111,7 @@ nav ul li.active a {
 	display: block;
 }
 
-.contentbox , .fiveday, .articlebox, .herobox, .contactbox, .gallery {
+.contentbox , .fiveday, .articlebox, .herobox, .contactbox {
     display: block;
     background-color:#fdc90c46;
     margin: 0 auto;
@@ -216,10 +216,35 @@ h1 {
 }
 /* Gallery Page>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
+/* Gallery Page>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
 .gallery{
     display:grid;
-    
+    grid-template-columns: (1,1fr);  
+	grid-template-rows: repeat(8,1fr);
+	grid-gap: 15px;
+	grid-auto-flow: dense;
+    justify-content: center;
+    background-color:#fdc90c46;
+    margin: 0 auto;
+    border: 2px solid#FDC70C;
+    padding: 15px;
+    font-family: 'Averia Libre', cursive;
+    color: #2361a3;
+    max-width: 100%;
+    border-radius: 10px;
 }
-.gallery img{
-    height: 200px;
-    }
+.gallery img {
+width: 100%;
+object-fit: cover;
+
+}
+.gallerimg1 {
+grid-column: 1;
+grid-row: 1/2;
+}
+
+.gallery img:hover {
+box-shadow:2px 2px 2px 2px rgb(0, 0, 0)
+}
+
