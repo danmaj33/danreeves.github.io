@@ -187,6 +187,19 @@ width: 100%;
 max-width: 281px;
 }
 
+figure.gallerimg1:hover,
+.gallerimg2:hover,
+.gallerimg3:hover,
+.gallerimg4:hover,
+.gallerimg5:hover,
+.gallerimg6:hover,
+.gallerimg7:hover,
+.gallerimg8:hover,
+.gallerimg9:hover {
+	box-shadow: 5px 10px 8px #888888;
+}
+	}
+
 .gallerimg1 {
 grid-column: 1/2;
 grid-row: 1/2;

@@ -87,7 +87,7 @@ grid-row: 1/2;
 
 figcaption{
 			color: #F3903F;
-			display: none;
+			display: block;
 			font-family: 'Averia Libre', cursive; 
 			}
 		

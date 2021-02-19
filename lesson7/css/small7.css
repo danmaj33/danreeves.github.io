@@ -246,11 +246,9 @@ grid-column: 1;
 grid-row: 1/2;
 }
 
-.gallery img:hover {
-box-shadow:2px 2px 2px 2px rgb(0, 0, 0)
-}
+
 figcaption{
-    display: none;
+    display: block;
 color: #F3903F;
 font-family: 'Averia Libre', cursive; 
 }
