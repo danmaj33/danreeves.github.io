@@ -168,7 +168,7 @@ footer {
     display:grid;
     grid-template-columns: (3,1fr);  
 	grid-template-rows: repeat(3, 1fr);
-	grid-gap: 15px;
+	grid-gap: 5px;
 	grid-auto-flow: dense;
     justify-content: center;
     background-color:#fdc90c46;
@@ -181,12 +181,12 @@ footer {
     border-radius: 10px;
 
 }
-.gallery figure {
+.gallery img {
 width: 100%;
 max-width: 281px;
 }
 
-img.gallerimg1 {
+figure img .gallerimg1 {
 grid-column: 1/2;
 grid-row: 1/2;
 }
