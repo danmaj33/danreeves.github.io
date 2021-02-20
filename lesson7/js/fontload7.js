@@ -3,7 +3,6 @@
 // font-family: 'Rock Salt', cursive;
 
 
-var WebFont = require('webfontloader');
 
   WebFont.load({
     google: {
