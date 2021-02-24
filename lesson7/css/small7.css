@@ -223,7 +223,7 @@ h1 {
 
 .gallery{
     display:grid;
-    grid-template-columns: (1fr);  
+    grid-template-columns: 1fr;  
 	grid-template-rows: repeat(8,1fr);
 	grid-gap: 15px;
 	grid-auto-flow: dense;

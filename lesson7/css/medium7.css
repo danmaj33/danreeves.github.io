@@ -55,7 +55,7 @@
 /* Gallery Page>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 .gallery{
     display:grid;
-    grid-template-columns: 1 fr 1fr;  
+    grid-template-columns: 1fr 1fr;  
 	grid-template-rows: repeat 1fr 1fr 1fr 1fr 1fr;
 	grid-gap: 15px;
 	grid-auto-flow: dense;
