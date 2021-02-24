@@ -187,17 +187,14 @@ footer {
 .gallery img {
 width: 100%;
 max-width: 281px;
+border-radius: 10px 10px 0px 0px;
 }
 
-.gallerimg1:hover,
-.gallerimg2:hover,
-.gallerimg3:hover,
-.gallerimg4:hover,
-.gallerimg5:hover,
-.gallerimg6:hover,
-.gallerimg7:hover,
-.gallerimg8:hover,
-.gallerimg9:hover {
+figure{
+	box-shadow: 2.5px 5px 4px #c0c0c0;	
+	
+}
+figure :hover{
 	box-shadow: 5px 10px 8px #888888;
 	}
 
@@ -217,5 +214,10 @@ grid-row: 1/2;
 		figcaption {
 			color: #F3903F;
 			font-family: 'Averia Libre', cursive; 
+			background-color: rgb(255, 255, 255);
+			margin-top: -5px;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			box-shadow: 2.5px 5px 4px #c0c0c0;
 		}
 }
