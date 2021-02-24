@@ -168,7 +168,7 @@ footer {
 /* Gallery Page>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 .gallery{
     display:grid;
-    grid-template-columns: 3, 1fr;  
+    grid-template-columns: 3, 300px;  
 	grid-template-rows: 3, 1fr;
 	grid-gap: 5px;
 	grid-auto-flow: dense;
