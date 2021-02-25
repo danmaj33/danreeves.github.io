@@ -47,11 +47,11 @@
     <div class="storminput"><h1>Storm Center</h1>
     <form action="/action_page.php">
        
-        <label for="fullname">First and Last name:</label>
+        <label for="fullname">First and Last Name:</label>
         <input type="text" id="fullname" name="fullname"><br><br>
        
         <label for="email">Email</label>
-        <input type="email" id="email" name="email"><br><br>
+        <input type="email" id="email" name="email" placeholder="user@email.org"><br><br>
         
         <label for="tel">Telephone</label>
         <input type="tel" id="tel" name="tel" required><br><br>
@@ -62,8 +62,21 @@
         <label for="stormdatee">Storm Date</label>
         <input type="Date" id="stormdate" name="stormdate"><br><br>
 
-        <label for="stormdatee">Storm Type</label>
-        <input type="Date" id="stormdate" name="stormdate"><br><br>
+        <datalist id="stormtype">
+			<option value="Flash Flood">
+                <option value="Hail">
+                <option value="Hurricane">
+                <option value="Thunderstorm">
+                <option value="Tornado">
+		</datalist>
+        <label>Storm Type:
+			<input name="storms" list="stormtype"></label><br><br>
+
+            <label class="flexly" for="rating">Storm Severity: &nbsp;&nbsp;&nbsp;
+                <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                <span id="ratingvalue">5</span>
+            </label><br><br>
+		
        
         <input type="submit" value="Submit">
      
