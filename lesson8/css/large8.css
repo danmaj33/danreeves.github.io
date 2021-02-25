@@ -63,97 +63,12 @@
 	.navigation li:first-child {
 		display: none;
 	}
-	.herodiv img {
-        display: block;
-		max-width: 100%;
-    	margin: 0 auto;
-   }
-	.stats {
-	font-family: 'Averia Libre', cursive;
-    position: absolute;
-    top: 15px;
-    left: 15px;
-    height: 175px;
-    background-color: #1c263F99;
-    color: white;
-    border: 1px solid black;
-    padding: 3rem;
-    box-shadow: 0 0 30px #777;
-	}
-	.stats h2{
-		margin-top: -40px;
-	}
-	.stats h2, .stats p{
-		margin-left: -30px;
-	}
 	
-	.stats div{
-		text-align: center;
-		margin-right: -20px;
-		margin-top: -35px;
-		margin-left: -30px;
-	}
-	
-	#articleimg {
-   display:block;
-   float:right;
-   margin-top: -25px;
-  
-	}
-	
-	.fiveday{
-	 
-	 display: block;
+	form {
+	   display: block;
 	}
 
-	.fivedaycontainer{
-		display: flex;
-		
-	}
-	.fivedaycontainer div{
-		display: block;
-		margin-left: auto;
-	}
-
-	#Day1,
-	#Day2,
-	#Day3,
-	#Day4,
-	#Day5 {
-		display:inline;
-		margin-left: auto;
-		margin-right: auto;
-		width: 150px;
-		height: 150px;
-		margin-top: -80px;
-		
-	}
-	
-	.contactbox{
-		display: block;
-		margin-top: 30px;
-	}
-	
-	.map {
-		
-		width: 250px;
-		float: right;
-		margin-top: -270px;
-		}
-	
-        
-    .social {
-            margin-top: 60px;
-            margin-bottom: 20px;
-            display: block;
-			
-        }
-    
-     .social img {
-               width: 35px;
-    }
-	
-footer {
+	footer {
     background-color: #2361a3;
     padding: 5px;
     border-radius: 10px;
@@ -162,60 +77,5 @@ footer {
     margin-top: 10px;
     font-family: 'Averia Libre', cursive;
     color: beige;
-    
-}
-
-/* Gallery Page>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
-.gallery{
-    display:grid;
-    grid-template-columns: (3, 1fr);  
-	grid-template-rows: (3, 1fr);
-	grid-gap: 5px;
-	grid-auto-flow: dense;
-    justify-content: center;
-    background-color:#fdc90c46;
-    margin: 0 auto;
-    border: 2px solid#FDC70C;
-    padding: 15px;
-    font-family: 'Averia Libre', cursive;
-    color: #2361a3;
-    max-width: 960px;
-    border-radius: 10px;
-	
-
-}
-.gallery img {
-width: 100%;
-max-width: 281px;
-}
-
-.gallerimg1:hover,
-.gallerimg2:hover,
-.gallerimg3:hover,
-.gallerimg4:hover,
-.gallerimg5:hover,
-.gallerimg6:hover,
-.gallerimg7:hover,
-.gallerimg8:hover,
-.gallerimg9:hover {
-	box-shadow: 5px 10px 8px #888888;
-	}
-
-.gallerimg1 {
-grid-column: 1/2;
-grid-row: 1/2;
-}
-.gallerimg2 {
-	grid-column: 2/3;
-	grid-row: 1/2;
-	}
-	.gallerimg3 {
-		grid-column: 3/4;
-		grid-row: 1/2;
-		}
-
-		figcaption {
-			color: #F3903F;
-			font-family: 'Averia Libre', cursive; 
-		}
+    }
 }
