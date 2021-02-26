@@ -162,6 +162,7 @@ form{
 input,textarea{
     border-radius: 10px;
     border-color:  #2361a3;
+    
 }
 
 input[type="button"]:hover {
