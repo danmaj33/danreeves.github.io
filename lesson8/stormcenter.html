@@ -47,20 +47,23 @@
     <div class="storminput"><h1>Storm Center</h1><br><br>
     <form action="/action_page.php">
        
-        <label for="fullname">Full Name:</label>
+        <label for="fullname">Full Name:</label><br>
         <input type="text" id="fullname" name="fullname" minlength="5" pattern="[A-Za-z]" title=" Please type your full name" required><br><br>
        
-        <label for="email">Email:   </label>
+        <label for="email">Email:   </label><br>
         <input type="email" id="email" name="email" placeholder="user@email.org"><br><br>
         
-        <label for="tel">Telephone:    </label>
+        <label for="tel">Telephone:    </label><br>
         <input type="tel" id="tel" name="tel" placeholder="###-###-####" required><br><br>
 
-        <label for="zipcode">Zip Code:  </label>
+        <label for="zipcode">Zip Code:  </label><br>
         <input type="number" id="zipcode" name="zip" placeholder="84010" required><br><br>
 
-        <label for="stormdate">Storm Date:  </label>
+        <label for="stormdate">Storm Date:  </label><br>
         <input type="Date" id="stormdate" name="stormdate"><br><br>
+
+        <label>Storm Type:</label><br>
+			<input name="storms" list="stormtype">
 
         <datalist id="stormtype">
 			<option value="Flash Flood">
@@ -69,15 +72,13 @@
                 <option value="Thunderstorm">
                 <option value="Tornado">
 		</datalist>
-        <label>Storm Type:
-			<input name="storms" list="stormtype"></label><br><br>
-
-
-
-            <label class="flexly" for="rating">Storm Severity: &nbsp;&nbsp;&nbsp;
+        
+		<br><br>
+        
+            <label class="flexly" for="rating">Storm Severity: &nbsp;&nbsp;&nbsp;</label><br>
                 <input type="range" id="rating" value="5" min="1" max="10" step="1" list="stormtype" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                 <span id="ratingvalue">5</span>
-            </label><br><br>
+            <br><br>
 
             <label>
                 <select name="stormregion" id="stormregion" onchange="selectResponse()">
@@ -88,7 +89,7 @@
                 </select></label><br><br>
 
                 
-                   <p>User in-danger? <em>(Choose one)</em></p><br>
+                   <p>User in-danger? <em>(Choose one)</em></p>
                     <div class="selection">
                         <input type="radio" id="time1" name="danger" value="1" checked> <label>Yes</label>
                     </div>
