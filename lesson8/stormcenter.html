@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/medium8.css"> 
     <link rel="stylesheet" href="css/large8.css">
     <link rel="stylesheet" href="css/normalize8.css">
-	<title>Fo'Drizzle: Preston, ID Town Page</title>
+	<title>Fo'Drizzle: Storm Center</title>
 	<link rel="shortcut icon" href="favicon1.ico">
 	<script type="text/javascript" src="js/saturdaybanner8.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -72,10 +72,51 @@
         <label>Storm Type:
 			<input name="storms" list="stormtype"></label><br><br>
 
+ <script>
+            function adjustRating(rating) {
+                document.getElementById("ratingvalue").innerHTML = rating;
+            }
+</script>
+
             <label class="flexly" for="rating">Storm Severity: &nbsp;&nbsp;&nbsp;
                 <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                 <span id="ratingvalue">5</span>
             </label><br><br>
+<script>
+
+function selectResponse() {
+	const s = document.querySelector('#selected')
+	const sel = document.querySelector('#selectbrowser');
+	s.style.display = "block";
+	s.textContent = sel.value;
+	
+}</script>
+            <label>
+                <select name="stormregion" id="stormregion" onchange="selectResponse()">
+                    <option value="" disabled selected>Select Region ...</option>
+                    <option value="preston">Preston</option>
+                    <option value="sodasprings">Soda Springs</option>
+                    <option value="fishhaven">Fish Haven</option>
+                </select></label><br><br>
+
+                <fieldset class="userindanger">
+                    <legend>User in-danger? <em>(Choose one)</em></legend>
+                    <div class="selection">
+                        <input type="radio" id="time1" name="danger" value="1" checked> <label for="danger1">Yes</label>
+                    </div>
+                    <div class="selection">
+                        <label><input type="radio" name="danger" value="2">No</label>
+                    </div>
+                    <div class="selection">
+                        <input type="radio" id="time3" name="danger" value="3">
+                        <label for="danger3">Maybe</label>
+                    </div><br><br>
+                    <label for="comments">Comments</label>
+<textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+  <br><br>
+                   
+                </fieldset><br><br>
+
 		
        
         <input type="submit" value="Submit">
