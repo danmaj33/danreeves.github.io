@@ -114,7 +114,7 @@ nav ul li.active a {
 	display: block;
 }
 
-.storminput {
+.storminput, .thankyou {
     display: block;
     background-color:#fdc90c46;
     margin: 0 auto;

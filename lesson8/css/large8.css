@@ -9,7 +9,7 @@
 		max-width: 1000px;
     	margin: 0 auto;
 	}
-	.storminput {
+	.storminput, .thankyou {
 		display: block;
 		background-color:#fdc90c46;
 		margin: 0 auto;
