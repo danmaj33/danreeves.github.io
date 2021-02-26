@@ -114,7 +114,7 @@ nav ul li.active a {
 	display: block;
 }
 
-.contentbox , .fiveday, .articlebox, .herobox, .contactbox, .galleryhrd {
+.storminput {
     display: block;
     background-color:#fdc90c46;
     margin: 0 auto;
@@ -125,31 +125,7 @@ nav ul li.active a {
     max-width: 100%;
     border-radius: 10px;
     
-    }
-    .herodiv img {
-        display: block;
-		max-width: 100%;
-    	margin: 0 auto;
-   }
-   
-
-    .herobox h1 {
-        padding-bottom: 20px;
-    }
-
- .contactbox{
-        margin-top: 10px;
-       
-    }
-        
-    .social {
-            margin-top: 20px;
-            margin-bottom: 20px;
-            display: block;
-        }
     
-     .social img {
-               width: 35px;
     }
 
 footer {
@@ -178,78 +154,6 @@ h1 {
     text-align: center;font-size:2.5rem;text-shadow:3px 3px 5px #777;
 }
 
-.herodiv {
-    margin: 10px auto;
-    position: relative;
-}
-.hero div h1, .hero div h2, .hero div p {
-    margin: 0;
-}
-
-.fiveday{
-    display: none;
-}
-
-    #Day1,
-	#Day2,
-	#Day3,
-	#Day4,
-	#Day5 { 
-    
-    margin-left: auto;
-	margin-right: auto;
-    margin-bottom: 10px;
-    width: 150px;
-		height: 150px;
-    
-}
-
-#articleimg {
-    float:left;
-    margin-bottom: 0px;
-    padding: 5px;
-    padding-right: 15px;
-}
 
 
-.map{
-    display:block;
-    width: 250px;
-    
-}
-/* Gallery Page>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
-
-/* Gallery Page>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
-
-.gallery{
-    display:grid;
-    grid-template-columns: (1,1fr);  
-	grid-template-rows: repeat(8,1fr);
-	grid-gap: 15px;
-	grid-auto-flow: dense;
-    justify-content: center;
-    background-color:#fdc90c46;
-    margin: 0 auto;
-    border: 2px solid#FDC70C;
-    padding: 15px;
-    font-family: 'Averia Libre', cursive;
-    color: #2361a3;
-    max-width: 100%;
-    border-radius: 10px;
-}
-.gallery img {
-width: 100%;
-object-fit: cover;
-
-}
-.gallerimg1 {
-grid-column: 1;
-grid-row: 1/2;
-}
-
-
-figcaption{
-color: #F3903F;
-font-family: 'Averia Serif Libre', cursive; 
-}
 
