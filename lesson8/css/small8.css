@@ -162,7 +162,12 @@ form{
 input,textarea{
     border-radius: 10px;
     border-color:  #2361a3;
+    width: 100%;
     
+}
+
+#time1, #time2, #time3 {
+    width: auto;
 }
 
 input[type="button"]:hover {
@@ -185,4 +190,12 @@ input:valid {
 	color: #000;
 }
 
+fieldset {
+    border-radius: 10px;
+    
+}
 
+
+label {
+    line-height: 30px;
+}

@@ -45,7 +45,9 @@
 </nav>
 <main>
     <div class="storminput"><h1>Storm Center</h1><br><br>
-    <form action="/action_page.php">
+    <div class="formwrap"></div>
+        <form action="/action_page.php">
+            <fieldset>
        
         <label for="fullname">Full Name:</label><br>
         <input type="text" id="fullname" name="fullname" minlength="5" pattern="[A-Za-z]" title=" Please type your full name" required><br><br>
@@ -89,17 +91,17 @@
                 </select></label><br><br>
 
                 
-                   <p>User in-danger? <em>(Choose one)</em></p>
+                   <fieldset><p>User in-danger? <em>(Choose one)</em></p>
                     <div class="selection">
                         <input type="radio" id="time1" name="danger" value="1" checked> <label>Yes</label>
                     </div>
                     <div class="selection">
-                        <label><input type="radio" name="danger" value="2"> No</label>
+                        <label><input type="radio" id="time2" name="danger" value="2"> No</label>
                     </div>
                     <div class="selection">
                         <input type="radio" id="time3" name="danger" value="3">
                         <label >Maybe</label>
-                    </div><br>
+                    </div></fieldset><br>
                     
                     <label for="comments">Comments</label><br>
 <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
@@ -110,8 +112,10 @@
 		
        
   <button type="submit" formaction="thanks.html">Submit</button>
+</fieldset>
      
     </form>
+</div>
     
     </div>
     <script src="js/stormcenter.js"></script>

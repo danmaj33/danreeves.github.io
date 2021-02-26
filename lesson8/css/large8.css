@@ -65,10 +65,15 @@
 	}
 	
 	form{
-	   display: block;
+	   display: inline-block;
 	   margin-left: 300px;
 	   max-width: 100%;
 	   text-align: left;
+	}
+
+	.formwrap {
+		display: block;
+
 	}
 
 	footer {
