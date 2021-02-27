@@ -41,94 +41,20 @@
 	</ul>
 </nav>
 <main>
-    <div class="storminput"><h1>Storm Center</h1><br><br>
-    <div class="formwrap"></div>
-        <form action="/action_page.php">
-            <fieldset>
-       
-        <label for="fullname">Full Name:</label><br>
-        <input type="text" id="fullname" name="fullname" minlength="5" pattern="[A-Za-z]" title=" Please type your full name" placeholder="Jonathan Van Doe"required><br><br>
-       
-        <label for="email">Email:   </label><br>
-        <input type="email" id="email" name="email" placeholder="user@email.org"><br><br>
-        
-        <label for="tel">Telephone:    </label><br>
-        <input type="tel" id="tel" name="tel" placeholder="###-###-####" required><br><br>
-
-        <label for="zipcode">Zip Code:  </label><br>
-        <input type="number" id="zipcode" name="zip" placeholder="84010" required><br><br>
-
-        <label for="stormdate">Storm Date:  </label><br>
-        <input type="Date" id="stormdate" name="stormdate"><br><br>
-
-        <label>Storm Type:</label><br>
-			<input name="storms" list="stormtype">
-
-        <datalist id="stormtype">
-			<option value="Flash Flood">
-                <option value="Hail">
-                <option value="Hurricane">
-                <option value="Thunderstorm">
-                <option value="Tornado">
-		</datalist>
-        
-		<br><br>
-        
-            <label class="flexly" for="rating">Storm Severity: &nbsp;&nbsp;&nbsp;</label><br>
-                <input type="range" id="rating" value="5" min="1" max="10" step="1" list="stormtype" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
-                <span id="ratingvalue">5</span>
-            <br><br>
-
-            <label>
-                <select name="stormregion" id="stormregion" onchange="selectResponse()">
-                    <option value="" disabled selected>Select Region ...</option>
-                    <option value="preston">Preston</option>
-                    <option value="sodasprings">Soda Springs</option>
-                    <option value="fishhaven">Fish Haven</option>
-                </select></label><br><br>
-
-                
-                   <fieldset><p>User In-Danger? <em>(Choose one)</em></p>
-                    <div class="selection">
-                        <input type="radio" id="time1" name="danger" value="1" checked> <label>Yes</label>
-                    </div>
-                    <div class="selection">
-                        <label><input type="radio" id="time2" name="danger" value="2"> No</label>
-                    </div>
-                    <div class="selection">
-                        <input type="radio" id="time3" name="danger" value="3">
-                        <label >Maybe (Unknown)</label>
-                    </div></fieldset><br>
-                    
-                    <label for="comments">Comments</label><br>
-<textarea id="comments" name="comments" rows="4" cols="50"></textarea>
-  <br><br>
-                   
-
-
-		
-       
-  <button type="submit" formaction="thanks.html">Submit</button>
-</fieldset>
-     
-    </form>
-</div>
     
-    </div>
-    <script src="js/stormcenter.js"></script>
 
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-<script src="js/fontload8.js"></script>
+<script src="js/fontload.js"></script>
 </main>
 <footer>
 	
 <span class="prestonfooter">
-	 &copy; <span id='currentyear'></span> Fo'Drizzle | Daniel Reeves| <a href='https://danmaj33.github.io/danreeves.github.io/'>Portal</a><br>
+	 &copy; <span id='currentyear'></span> | Daniel Reeves| <a href='#'>HOME</a><br>
 		<span id='currentdate'></span>
 </span>
 </footer>
 <script src="js/lazyload.js"></script>  
-<script src='js/date8.js'></script>
+<script src='js/date.js'></script>
 
 
 
