@@ -5,7 +5,8 @@
 		Red         #E93E3A
 	Orange      	#F3903F
 	Yellow Orange	#FDC70C
-	Blue	        #2361a3*/
+	Blue	        #2361a3
+    */
 
 
 /* Small/Phone View ***************/
@@ -146,7 +147,7 @@ footer {
     text-decoration: none;
     text-shadow:-1px -1px 0 rgb(0, 0, 0);
 }
-/* hero page css//////////////////////////////////////////// */
+/* Storm Center css//////////////////////////////////////////// */
 
 
 
@@ -163,6 +164,7 @@ input,textarea{
     border-radius: 10px;
     border-color:  #2361a3;
     width: 100%;
+    box-shadow: -1px -1px 0 rgb(124, 124, 124) ;
     
 }
 
@@ -198,4 +200,8 @@ fieldset {
 
 label {
     line-height: 30px;
+}
+select {
+border-radius: 10px;
+color:  #2361a3;
 }
