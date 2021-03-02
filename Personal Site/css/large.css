@@ -1,51 +1,53 @@
-@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&family=Rock+Salt&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Averia+Libre:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Averia+Libre:wght@700&family=Rock+Salt&display=swap');
+
 
 /* Media Query for large+ views */
 @media only screen and (min-width: 60em) {
 
-	header, footer, nav {
+
+	
+		
+	header, footer, nav{
 		max-width: 1000px;
     	margin: 0 auto;
-	}
-	.storminput, .thankyou {
-		display: block;
-		background-color:#fdc90c46;
-		margin: 0 auto;
-		border: 2px solid#FDC70C;
-		padding: 15px;
-		font-family: 'Averia Libre', cursive;
-		color: #2361a3;
-	 	max-width: 960px;
-		border-radius: 10px;
 		
-		}
-	
-	#bannertext {
-		display: block;
-		background-color: #E93E3A;
-		color: beige;
-		font-family: 'Averia Libre', cursive;
-		font-size: 1em;
-		width: 100%;
-		padding: .5em;
-		text-align: center;
 	}
+
+	
+
+	main {
+		
+		max-width: 100%;	
+	}
+	
 	
 	header {
-		background-color: #2361a3;
-		padding-bottom: 2.5%;
+		background-color: #000000;
+		padding-bottom: 150px;
 		margin-bottom: -20px;
 		border-radius: 10px;
 	   
 	}
-	
-	#bannertext.notfriday{
-		display: none;
+
+	.paragraph1, .paragraph2, .paragraph3 {
+		display: inline-block;
+		max-width: 300px;
+		margin: 0 auto;
+		text-align: justify;
+		padding: 20px;
+		color: #3fc9f3;
 	}
+	.paragraph4 {
+		display: inline-block;
+		max-width: 980px;
+		margin: 0 auto;
+		text-align: justify;
+		padding: 20px;
+		color: #3fc9f3;
+	}
+	
+
 	nav {
-		background-color:#F3903F;
+		background-color:#000000;
 		border-radius: 10px;
 		margin-top: -16px;
 	}
@@ -64,26 +66,17 @@
 		display: none;
 	}
 	
-	form{
-	   display: inline-block;
-	   margin-left: 300px;
-	   max-width: 100%;
-	   text-align: left;
-	}
 
-	.formwrap {
-		display: block;
 
-	}
-
-	footer {
-    background-color: #2361a3;
+	footer, main {
+    background-color: #000000;
     padding: 5px;
     border-radius: 10px;
     flex-wrap: wrap;
     text-align: center;
     margin-top: 10px;
-    font-family: 'Averia Libre', cursive;
+	font-family: 'Staatliches', cursive;
+    letter-spacing: 3px;
     color: beige;
     }
 }

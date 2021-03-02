@@ -1,6 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Averia+Libre:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Averia+Libre:wght@700&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 /*      Yellow      #FFF33B
 		Red         #E93E3A
 	Orange      	#F3903F
@@ -10,56 +8,41 @@
 
 
 /* Small/Phone View ***************/
-#bannertext {
-    display: block;
-    background-color: #E93E3A;
-    color: beige;
-    font-family: 'Averia Libre', cursive;
-    font-size: 1em;
-    width: 100%;
-    padding: .5em;
-    text-align: center;
-}
-.stats {
-	font-family: 'Averia Libre', cursive;
-    padding: 3rem;
-    
-	}
-
-#bannertext.notfriday{
-    display: none;
+body{
+    background-color: black;
 }
 
-header, footer, nav {
+header, footer, nav, main {
     
     max-width: 100%;
-    margin: 0 auto;  
+    margin: 0 auto; 
 }
 
 header {
-    background-color: #2361a3;
-    padding-bottom: 2.5%;
+    background-color: #000000;
+    padding-bottom: 100px;
     margin-bottom: -20px;
     border-radius: 10px; 
 }
 
 #logo {
-    width: 60%;
-    display: flex;
+    width: 100%;
+    display: block;
     flex-wrap: wrap;
     text-align: center;
     margin: auto;
     margin-bottom: -15%;
     max-width: 462px;
     
-   
 }
+
+
 h1 {
    
     flex-wrap: wrap;
     text-align: center;
     margin: auto;
-    font-family:'Rock Salt', cursive;
+    font-family: 'Staatliches', cursive;
     color: #FDC70C;
     text-shadow:-1px -1px 0 rgb(0, 0, 0);
     line-height: 50px;
@@ -67,9 +50,9 @@ h1 {
 
 nav {
 	
-    background-color:#F3903F;
+    background-color:#000000;
     border-radius: 10px;
-    margin-top: -16px;
+    
 }
 .navigation {
 	list-style: none;
@@ -80,7 +63,8 @@ nav {
 }
 .navigation li {
     display: none;
-    font-family: 'Averia Libre', cursive;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 3px;
     text-shadow:-1px -1px 0 rgb(0, 0, 0);
     
 }
@@ -89,23 +73,22 @@ nav {
 	padding: 0.75rem;
 	text-align: left;
 	text-decoration: none;
-	color: rgb(255, 255, 255);
+	color: #3fc9f31a;
 	font-weight: 700;
+    text-shadow: 1px 1px 5px #3fc9f3;
 }
 .navigation a:hover {
-	color: #E93E3A;
-    border-color: #FFF33B;
-    border-style: solid;
-    border-width: 1px;
+	color: #3fc9f3;
     border-radius: 10px;
-    text-shadow:-1px -1px 0 rgb(0, 0, 0);
+    text-shadow:1px 1px 10px #3fc9f3; 
+    border-bottom:  3px solid #3fc9f3; 
+    box-shadow: 0px 5px 10px #3fc9f3; 
 }
 nav ul li.active a {
-    border-color: #FFF33B;
-    border-style: solid;
-    border-width: 1px;
-    color: #FFF33B;
+    border-bottom:  3px solid #3fc9f3;
+    color: #3fc9f3;
     border-radius: 10px;
+    box-shadow: 0px 5px 10px #3fc9f3; 
 }
 
 /* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
@@ -114,94 +97,38 @@ nav ul li.active a {
 .responsive li {
 	display: block;
 }
-
-.storminput, .thankyou {
+ 
+.paragraph1, .paragraph2, .paragraph3 {
     display: block;
-    background-color:#fdc90c46;
+    max-width: 300px;
     margin: 0 auto;
-    border: 2px solid#FDC70C;
-    padding: 15px;
-    font-family: 'Averia Libre', cursive;
-    color: #2361a3;
-    max-width: 100%;
-    border-radius: 10px;
-    
-    
-    }
+    text-align: justify;
+    padding: 20px;
+    color: #3fc9f3;
+}
+.paragraph4 {
+    display: block;
+    max-width: 980px;
+    margin: 0 auto;
+    text-align: justify;
+    padding: 20px;
+    color: #3fc9f3;
+}
+
 
 footer {
-    background-color: #2361a3;
+    background-color: #000000;
     padding: 5px;
     border-radius: 10px;
     flex-wrap: wrap;
     text-align: center;
     margin-top: 10px;
-    font-family: 'Averia Libre', cursive;
+    font-family: 'Staatliches', cursive;
     color: beige;
     
 }
 
-.prestonfooter, a {
-    font-family: 'Averia Libre', cursive;
-    color: beige;
-    text-decoration: none;
-    text-shadow:-1px -1px 0 rgb(0, 0, 0);
-}
-/* Storm Center css//////////////////////////////////////////// */
 
 
 
-h1 {
-    text-align: center;font-size:2.5rem;text-shadow:3px 3px 5px #777;
-}
-form{
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
-    text-align: left;
- }
-input,textarea{
-    border-radius: 10px;
-    border-color:  #2361a3;
-    width: 100%;
-    box-shadow: -1px -1px 0 rgb(124, 124, 124) ;
-    
-}
 
-#time1, #time2, #time3 {
-    width: auto;
-}
-
-input[type="button"]:hover {
-	background-color: #ddf;
-}
-
-:-ms-input-placeholder {
-	color: rgb(90, 90, 221);
-}
- ::placeholder{
-     color: rgb(194, 194, 194);
- }
-
-input:invalid {
-	background-color: #fdd;
-	color: #000;
-}
-input:valid {
-	background-color: #dfd;
-	color: #000;
-}
-
-fieldset {
-    border-radius: 10px;
-    
-}
-
-
-label {
-    line-height: 30px;
-}
-select {
-border-radius: 10px;
-color:  #2361a3;
-}
