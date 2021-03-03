@@ -120,4 +120,9 @@ h2, h1 {
     color: blue;
 }
 
-
+footer {
+    display: block;
+    text-align: center;
+   padding: 20px;
+    background-color: burlywood;
+}
