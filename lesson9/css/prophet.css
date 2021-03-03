@@ -1,0 +1,26 @@
+/* Media Query for large+ views */
+@media only screen and (min-width: 60em) {
+
+
+section {
+display: inline-block;
+width: 335px
+
+}
+
+img {
+width: 200px;
+}
+
+
+}
+
+/* Media Query for medium+ views */
+@media only screen and (min-width: 32.5em) {
+
+
+
+}
+
+
+/* Small/Phone View ***************/
