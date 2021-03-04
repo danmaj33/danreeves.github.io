@@ -116,7 +116,7 @@ nav ul li.active a {
 	display: block;
 }
 
-section {
+.cards section {
     display: block;
     background-color:#fdc90c46;
     margin: 0 auto;
