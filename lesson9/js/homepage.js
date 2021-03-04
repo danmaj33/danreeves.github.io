@@ -21,7 +21,7 @@ fetch(requestURL)
                 let yearFounded = document.createElement('p');
                 let currentPopulation= document.createElement('p');
                 let averageRainfall= document.createElement('p');
-        let photo = document.createElement('img');
+        let image = document.createElement('img');
 
         
 //   Output is here VVVVVVVVVVVVVVVV
@@ -30,8 +30,8 @@ fetch(requestURL)
         yearFounded.textContent = 'Year Founded: '+ towns[i].yearFounded;
         currentPopulation.textContent = 'Population: ' + towns[i].currentPopulation;
         averageRainfall.textContent = 'Annual Rain Fall: ' + towns[i].averageRainfall;
-        photo.setAttribute('src', towns[i].photo);
-        photo.setAttribute('alt', towns[i].name + ' ' + towns[i].motto + '-' + i)
+        image.setAttribute('src', towns[i].photo);
+        image.setAttribute('alt', towns[i].name + ' ' + towns[i].motto + '-' + i)
 
         
        
@@ -41,7 +41,7 @@ fetch(requestURL)
         card.appendChild( yearFounded);
         card.appendChild(currentPopulation);
         card.appendChild(averageRainfall);
-        card.appendChild(photo);
+        card.appendChild(image);
         
                  // where is goes V in div.cards
                  
