@@ -14,6 +14,7 @@ fetch(requestURL)
  var towns = newtowns.slice(1);
 // For loop for cycling through each profile
     for (let i = 0; i < towns.length; i++ ) {
+      towns[i].somefunction();
 
           //   Creating the element is here VVVVVVVVVVVVVVVV
         let card = document.createElement('section');
