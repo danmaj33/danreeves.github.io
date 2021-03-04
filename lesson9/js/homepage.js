@@ -9,9 +9,9 @@ fetch(requestURL)
   .then(function (jsonObject) {
     //   console.table(jsonObject);
       
-      const towns = jsonObject['towns'];
+      const newtowns = jsonObject['towns'];
 
-
+ var towns = newtowns.slice(1);
 // For loop for cycling through each profile
     for (let i = 0; i < towns.length; i++ ) {
 
