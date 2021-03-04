@@ -10,16 +10,19 @@
 
 
 /* Small/Phone View ***************/
+body {
+	margin: 0 auto;
+	width: fit-content;
+}
 
 p {
 	font-family: 'Averia Libre', cursive;
-    padding: 3rem;
-    
-	}
+    margin-left: 5px;
+    }
 
 
 
-header, footer, nav {
+header, footer, nav, .cards {
     
     max-width: 100%;
     margin: 0 auto;  
@@ -39,7 +42,7 @@ header {
     text-align: center;
     margin: auto;
     max-width: 462px;
-    
+    margin-bottom: -50px;
    
 }
 
@@ -51,7 +54,8 @@ h1 {
     font-family:'Rock Salt', cursive;
     color: #FDC70C;
     text-shadow:-1px -1px 0 rgb(0, 0, 0);
-    line-height: 25px;
+    margin-top: -50px;
+    
    
 }
 
@@ -63,7 +67,7 @@ h2 {
     font-family:'Rock Salt', cursive;
     color: #FDC70C;
     text-shadow:-1px -1px 0 rgb(0, 0, 0);
-    line-height: 25px;
+    padding: 10px;
 }
 
 nav {
@@ -116,16 +120,26 @@ nav ul li.active a {
 	display: block;
 }
 
+
 .cards section {
     display: block;
     background-color:#fdc90c46;
     margin: 0 auto;
     border: 2px solid#FDC70C;
-    padding: 15px;
     font-family: 'Averia Libre', cursive;
     color: #2361a3;
-    max-width: 100%;
+    width: 100%;
     border-radius: 10px;
+    margin-top: 20px; 
+    }
+
+    .cards section img {
+        display: block;
+        width: 85%;
+        margin: 0 auto;
+        border-radius: 10px;
+        margin-bottom: 10px;
+       
     }
 
 footer {
@@ -151,60 +165,14 @@ footer {
 
 
 h1 {
-    text-align: center;font-size:2.5rem;text-shadow:3px 3px 5px #777;
-}
-form{
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
-    text-align: left;
- }
-input,textarea{
-    border-radius: 10px;
-    border-color:  #2361a3;
-    width: 100%;
-    box-shadow: -1px -1px 0 rgb(124, 124, 124) ;
-    
-}
-
-#time1, #time2, #time3 {
-    width: auto;
-}
-
-input[type="button"]:hover {
-	background-color: #ddf;
-}
-
-:-ms-input-placeholder {
-	color: rgb(90, 90, 221);
-}
- ::placeholder{
-     color: rgb(194, 194, 194);
- }
-
-input:invalid {
-	background-color: #fdd;
-	color: #000;
-}
-input:valid {
-	background-color: #dfd;
-	color: #000;
-}
-
-fieldset {
-    border-radius: 10px;
-    
+    text-align: center;
+    font-size:2.5rem;
+    text-shadow:3px 3px 5px #777;
 }
 
 
-label {
-    line-height: 30px;
-}
-select {
-border-radius: 10px;
-color:  #2361a3;
-}
 
+	/* hidden cities */
 section:nth-of-type(1) {
     display: none;
   }

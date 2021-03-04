@@ -5,34 +5,7 @@
 /* Media Query for large+ views */
 @media only screen and (min-width: 60em) {
 
-	header, footer, nav {
-		max-width: 1000px;
-    	margin: 0 auto;
-	}
-	.storminput, .thankyou {
-		display: block;
-		background-color:#fdc90c46;
-		margin: 0 auto;
-		border: 2px solid#FDC70C;
-		padding: 15px;
-		font-family: 'Averia Libre', cursive;
-		color: #2361a3;
-	 	max-width: 960px;
-		border-radius: 10px;
-		
-		}
-	
-	#bannertext {
-		display: block;
-		background-color: #E93E3A;
-		color: beige;
-		font-family: 'Averia Libre', cursive;
-		font-size: 1em;
-		width: 100%;
-		padding: .5em;
-		text-align: center;
-	}
-	
+
 	header {
 		background-color: #2361a3;
 		padding-bottom: 2.5%;
@@ -40,10 +13,18 @@
 		border-radius: 10px;
 	   
 	}
-	
-	#bannertext.notfriday{
-		display: none;
+	#logo {
+		width: 60%;
+		display: flex;
+		flex-wrap: wrap;
+		text-align: center;
+		margin: auto;
+		max-width: 462px;
+		margin-bottom: -100px;
+	   
 	}
+	
+	
 	nav {
 		background-color:#F3903F;
 		border-radius: 10px;
@@ -64,18 +45,37 @@
 		display: none;
 	}
 	
-	form{
-	   display: inline-block;
-	   margin-left: 300px;
-	   max-width: 100%;
-	   text-align: left;
+	header, footer, nav, main {
+		max-width: 1000px;
+    	margin: 0 auto;
 	}
 
-	.formwrap {
-		display: block;
-
+	.cards {
+		display: flex;
+		
 	}
-
+	.cards section {
+		display: inline-block;
+		background-color:#fdc90c46;
+		margin: 0 auto;
+		margin-left: 5px;
+		border: 2px solid#FDC70C;
+		padding: 15px;
+		font-family: 'Averia Libre', cursive;
+		color: #2361a3;
+	 	max-width: 275px;
+		border-radius: 10px;
+		height: 384px;
+		margin-top: 20px;
+		overflow: auto;
+		flex: 1 1 auto;
+		
+		}
+	
+		.cards section img {
+			max-width: 100%;
+			margin-top: 0 auto;
+		}
 	footer {
     background-color: #2361a3;
     padding: 5px;
@@ -86,4 +86,21 @@
     font-family: 'Averia Libre', cursive;
     color: beige;
     }
+
+
+
+
+	/* hidden cities */
+	section:nth-of-type(1) {
+		display: none;
+	  }
+	  section:nth-of-type(3) {
+		display: none;
+	  }
+	  section:nth-of-type(4) {
+		display: none;
+	  }
+	  section:nth-of-type(5) {
+		display: none;
+	  }
 }
