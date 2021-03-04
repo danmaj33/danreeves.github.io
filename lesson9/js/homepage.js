@@ -11,7 +11,7 @@ fetch(requestURL)
       
       const newtowns = jsonObject['towns'];
 
- var towns = newtowns.slice(1);
+ var towns = newtowns.slice(1,5,6);
 // For loop for cycling through each profile
     for (let i = 0; i < towns.length; i++ ) {
       towns[i].somefunction();
