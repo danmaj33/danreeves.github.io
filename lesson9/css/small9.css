@@ -54,7 +54,7 @@ header {
     
    
 }
-h1 {
+h1, h2 {
    
     flex-wrap: wrap;
     text-align: center;
