@@ -11,10 +11,9 @@ fetch(requestURL)
       
       const towns = jsonObject['towns'];
 
- 
+
 // For loop for cycling through each profile
     for (let i = 0; i < towns.length; i++ ) {
-     
 
           //   Creating the element is here VVVVVVVVVVVVVVVV
         let card = document.createElement('section');
