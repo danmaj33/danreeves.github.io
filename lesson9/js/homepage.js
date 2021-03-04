@@ -9,12 +9,12 @@ fetch(requestURL)
   .then(function (jsonObject) {
     //   console.table(jsonObject);
       
-      const newtowns = jsonObject['towns'];
+      const towns = jsonObject['towns'];
 
- var towns = newtowns.slice(1,5,6);
+ 
 // For loop for cycling through each profile
     for (let i = 0; i < towns.length; i++ ) {
-      towns[i].somefunction();
+     
 
           //   Creating the element is here VVVVVVVVVVVVVVVV
         let card = document.createElement('section');
