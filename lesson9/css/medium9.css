@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Averia+Libre:wght@700&family=Rock+Salt&display=swap');
 
 /* Media Query for medium+ views */
-@media only screen and (min-width: 32.5em) {
+@media only screen and (min-width: 32.5em) and (max-width: 959px) {
 	.navigation {
 		display: flex;
 	}
@@ -19,30 +19,91 @@
 	}
 
 	.cards section {
-		display: block;
+		display: inline-block;
 		background-color:#fdc90c46;
 		margin: 0 auto;
-		margin-left: 5px;
 		border: 2px solid#FDC70C;
-		padding: 15px;
 		font-family: 'Averia Libre', cursive;
 		color: #2361a3;
-	 	max-width: 500px;
+	 	width: 100%;
 		border-radius: 10px;
 		margin-top: 20px;
-		overflow: auto;
-		
 		
 		}
 
-		
-		
-	
-		.cards section img {
-			display: inline-block;
-			max-width: 50%;
+		.cards section img{
+			width: 50%;
+			margin-top: -170px
 		}
-	
+
+		h2 {text-align:center;
+		
+		}
+
+
+		main {
+			max-width: 100%;
+		  margin: 0 auto;
+			border:1px solid #bbb;
+		  background-color: #eee;
+		}
+		
+		.cards {
+		  display: grid;
+			grid-template-columns: 1fr 1fr;
+			grid-template-rows: 1fr 1fr 1fr;
+			max-width: 100%;
+			margin: 0 auto;
+		}
+		
+		section:nth-of-type(2) {
+			grid-column: span 2;
+			grid-row: 1;
+		}
+		section:nth-of-type(6) {
+			grid-column: span 2;
+			grid-row: 2;
+		}
+		section:nth-of-type(7) {
+			grid-column: span 2;
+			grid-row: 3;
+		}
+
+
+		 .cards section img{
+			 float: left;
+			 margin-right: 10px;
+		 }
+
+		
+		img {
+			width: 100%; height: auto;padding:0;
+		}
+		
+		.cards section h2, p {
+			display: block;
+			color:#FDC70C;
+			max-width: 250px;
+    		margin-left: 300px;
+			
+		}
+
+		section:nth-of-type(6) h2, section:nth-of-type(6) p {
+			display: block;
+			color:#FDC70C;
+			width: 250px;
+			margin-left: 0px;
+		}
+
+		section:nth-of-type(6) img {
+			float: right;
+			margin-left: 10px;
+		}
+
+		.cards section p{
+			color: #2361a3;
+		}
+		
 
 	/* hidden cities */
 	section:nth-of-type(1) {

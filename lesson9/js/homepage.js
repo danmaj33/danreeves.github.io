@@ -17,7 +17,8 @@ fetch(requestURL)
 
           //   Creating the element is here VVVVVVVVVVVVVVVV
         let card = document.createElement('section');
-            let name = document.createElement('h2');
+        let name = document.createElement('h2');
+            let motto = document.createElement('p');
                 let yearFounded = document.createElement('p');
                 let currentPopulation= document.createElement('p');
                 let averageRainfall= document.createElement('p');
@@ -27,6 +28,7 @@ fetch(requestURL)
 //   Output is here VVVVVVVVVVVVVVVV
 
         name.textContent = towns[i].name;
+        motto.textContent = towns[i].motto;
         yearFounded.textContent = 'Year Founded: '+ towns[i].yearFounded;
         currentPopulation.textContent = 'Population: ' + towns[i].currentPopulation;
         averageRainfall.textContent = 'Annual Rain Fall: ' + towns[i].averageRainfall;
@@ -38,7 +40,8 @@ fetch(requestURL)
 
 
         card.appendChild(name);
-        card.appendChild( yearFounded);
+        card.appendChild(motto);
+        card.appendChild(yearFounded);
         card.appendChild(currentPopulation);
         card.appendChild(averageRainfall);
         card.appendChild(image);
@@ -46,6 +49,7 @@ fetch(requestURL)
                  // where is goes V in div.cards
                  
         document.querySelector('div.cards').appendChild(card);
+       
   }
 });
    
