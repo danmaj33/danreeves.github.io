@@ -123,6 +123,19 @@ nav ul li.active a {
 }
 
 
+article {
+    display: block;
+    background-color:#fdc90c46;
+    margin: 0 auto;
+    border: 2px solid#FDC70C;
+    font-family: 'Averia Libre', cursive;
+    color: #2361a3;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 20px; 
+    text-align: center;
+    }
+
 .cards section {
     display: block;
     background-color:#fdc90c46;
