@@ -45,20 +45,41 @@
 		display: none;
 	}
 	
-	header, footer, nav, main {
+	header, footer, nav, main, article {
 		max-width: 1000px;
     	margin: 0 auto;
 	}
 
+	article {
+		display: block;
+		background-color:#fdc90c46;
+		margin: 0 auto;
+		border: 2px solid#FDC70C;
+		font-family: 'Averia Libre', cursive;
+		color: #2361a3;
+		border-radius: 10px;
+		margin-top: 20px;
+		text-align: center;
+		}
+
+		h3 {
+			font-family: 'Rock Salt', cursive;
+				
+		}
+
+		article p {
+			padding: 25px;
+			}
+
 	.cards {
 		display: flex;
+		
 		
 	}
 	.cards section {
 		display: inline-block;
 		background-color:#fdc90c46;
 		margin: 0 auto;
-		margin-left: 5px;
 		border: 2px solid#FDC70C;
 		padding: 15px;
 		font-family: 'Averia Libre', cursive;
@@ -72,10 +93,11 @@
 		
 		}
 	
-		.cards section img {
+	.cards section img {
 			max-width: 100%;
 			margin-top: 0 auto;
 		}
+
 	footer {
     background-color: #2361a3;
     padding: 5px;
