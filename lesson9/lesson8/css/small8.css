@@ -1,0 +1,220 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Averia+Libre:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Averia+Libre:wght@700&family=Rock+Salt&display=swap');
+/*      Yellow      #FFF33B
+		Red         #E93E3A
+	Orange      	#F3903F
+	Yellow Orange	#FDC70C
+	Blue	        #2361a3
+    */
+
+
+/* Small/Phone View ***************/
+#bannertext {
+    display: block;
+    background-color: #E93E3A;
+    color: beige;
+    font-family: 'Averia Libre', cursive;
+    font-size: 1em;
+    width: 100%;
+    padding: .5em;
+    text-align: center;
+}
+.stats {
+	font-family: 'Averia Libre', cursive;
+    padding: 3rem;
+    
+	}
+
+#bannertext.notfriday{
+    display: none;
+}
+
+header, footer, nav {
+    
+    max-width: 100%;
+    margin: 0 auto;  
+}
+
+header {
+    background-color: #2361a3;
+    padding-bottom: 2.5%;
+    margin-bottom: -20px;
+    border-radius: 10px; 
+}
+
+#logo {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: auto;
+    margin-bottom: -15%;
+    max-width: 462px;
+    
+   
+}
+h1 {
+   
+    flex-wrap: wrap;
+    text-align: center;
+    margin: auto;
+    font-family:'Rock Salt', cursive;
+    color: #FDC70C;
+    text-shadow:-1px -1px 0 rgb(0, 0, 0);
+    line-height: 50px;
+}
+
+nav {
+	
+    background-color:#F3903F;
+    border-radius: 10px;
+    margin-top: -16px;
+}
+.navigation {
+	list-style: none;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+    display: none;
+    font-family: 'Averia Libre', cursive;
+    text-shadow:-1px -1px 0 rgb(0, 0, 0);
+    
+}
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	font-weight: 700;
+}
+.navigation a:hover {
+	color: #E93E3A;
+    border-color: #FFF33B;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    text-shadow:-1px -1px 0 rgb(0, 0, 0);
+}
+nav ul li.active a {
+    border-color: #FFF33B;
+    border-style: solid;
+    border-width: 1px;
+    color: #FFF33B;
+    border-radius: 10px;
+}
+
+/* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
+  <ul class="navigation responsive">
+*/
+.responsive li {
+	display: block;
+}
+
+.storminput, .thankyou {
+    display: block;
+    background-color:#fdc90c46;
+    margin: 0 auto;
+    border: 2px solid#FDC70C;
+    padding: 15px;
+    font-family: 'Averia Libre', cursive;
+    color: #2361a3;
+    max-width: 100%;
+    border-radius: 10px;
+    
+    
+    }
+
+footer {
+    background-color: #2361a3;
+    padding: 5px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Averia Libre', cursive;
+    color: beige;
+    
+}
+
+.prestonfooter, a {
+    font-family: 'Averia Libre', cursive;
+    color: beige;
+    text-decoration: none;
+    text-shadow:-1px -1px 0 rgb(0, 0, 0);
+}
+/* Storm Center css//////////////////////////////////////////// */
+
+
+
+h1 {
+    text-align: center;font-size:2.5rem;text-shadow:3px 3px 5px #777;
+}
+form{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    text-align: left;
+ }
+input,textarea{
+    border-radius: 10px;
+    border-color:  #2361a3;
+    width: 100%;
+    box-shadow: -1px -1px 0 rgb(124, 124, 124) ;
+    
+}
+
+#time1, #time2, #time3 {
+    width: auto;
+}
+
+input[type="button"]:hover {
+	background-color: #ddf;
+}
+
+:-ms-input-placeholder {
+	color: rgb(90, 90, 221);
+}
+ ::placeholder{
+     color: rgb(194, 194, 194);
+ }
+
+input:invalid {
+	background-color: #fdd;
+	color: #000;
+}
+input:valid {
+	background-color: #dfd;
+	color: #000;
+}
+
+fieldset {
+    border-radius: 10px;
+    
+}
+
+
+label {
+    line-height: 30px;
+}
+select {
+border-radius: 10px;
+color:  #2361a3;
+}
+
+section:nth-of-type(1) {
+    display: none;
+  }
+  section:nth-of-type(3) {
+    display: none;
+  }
+  section:nth-of-type(4) {
+    display: none;
+  }
+  section:nth-of-type(5) {
+    display: none;
+  }
