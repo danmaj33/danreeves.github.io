@@ -50,52 +50,43 @@
     	margin: 0 auto;
 	}
 
-	article {
-		display: block;
-		background-color:#fdc90c46;
-		margin: 0 auto;
-		border: 2px solid#FDC70C;
-		font-family: 'Averia Libre', cursive;
-		color: #2361a3;
-		border-radius: 10px;
-		margin-top: 20px;
-		text-align: center;
-		}
-
-		h3 {
-			font-family: 'Rock Salt', cursive;
-				
-		}
-
-		article p {
-			padding: 25px;
-			}
+	article p {
+		padding: 30px;
+	}
 
 	.cards {
-		display: flex;
-		
-		
-	}
-	.cards section {
-		display: inline-block;
+		display: grid;
+			grid-template-columns: 1fr 1fr 1fr;
 		background-color:#fdc90c46;
-		margin: 0 auto;
 		border: 2px solid#FDC70C;
-		padding: 15px;
 		font-family: 'Averia Libre', cursive;
 		color: #2361a3;
-	 	max-width: 275px;
+		width: 100%;
 		border-radius: 10px;
-		height: 390px;
-		margin-top: 20px;
-		overflow: auto;
-		flex: 1 1 auto;
-		
+		margin-top: 20px; 
+		text-align: center;
+		justify-content: center;
+		height: 450px;
 		}
-	
-	.cards section img {
-			max-width: 100%;
-			margin-top: 0 auto;
+
+		.cards section {
+			display: inline-block;
+			width: 300px;
+			height: 400px;
+			margin-top: 20px;
+			
+			
+		}
+
+		.cards section div {
+			
+			margin: 0 auto;
+			
+		}
+
+		.cards section img {
+			
+			height: 250px;
 		}
 
 	footer {
@@ -113,16 +104,7 @@
 
 
 	/* hidden cities */
-	section:nth-of-type(1) {
-		display: none;
-	  }
-	  section:nth-of-type(3) {
-		display: none;
-	  }
-	  section:nth-of-type(4) {
-		display: none;
-	  }
-	  section:nth-of-type(5) {
-		display: none;
-	  }
+	
+	 
+	
 }

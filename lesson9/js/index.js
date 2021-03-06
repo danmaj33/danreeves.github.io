@@ -29,8 +29,8 @@ fetch(requestURL)
         yearFounded.textContent = "Year Founded: " + towns[i].yearFounded; 
         currentPopulation.textContent = "Population: " + towns[i].currentPopulation;
         averageRainfall.textContent = "Average Rainfall: " + towns[i].averageRainfall;
-        image.setAttribute('src', towns[i].photo);
-        image.setAttribute('alt',  towns[i].name);
+        image.setAttribute('src', "img/" + towns[i].photo);
+        image.setAttribute('alt', "Photo of a building in fields in " + towns[i].name);
 
         // .setAttribute = images, .textContent = type
 
@@ -52,8 +52,6 @@ fetch(requestURL)
       
     }
   });
-   
-   
    
 
 

@@ -37,9 +37,23 @@
 			padding: 10px;
 		}
 
-	
-
+	.cards section {
+		display: inline-block;
+		background-color:#fdc90c46;
+		margin: 0 auto;
+		border: 2px solid#FDC70C;
+		font-family: 'Averia Libre', cursive;
+		color: #2361a3;
+	 	width: 100%;
+		border-radius: 10px;
+		margin-top: 20px;
 		
+		}
+
+		.cards section img{
+			width: 50%;
+			margin-top: -170px
+		}
 
 		h2 {text-align:center;
 		
@@ -60,62 +74,67 @@
 			max-width: 100%;
 			margin: 0 auto;
 		}
-	  section{
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-		grid-template-rows: 1fr;
-		max-width: 100%;
-		margin: 0 auto;
-		text-align: center;
-	  }
-
-		.cards section:nth-of-type(1){
+		
+		section:nth-of-type(2) {
 			grid-column: span 2;
 			grid-row: 1;
-
 		}
-		.cards section:nth-of-type(2){
+		section:nth-of-type(6) {
 			grid-column: span 2;
 			grid-row: 2;
-
 		}
-		.cards section:nth-of-type(3){
+		section:nth-of-type(7) {
 			grid-column: span 2;
-			grid-row: 3;	
-
-		}
-		.cards section:nth-child(odd) img {
-			grid-column: 2;
-			
+			grid-row: 3;
 		}
 
-		.cards section div:nth-child(odd){
-			grid-column: 2;
-			
-			
-		}
 
-		.cards section:nth-child(1) div {
-			margin-top: -200px;
-			
-			
-		}
-		.cards section:nth-child(3) div {
-			margin-top: -50px;
-			margin-bottom: 30px;
-			
-			
-		}
-		.cards section img {
-			margin-bottom: -100px;
-			padding: 10px;
-			border-radius: 10px;
+		 .cards section img{
+			 float: left;
+			 margin-right: 10px;
+		 }
+
 		
-	}
+		img {
+			width: 100%; height: auto;padding:0;
+		}
+		
+		.cards section h2, p {
+			display: block;
+			color:#FDC70C;
+			max-width: 250px;
+    		margin-left: 300px;
+			
+		}
 
+		section:nth-of-type(6) h2, section:nth-of-type(6) p {
+			display: block;
+			color:#FDC70C;
+			width: 250px;
+			margin-left: 0px;
+		}
 
+		section:nth-of-type(6) img {
+			float: right;
+			margin-left: 10px;
+		}
+
+		.cards section p{
+			color: #2361a3;
+		}
 		
 
 	/* hidden cities */
-	
-}
+	section:nth-of-type(1) {
+		display: none;
+	  }
+	  section:nth-of-type(3) {
+		display: none;
+	  }
+	  section:nth-of-type(4) {
+		display: none;
+	  }
+	  section:nth-of-type(5) {
+		display: none;
+	  }
+	}
