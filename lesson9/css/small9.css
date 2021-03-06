@@ -24,7 +24,7 @@ p {
 
 
 
-header, footer, nav, .cards {
+header, footer, nav, .cards, article {
     
     max-width: 100%;
     margin: 0 auto;  
