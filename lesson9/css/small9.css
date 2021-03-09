@@ -10,17 +10,16 @@
 
 
 /* Small/Phone View ***************/
-body{
-    width: 100%;
+main, header, article, footer, nav {
+    width: 90%;
+    margin: 0 auto;
 }
 
 p {
 	font-family: 'Averia Libre', cursive;
     text-align: center;
     margin-bottom: -5px;
-    padding: 10px;
-
-    }
+      }
 
 
 
@@ -131,7 +130,6 @@ article {
     border: 2px solid#FDC70C;
     font-family: 'Averia Libre', cursive;
     color: #2361a3;
-    width: 100%;
     border-radius: 10px;
     margin-top: 20px; 
     text-align: center;
@@ -159,14 +157,12 @@ article {
     }
 
     .cards section div{
-        line-height: 5px;
+        
         margin: 0 auto;
         padding: 20px;
     }
 
-    .cards section div p{
-        line-height: 5px;
-    }
+    
 
 footer {
     background-color: #2361a3;

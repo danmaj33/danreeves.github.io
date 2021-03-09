@@ -17,6 +17,11 @@
 	.navigation li:first-child {
 		display: none;
 	}
+
+
+	main, header, article, footer, nav {
+		width: 90%;
+	}
 	article {
 		display: block;
 		background-color:#fdc90c46;
@@ -24,8 +29,7 @@
 		border: 2px solid#FDC70C;
 		font-family: 'Averia Libre', cursive;
 		color: #2361a3;
-	 	width: 100%;
-		border-radius: 10px;
+	 	border-radius: 10px;
 		margin-top: 20px;
 		
 		}
@@ -60,7 +64,8 @@
 			max-width: 100%;
 			margin: 0 auto;
 		}
-	  section{
+	  
+		section {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		grid-template-rows: 1fr;
@@ -69,47 +74,55 @@
 		text-align: center;
 	  }
 
-		.cards section:nth-of-type(1){
-			grid-column: span 2;
-			grid-row: 1;
-
-		}
-		.cards section:nth-of-type(2){
-			grid-column: span 2;
-			grid-row: 2;
-
-		}
 		.cards section:nth-of-type(3){
 			grid-column: span 2;
-			grid-row: 3;	
+			grid-row: 2;
+			
 
 		}
-		.cards section:nth-child(odd) img {
+		.cards section:nth-of-type(1){
+			grid-column: span 2;
+			grid-row: 3;
+
+		}
+
+		.cards section:nth-of-type(1) img {
+        grid-column: 1;
+
+		}
+
+		.cards section:nth-of-type(1) div {
 			grid-column: 2;
+	}
 			
-		}
 
-		.cards section div:nth-child(odd){
-			grid-column: 2;
-			
-			
-		}
 
-		.cards section:nth-child(1) div {
-			margin-top: -200px;
-			
-			
+
+		.cards section:nth-of-type(2){
+			grid-column: span 2;
+			grid-row: 1;	
+
 		}
+		
 		.cards section:nth-child(3) div {
-			margin-top: -50px;
+			
 			margin-bottom: 30px;
+			}
+
+			.cards section:nth-of-type(3) div {
+				grid-column: 1;
+		
+				}
+				.cards section:nth-of-type(3) img{
+					grid-column: 2;
 			
-			
-		}
+					}
 		.cards section img {
 			margin-bottom: -100px;
-			padding: 10px;
+			margin-top: 50px;
 			border-radius: 10px;
+			width: 70%;
+			align-self: baseline;
 		
 	}
 
