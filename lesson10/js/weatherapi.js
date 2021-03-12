@@ -6,7 +6,7 @@ const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&appid
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
-    // console.log(jsObject);
+    console.log(jsObject);
 
     // -id Needs a #
    
@@ -19,8 +19,15 @@ fetch(apiURL)
 
    const lowtemperature = document.querySelector('#lowtemperature');
    lowtemperature.textContent = jsObject.main.temp_min;
+
    const windspeed = document.querySelector('#windspeed');
    windspeed.textContent = jsObject.wind.speed;
+
+   const humidity = document.querySelector('#humidity');
+   humidity.textContent = jsObject.main.humidity + '%';
+
+   const currentcond = document.querySelector('#currentcond');
+   currentcond.textContent = jsObject.weather.description;
 
   const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon + '.png';  // note the concatenation
 
