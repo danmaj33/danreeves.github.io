@@ -11,13 +11,14 @@ fetch(apiURL)
     // -id Needs a #
    
   const temperature = document.querySelector('#temperature');
-//   it wouldn't work because it was weather not forcast
+//   it wouldn't work because it was weather not forcast in the url
    temperature.textContent = jsObject.main.temp; 
 
    const hightemperature = document.querySelector('#hightemperature');
-   hightemperature.textContent.Content = jsObject.main.temp_max;
+   hightemperature.textContent = jsObject.main.temp_max;
 
 const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon + '.png';  // note the concatenation
+
 const desc = jsObject.weather[0].description;  // note how we reference the weather array
 document.getElementById('imagesrc').textContent = imagesrc;  // informational specification only
 document.getElementById('icon').setAttribute('src', imagesrc);  // focus on the setAttribute() method
