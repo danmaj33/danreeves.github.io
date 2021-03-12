@@ -7,9 +7,15 @@ fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
     console.log(jsObject);
+
+    // -id Needs a #
    
-  const temperature = document.querySelector('temperature');
+  const temperature = document.querySelector('#temperature');
+//   it wouldn't work because it was weather not forcast
    temperature.textContent = jsObject.main.temp; 
+
+   const hightemperature = document.querySelector('#hightemperature');
+   hightemperature.textContent.Content = jsObject.main.temp_max;
 
 const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon + '.png';  // note the concatenation
 const desc = jsObject.weather[0].description;  // note how we reference the weather array
