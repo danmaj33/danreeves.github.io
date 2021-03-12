@@ -129,6 +129,15 @@
 		
 	}
 	
+	#daydesc1,
+	#daydesc2,
+	#daydesc3,
+	#daydesc4,
+	#daydesc5{
+		margin-top: -10px;
+		text-transform: capitalize;
+	}
+
 	.contactbox{
 		display: block;
 		margin-top: 30px;
