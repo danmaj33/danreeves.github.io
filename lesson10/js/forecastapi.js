@@ -8,29 +8,26 @@ fetch(apiURL)
 
     // -id Needs a #
    
-  const temperature = document.querySelector('#temperature');
-//   it wouldn't work because it was weather not forcast in the url
-   temperature.textContent = jsObject.main.temp; 
+  const day1temp = document.querySelector('#day1temp');
+  day1temp.textContent = jsObject.list[0].main.temp;
+  const day2temp = document.querySelector('#day2temp');
+  day2temp.textContent = jsObject.list[1].main.temp;
+  const day3temp = document.querySelector('#day3temp');
+  day3temp.textContent = jsObject.list[2].main.temp;
+  const day4temp = document.querySelector('#day4temp');
+  day4temp.textContent = jsObject.list[3].main.temp;
+  const day5temp = document.querySelector('#day5temp');
+  day5temp.textContent = jsObject.list[4].main.temp;
 
-   const hightemperature = document.querySelector('#hightemperature');
-   hightemperature.textContent = jsObject.main.temp_max;
+ 
 
-   const lowtemperature = document.querySelector('#lowtemperature');
-   lowtemperature.textContent = jsObject.main.temp_min;
+  
+  
+  
+   const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.list[0].weather[1].icon + '.png';  // note the concatenation
 
-   const windspeed = document.querySelector('#windspeed');
-   windspeed.textContent = jsObject.wind.speed;
-
-   const humidity = document.querySelector('#humidity');
-   humidity.textContent = jsObject.main.humidity + '%';
-
-   const currentcond = document.querySelector('#currentcond');
-   currentcond.textContent = jsObject.weather[0].description;
-
-  // const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon + '.png';  // note the concatenation
-
-  //  const desc = jsObject.weather[0].description;  // note how we reference the weather array
-  // document.getElementById('imagesrc').textContent = imagesrc;  // informational specification only
-  // document.getElementById('icon').setAttribute('src', imagesrc);  // focus on the setAttribute() method
-  // document.getElementById('icon').setAttribute('alt', desc);
+   const desc = jsObject.list[0].weather[0].description;  // note how we reference the weather array
+  document.getElementById('imagesrc').textContent = imagesrc;  // informational specification only
+  document.getElementById('icon').setAttribute('src', imagesrc);  // focus on the setAttribute() method
+  document.getElementById('icon').setAttribute('alt', desc);
 });
