@@ -4,7 +4,8 @@ const apiURL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&appi
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
-    console.log(jsObject);
+    // console.log(jsObject);
+    // const ForecastDays = jsObject.list.filter((element)=>element.dt_txt.includes('18:00:00'))
 
     // -id Needs a #
    
@@ -19,7 +20,8 @@ fetch(apiURL)
   const day5temp = document.querySelector('#day5temp');
   day5temp.textContent = Math.round(jsObject.list[37].main.temp) + " F"+ "\xB0";
 
-  
+  /////////////////////////////
+
   const imagesrc1 = 'https://openweathermap.org/img/w/' + jsObject.list[0].weather[0].icon + '.png';  // note the concatenation
   const desc1 = jsObject.list[0].weather[0].description;  // note how we reference the weather array
   // document.getElementById('imagesrc1').textContent = imagesrc1;  // informational specification only
@@ -50,6 +52,8 @@ fetch(apiURL)
   document.getElementById('icon5').setAttribute('src', imagesrc5);  // focus on the setAttribute() method
   document.getElementById('icon5').setAttribute('alt', desc5);
 
+  ////////////////////////////////////////////////
+
   const daydesc1 = document.querySelector('#daydesc1');
   daydesc1.textContent = jsObject.list[0].weather[0].description;
 
@@ -65,7 +69,7 @@ fetch(apiURL)
   const daydesc5 = document.querySelector('#daydesc5');
   daydesc5.textContent = jsObject.list[37].weather[0].description;
 
- 
+ //////////////////////////////////////////////
   
   const weekday = new Date(jsObject.list[0].dt_txt);
   const i = weekday.getDay();
@@ -90,6 +94,8 @@ fetch(apiURL)
     }
 
      document.getElementById("sdate1").innerHTML=nextdate;
+
+     /////////////////////////////////
     
      const weekday2 = new Date(jsObject.list[14].dt_txt);
   const i1 = weekday2.getDay();
