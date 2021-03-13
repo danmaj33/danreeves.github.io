@@ -67,6 +67,8 @@
         display: block;
 		max-width: 100%;
     	margin: 0 auto;
+		border-radius: 10px;
+	
    }
 	.stats {
 	font-family: 'Averia Libre', cursive;
@@ -80,6 +82,7 @@
     padding: 3rem;
     box-shadow: 0 0 30px #777;
 	text-transform: capitalize;
+	border-radius: 10px;
 	}
 	.stats h2{
 		margin-top: -40px;
@@ -99,6 +102,8 @@
    display:block;
    float:right;
    margin-top: -25px;
+   border-radius: 10px;
+  
   
 	}
 	
@@ -161,7 +166,10 @@
 		width: 250px;
 		float: right;
 		margin-top: -270px;
+		
+		
 		}
+
 	
         
     .social {
