@@ -105,6 +105,9 @@
 	 
 	 display: block;
 	}
+	h3 {
+		color: #F3903F;
+	}
 
 	.fivedaycontainer{
 		display: flex;
@@ -112,7 +115,7 @@
 	}
 	.fivedaycontainer div{
 		display: block;
-		margin-left: auto;
+		margin:auto;
 	}
 
 	#Day1,

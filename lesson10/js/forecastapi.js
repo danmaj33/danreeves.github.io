@@ -9,24 +9,16 @@ fetch(apiURL)
     // -id Needs a #
    
   const day1temp = document.querySelector('#day1temp');
-  day1temp.textContent = jsObject.list[0].main.temp + " F"+ "\xB0";
+  day1temp.textContent = Math.round(jsObject.list[0].main.temp) + " F"+ "\xB0";
   const day2temp = document.querySelector('#day2temp');
-  day2temp.textContent = jsObject.list[14].main.temp + " F"+ "\xB0";
+  day2temp.textContent = Math.round(jsObject.list[14].main.temp) + " F"+ "\xB0";
   const day3temp = document.querySelector('#day3temp');
-  day3temp.textContent = jsObject.list[21].main.temp + " F"+ "\xB0";
+  day3temp.textContent = Math.round(jsObject.list[21].main.temp) + " F"+ "\xB0";
   const day4temp = document.querySelector('#day4temp');
-  day4temp.textContent = jsObject.list[29].main.temp + " F"+ "\xB0";
+  day4temp.textContent = Math.round(jsObject.list[29].main.temp) + " F"+ "\xB0";
   const day5temp = document.querySelector('#day5temp');
-  day5temp.textContent = jsObject.list[37].main.temp + " F"+ "\xB0";
+  day5temp.textContent = Math.round(jsObject.list[37].main.temp) + " F"+ "\xB0";
 
-  
-  // const date1 = document.querySelector('#date1');
-  // date1.textContent = jsObject.list[0].dt_txt;
-
- 
-
-  
-  
   
   const imagesrc1 = 'https://openweathermap.org/img/w/' + jsObject.list[0].weather[0].icon + '.png';  // note the concatenation
   const desc1 = jsObject.list[0].weather[0].description;  // note how we reference the weather array
@@ -73,6 +65,136 @@ fetch(apiURL)
   const daydesc5 = document.querySelector('#daydesc5');
   daydesc5.textContent = jsObject.list[37].weather[0].description;
 
-
  
+  
+  const weekday = new Date(jsObject.list[0].dt_txt);
+  const i = weekday.getDay();
+  console.log(i)
+  const dayTitle = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+  //let day = 0
+ 
+    if (i===0) {
+     nextdate = "Sunday";
+    } else if (i===1) {
+      nextdate = "Monday";
+    } else if (i===2) {
+      nextdate = "Tuesday";
+    }else if (i===3) {
+      nextdate = "Wednesday";
+    }else if (i===4) {
+      nextdate = "Thursday";
+    }else if (i===5) {
+      nextdate = "Friday";
+    }else if (i===6) {
+      nextdate = "Saturday";
+    }
+
+     document.getElementById("sdate1").innerHTML=nextdate;
+    
+     const weekday2 = new Date(jsObject.list[14].dt_txt);
+  const i1 = weekday2.getDay();
+  // console.log(i)
+  const dayTitle1 = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+  //let day = 0
+ 
+    if (i1===0) {
+     nextdate2 = "Sunday";
+    } else if (i1===1) {
+      nextdate2 = "Monday";
+    } else if (i1===2) {
+      nextdate2 = "Tuesday";
+    }else if (i1===3) {
+      nextdate2 = "Wednesday";
+    }else if (i1===4) {
+      nextdate2 = "Thursday";
+    }else if (i1===5) {
+      nextdate2 = "Friday";
+    }else if (i1===6) {
+      nextdate2 = "Saturday";
+    }
+
+     document.getElementById("sdate2").innerHTML=nextdate2;
+
+
+    //  day 3 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+     const weekday3 = new Date(jsObject.list[21].dt_txt);
+     const i2 = weekday3.getDay();
+    //  console.log(i)
+     const dayTitle2 = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+     //let day = 0
+    
+       if (i2===0) {
+        nextdate3 = "Sunday";
+       } else if (i2===1) {
+         nextdate3 = "Monday";
+       } else if (i2===2) {
+         nextdate3 = "Tuesday";
+       }else if (i2===3) {
+         nextdate3 = "Wednesday";
+       }else if (i2===4) {
+         nextdate3 = "Thursday";
+       }else if (i2===5) {
+         nextdate3 = "Friday";
+       }else if (i2===6) {
+         nextdate3 = "Saturday";
+       }
+   
+        document.getElementById("sdate3").innerHTML= nextdate3;
+
+
+        ///////////////////////////////////////////////////////////
+
+        const weekday4 = new Date(jsObject.list[29].dt_txt);
+        const i3 = weekday4.getDay();
+        // console.log(i)
+        const dayTitle3 = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+        //let day = 0
+       
+          if (i3===0) {
+            nextdate4 = "Sunday";
+          } else if (i3===1) {
+            nextdate4 = "Monday";
+          } else if (i3===2) {
+            nextdate4 = "Tuesday";
+          }else if (i3===3) {
+            nextdate4 = "Wednesday";
+          }else if (i3===4) {
+            nextdate4 = "Thursday";
+          }else if (i3===5) {
+            nextdate4 = "Friday";
+          }else if (i3===6) {
+            nextdate4 = "Saturday";
+          }
+      
+           document.getElementById("sdate4").innerHTML= nextdate4;
+
+           /////////////////////////////////////////////////////////////////
+
+           const weekday5 = new Date(jsObject.list[37].dt_txt);
+           const i4 = weekday5.getDay();
+          //  console.log(i)
+           const dayTitle4 = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+           //let day = 0
+          
+             if (i4===0) {
+              nextdate5 = "Sunday";
+             } else if (i4===1) {
+               nextdate5 = "Monday";
+             } else if (i4===2) {
+               nextdate5 = "Tuesday";
+             }else if (i4===3) {
+               nextdate5 = "Wednesday";
+             }else if (i4===4) {
+               nextdate5 = "Thursday";
+             }else if (i4===5) {
+               nextdate5 = "Friday";
+             }else if (i4===6) {
+               nextdate5 = "Saturday";
+             }
+         
+              document.getElementById("sdate5").innerHTML=nextdate5;
+                      
+  
 });
+
