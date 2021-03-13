@@ -32,7 +32,8 @@
 header, footer, nav {
     
     max-width: 100%;
-    margin: 0 auto;  
+    margin: 0 auto; 
+    box-shadow: 2px 2px 10px black; 
 }
 
 header {
@@ -124,6 +125,7 @@ nav ul li.active a {
     color: #2361a3;
     max-width: 100%;
     border-radius: 10px;
+    box-shadow: 2px 2px 10px black;
     
     }
     .herodiv img {
