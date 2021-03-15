@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Averia+Libre:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Averia+Libre:wght@700&family=Rock+Salt&display=swap');
+
+/* Media Query for medium+ views */
+@media only screen and (min-width: 32.5em) {
+	.navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; /* change state in small view */
+		flex: 1 1 auto;
+	}
+	.navigation a {
+		text-align: center;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
+	
+	.herodiv img {
+		display: block;
+		max-width: 100%;
+    	margin: 0 auto;
+	}
+
+    
+	.stats {
+		font-family: 'Averia Libre', cursive;
+		position: absolute;
+		top: 15px;
+		left: 15px;
+		height: 175px;
+		background-color: #1c263F99;
+		color: white;
+		border: 1px solid black;
+		padding: 3rem;
+		box-shadow: 0 0 30px #777;
+		}
+		.stats h2{
+			margin-top: -40px;
+		}
+		.stats h2, .stats p{
+			margin-left: -30px;
+		}
+		
+		.stats div{
+			text-align: center;
+			margin-right: -20px;
+			margin-top: -35px;
+			margin-left: -30px;
+		}
+		/* Gallery Page>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+/* Gallery Page>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+/* Gallery Page>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.gallery{
+    display:grid;
+    grid-template-columns: 1fr 1fr;  
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+	grid-gap: 15px;
+	grid-auto-flow: dense;
+    justify-content: center;
+    background-color:#fdc90c46;
+    margin: 0 auto;
+    border: 2px solid#FDC70C;
+    padding: 15px;
+    font-family: 'Averia Libre', cursive;
+    color: #2361a3;
+    max-width: 960px;
+    border-radius: 10px;
+}
+.gallery img {
+height: 100%;
+object-fit: cover;
+
+}
+.gallerimg1 {
+grid-column: 1/2;
+grid-row: 1/2;
+}
+.gallerimg2 {
+	grid-column: 2/3;
+	grid-row: 1/2;
+	}
+.gallerimg3 {
+		grid-column: 1/2;
+		grid-row: 2/3;
+		}
+
+figcaption{
+			color: #F3903F;
+			font-family: 'Averia Libre', cursive; 
+			}
+		
+	}
