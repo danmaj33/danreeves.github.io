@@ -5,6 +5,8 @@
 /* Media Query for large+ views */
 @media only screen and (min-width: 60em) {
 
+	
+
 	header, footer, nav {
 		max-width: 1000px;
     	margin: 0 auto;
