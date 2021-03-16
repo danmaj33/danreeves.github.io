@@ -24,7 +24,7 @@
 function windChill(T, S) {
    
    if (T > 50 || S < 3) {
-      let rwC=("  N/A ");
+      let rwC=(" N/A ");
       return rwC;
       
       
