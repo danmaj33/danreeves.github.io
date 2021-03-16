@@ -1,7 +1,7 @@
 // JavaScript source code
 
 // assign the api a constant variable
-const apiURL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=4c4183953647e4575d04149487faf8df&units=imperial";
+const apiURL = "https://api.openweathermap.org/data/2.5/forecast?id=5607916&appid=4c4183953647e4575d04149487faf8df&units=imperial";
 // use the fetch ()
 fetch(apiURL)
     .then((response) => response.json())

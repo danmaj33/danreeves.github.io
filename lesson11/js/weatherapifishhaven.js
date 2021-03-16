@@ -1,7 +1,7 @@
 
 
 // assign the api a constant variable
-const sapiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=4c4183953647e4575d04149487faf8df&units=imperial";
+const sapiURL = "https://api.openweathermap.org/data/2.5/weather?id=5585010&appid=4c4183953647e4575d04149487faf8df&units=imperial";
 // use the fetch ()
 fetch(sapiURL)
   .then((response) => response.json())
