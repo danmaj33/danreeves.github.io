@@ -7,7 +7,11 @@
  * Output: output the value returned by windChill to the div for the user to see
  */
 
-    
+  function timeFunction () {
+     setTimeout(function(){doInputOutput();},2000);
+  }  
+
+
  
  function doInputOutput() {
     let tempF = parseFloat(document.getElementById('hightemperature').innerHTML); 

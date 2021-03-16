@@ -18,7 +18,7 @@
 
 </head>
 
-<body onload="satbanner()"; onload="doInputOutput()">
+<body onload="satbanner(); timeFunction ()">
 	
 	<div id="bannertext" class="">
 		
@@ -54,7 +54,7 @@
 							</picture>
 							  <section class="stats">
 								<h2>Today's Weather</h2>
-
+								<script src="js/windchill.js"></script>
 								<p>Current Condition: <span id="currentcond"></span></p>
 								<p>Current Temperature: <span id="temperature"></span>F&deg;</p>
 								<p>High: <span id="hightemperature"></span>F&deg;</p>
@@ -132,10 +132,10 @@
 				<img class="map" src="images/prestonidahomap.png" alt="prestonmap">
 		</div>
 			
-		<script src="/lesson10/js/lessonpreston.js"></script>
-		<script src="/lesson10/js/weatherapipreston.js"></script>
-		<script src="/lesson10/js/forecastapipreston.js"></script>
-		<script src="/lesson10/js/windchill.js"></script>
+		<script src="js/lessonpreston.js"></script>
+		<script src="js/weatherapipreston.js"></script>
+		<script src="js/forecastapipreston.js"></script>
+		
 		
     
 </main>
