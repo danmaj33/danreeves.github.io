@@ -29,10 +29,22 @@ fetch(sapiURL)
    const currentcond = document.querySelector('#currentcond');
    currentcond.textContent = jsObject.weather[0].description;
 
-  // const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon + ".png";  // note the concatenation
 
-  //  const desc = jsObject.weather[0].description;  // note how we reference the weather array
-  // document.getElementById('imagesrc').textContent = imagesrc;  // informational specification only
-  // document.getElementById('icon').setAttribute('src', imagesrc);  // focus on the setAttribute() method
-  // document.getElementById('icon').setAttribute('alt', desc);
+   let temp = jsObject.main.temp;
+   let speed = jsObject.wind.speed;
+
+ document.querySelector("#outputDiv").textContent = "N/A";
+
+ function windchill(T,S) {
+     let f = 35.74 + 0.6215*T-35.75*(Math.pow(S, 0.16)) + 0.4275*T*(Math.pow(S, 0.16));
+     return f;
+ }
+ 
+ 
+ if (temp <=50 && speed >=3) {
+     document.querySelector('#outputDiv').innerHTML = Math.round(windchill(temp,speed))+"&deg;"+" F";
+ }
+
+ 
+
 });
