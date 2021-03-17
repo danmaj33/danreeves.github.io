@@ -29,7 +29,26 @@ fetch(sapiURL)
    const currentcond = document.querySelector('#currentcond');
    currentcond.textContent = jsObject.weather[0].description;
 
-  
+
+  //  now we have to call the windchill
+
+   let temp = jsObject.main.temp;
+   let speed = jsObject.wind.speed;
+
+ document.querySelector("#outputDiv").textContent = "N/A";
+
+ function windchill(T,S) {
+     let f = 35.74 + 0.6215*T-35.75*(Math.pow(S, 0.16)) + 0.4275*T*(Math.pow(S, 0.16));
+     return f;
+ }
+ 
+ 
+ if (temp <=50 && speed >=3) {
+     document.querySelector('#outputDiv').innerHTML = Math.round(windchill(temp,speed))+"&deg;"+" F";
+ }
+
+ 
+
 });
 
 
