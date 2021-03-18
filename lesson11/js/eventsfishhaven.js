@@ -11,7 +11,7 @@ fetch(requestURL)
 
         // V this is how you select specifically V          || = or     this allows you to parse through "towns"
 
-      if(towns[i].name == "Preston"){
+      if(towns[i].name == "Fish Haven"){
         //   V this creates each element V
 
         let card = document.createElement('section');
@@ -44,6 +44,3 @@ fetch(requestURL)
     }
   });
    
-   
-   
-

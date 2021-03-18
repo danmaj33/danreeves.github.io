@@ -11,7 +11,7 @@
 		max-width: 1000px;
     	margin: 0 auto;
 	}
-	.contentbox , .fiveday, .articlebox, .herobox, .contactbox, .galleryhrd {
+	.contentbox , .fiveday, .articlebox, .herobox, .contactbox, .galleryhrd, .events {
 		display: block;
 		background-color:#fdc90c46;
 		margin: 0 auto;
@@ -108,6 +108,9 @@
   
   
 	}
+	.events {
+        margin-top: 20px;
+    }
 	
 	.fiveday{
 	 

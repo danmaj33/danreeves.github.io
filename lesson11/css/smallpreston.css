@@ -116,7 +116,7 @@ nav ul li.active a {
 	display: block;
 }
 
-.contentbox , .fiveday, .articlebox, .herobox, .contactbox, .galleryhrd {
+.contentbox , .fiveday, .articlebox, .herobox, .contactbox, .galleryhrd, .events {
     display: block;
     background-color:#fdc90c46;
     margin: 0 auto;
@@ -154,6 +154,10 @@ nav ul li.active a {
     
      .social img {
                width: 35px;
+    }
+
+    .events {
+        margin-top: 30px;
     }
 
 footer {
