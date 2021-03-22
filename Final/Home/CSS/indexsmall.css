@@ -1,0 +1,71 @@
+
+
+/*      Yellow      #FFF33B
+		Red         #E93E3A
+	Orange      	#F3903F
+	Yellow Orange	#FDC70C
+	Blue	        #2361a3
+    */
+
+
+/* Small/Phone View ***************/
+
+
+nav {
+	
+   
+   
+    margin-top: -16px;
+}
+.navigation {
+	list-style: none;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+    display: none;
+    font-family: 'Averia Libre', cursive;
+    text-shadow:-1px -1px 0 rgb(0, 0, 0);
+    
+}
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	font-weight: 700;
+}
+.navigation a:hover {
+	color: #000000;
+  
+    border-style: solid;
+    border-width: 1px;
+    
+    
+}
+nav ul li.active a {
+   
+    border-style: solid;
+    border-width: 1px;
+   
+   
+}
+
+/* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
+  <ul class="navigation responsive">
+*/
+.responsive li {
+	display: block;
+}
+
+
+
+
+
+
+	/* hidden cities */
+
+  

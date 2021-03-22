@@ -1,0 +1,36 @@
+
+
+/* Media Query for large+ views */
+@media only screen and (min-width: 960px) {
+
+	#logo{
+		float: left;
+		position: relative;
+	}
+	
+	
+	nav {
+		background-color:white;
+		border-radius: 10px;
+		margin-top: -16px;
+	}
+
+	.navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; /* change state in small view */
+		flex: 1 1 auto;
+	}
+	.navigation a {
+		text-align: center;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
+	
+	
+	
+	 
+	
+}
