@@ -18,8 +18,11 @@
 
 <header>
   <img id="logo" src="images/southogdenlogo.png" alt="South Ogden CIty Chamber of Commerce Logo">
-  <nav>
+ 
+</header>
+<nav>
 	<ul class="navigation">
+       
 		<li><a class="ham" href="#">&#x2630;Menu</a></li>
 		<li class="active"><a href="#">HOME</a></li>
 		<li><a href="#">SOUTH OGDEN</a></li>
@@ -28,28 +31,49 @@
 		<li><a href="#">CONTACT</a></li>
 	</ul>
 </nav>
-</header>
 
-<article>
-</p>
-</article>
 <main>
 
-  
+<div id="heroimage">
+    <picture>
+    <source srcset="images/heromediumpreston.jpg" media="(min-width:520px) and (max-width:959px)">
+      <source srcset="images/.jpg" media="(min-width:960px)">
+    <img src="images/herosmallpreston.jpg" alt="sunset and lake">
+</picture>
 </div>
+<div id="weather"></div>
+<div id="calltoaction"></div>
+<div id="threeads"></div>
+
+
+
+    
+
+
+
+
+  
+
 
 </main>
 <footer>
 	
 <span class="footer">
-	 &copy; <span id='currentyear'></span> | South Ogden City Chamber of Commerce 
+	 &copy; <span id='currentyear'></span> <br>
+     | South Ogden City Chamber of Commerce| <br>
 		<span id='currentdate'></span>
+</span>
+<span class="social">
+    <img id="facebook" src="images/facebook.png" alt="facebook home">
+    <img id="instagram" src="images/instagram.png" alt="instagram home">
+    <img id="twitter" src="images/twitter.png" alt="twitter home">
 </span>
 </footer>
 
 <script src="js/lazyload.js"></script>  
-<script src='js/date.js'></script>
-<script src ="js/homepage.js"></script>  
+<script src='javascript/date.js'></script>
+<script src="javascript/dateday.js"></script>
+<!-- <script src ="js/homepage.js"></script>    -->
 <script src="javascript/navigation.js"></script>
 </body>
 </html>

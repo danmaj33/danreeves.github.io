@@ -3,24 +3,31 @@
 /* Media Query for large+ views */
 @media only screen and (min-width: 960px) {
 
+	
+
 	#logo{
 		float: left;
 		position: relative;
+		max-width: 200px;
+		margin-right: 40px;
 	}
 	
 	
 	nav {
 		background-color:white;
 		border-radius: 10px;
-		margin-top: -16px;
+		margin-top: 0px;
 	}
 
 	.navigation {
 		display: flex;
+		
+		
 	}
 	.navigation li {
 		display: block; /* change state in small view */
 		flex: 1 1 auto;
+		margin-top: 80px;
 	}
 	.navigation a {
 		text-align: center;
@@ -29,7 +36,10 @@
 		display: none;
 	}
 	
-	
+	header, footer, main, body {
+		max-width: 1000px;
+		margin: auto;
+	}
 	
 	 
 	
