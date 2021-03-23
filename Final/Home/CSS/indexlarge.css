@@ -9,7 +9,7 @@
 		float: left;
 		position: relative;
 		max-width: 200px;
-		margin-right: 40px;
+		margin-right: 20px;
 	}
 	
 	
@@ -35,12 +35,32 @@
 	.navigation li:first-child {
 		display: none;
 	}
+
+	#heroimage{
+		margin: 0 auto;
+	}
+
+	#heroimage picture img {
+		margin: 10px;
+	}
 	
 	header, footer, main, body {
 		max-width: 1000px;
 		margin: auto;
 	}
+
+	#purpose {
+display: block;
+	}
 	
-	 
-	
+	#threeads{
+		display: block;
+	}
+
+	#threeads img {
+		margin: 0 auto;
+	}
+	footer {
+		display: block;
+	}
 }

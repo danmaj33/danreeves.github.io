@@ -1,4 +1,7 @@
-
+@font-face{
+    font-family: cache;
+    src: url();
+}
 
 /*      Yellow      #FFF33B
 		Red         #E93E3A
@@ -24,9 +27,7 @@ nav {
 .navigation li {
     display: none;
     font-family: Arial, Helvetica, sans-serif;
-    
 
-    
 }
 .navigation a {
 	display: block;
@@ -59,7 +60,7 @@ nav ul li.active a {
 
 
 
-    
+
 }
 /* footer and below */
 .social img {
