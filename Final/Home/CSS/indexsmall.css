@@ -1,13 +1,9 @@
-@font-face{
-    font-family: cache;
-    src: url();
-}
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
 
-/*      Yellow      #FFF33B
-		Red         #E93E3A
-	Orange      	#F3903F
-	Yellow Orange	#FDC70C
-	Blue	        #2361a3
+/*      Purple      #662D91
+		Tan         #F9DC94
+	    Blue     	#262262
+	
     */
 
 
@@ -26,7 +22,8 @@ nav {
 }
 .navigation li {
     display: none;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 2px;
 
 }
 .navigation a {
@@ -34,19 +31,19 @@ nav {
 	padding: 0.75rem;
 	text-align: left;
 	text-decoration: none;
+    color: #262262;
 	
 	font-weight: 700;
 }
 .navigation a:hover {
-	color: #000000;
-    border-style: solid;
-    border-width: 1px;
+    box-shadow: 5px 10px 30px 1px #888888;
+    border-radius: 20px;
     
     
 }
 nav ul li.active a {
-    border-style: solid;
-    border-width: 1px;
+    box-shadow: 5px 10px 30px 1px #888888;
+    border-radius: 20px;
    
    
 }
@@ -56,10 +53,14 @@ nav ul li.active a {
 */
 .responsive li {
 	display: block;
+}
 
 
-
-
+h2{
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #262262;
 
 }
 /* footer and below */
