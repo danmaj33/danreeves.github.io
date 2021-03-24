@@ -61,17 +61,56 @@ h2{
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #262262;
+    box-shadow: 5px 10px 30px 1px #888888;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
 
+}
+
+p {
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #262262;  
+}
+
+#heroimage picture img {
+    margin: 10px;
+    box-shadow: 5px 10px 30px 1px #888888;
+    border-radius: 20px;
+}
+
+#purpose {
+    text-align: center;
+}
+
+#calltoaction {
+background-color: #662D91;
+border-radius: 20px;
+background-image: url();
+
+}
+
+#calltoaction h2 {
+    color: white;
 }
 /* footer and below */
 .social img {
     height: 30px;
     float: right;
     margin: 5px;
+    box-shadow: 5px 10px 30px 1px #888888;
     }
 
 footer {
     text-align: center;
+    margin: 20px;
+   font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #262262;
+    padding: 30px;
 }
 
 
