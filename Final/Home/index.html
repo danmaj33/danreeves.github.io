@@ -56,6 +56,36 @@ Current Condition
 Humidity
 Weather Alert
 Threeday forcast -->
+<section class="stats">
+    <h2>Today's Weather</h2>
+    <p>Current Condition: <span id="currentcond"></span></p>
+    <p>Current Temperature: <span id="temperature"></span>F&deg;</p>
+    <p>Humidity: <span id="humidity"></span></p>
+    <p>Weather Alert: <span id="weatheralert"></span></p>
+    </section>
+
+   <div class="fiveday">
+	<div>
+		<h3 id="fivedayheader">3 Day Forcast</h3></div>
+		<br>
+		<br>
+			<div class="fivedaycontainer">
+				<div id="divday1"><p id="sdate1"></p><h4 id="day1temp">&deg;</h4>
+					<img src="#" alt="" id="icon1">
+					<p id="daydesc1"></p></div>
+
+				<div id="divday2"><p  id="sdate2">Tuesday</p><h4 id="day2temp">&deg;</h4>
+					<img src="#" alt="" id="icon2">
+					<p id="daydesc2"></p></div>
+
+			<div id="divday3"><p id="sdate3">Wednesday</p><h4 id="day3temp">&deg;</h4>
+				<img src="#" alt="" id="icon3">
+				<p id="daydesc3"></p></div>
+
+		
+	</div>
+
+</div>
 </div>
 
 <div>
@@ -65,7 +95,9 @@ Threeday forcast -->
 
 
 <div id="calltoaction">
-    <h2>Join the South Ogden Chamber of Commerce Today</h2>
+   <a href="#"><h3>Join the South Ogden Chamber of Commerce Today</h3><br></a> 
+
+   
     
 </div>
 <div id="threeads">
@@ -99,5 +131,7 @@ Threeday forcast -->
 <script src="javascript/dateday.js"></script>
 <!-- <script src ="js/homepage.js"></script>    -->
 <script src="javascript/navigation.js"></script>
+<script src="javascript/weatherapisouthogden.js"></script>
+		<script src="javascript/forecastapisouthogden.js"></script>
 </body>
 </html>

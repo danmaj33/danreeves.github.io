@@ -74,11 +74,16 @@ p {
     text-transform: uppercase;
     color: #262262;  
 }
+#heroimage{
+    margin: 0 auto;
+}
 
 #heroimage picture img {
     margin: 10px;
     box-shadow: 5px 10px 30px 1px #888888;
     border-radius: 20px;
+    max-width: 100%;
+    margin: 0 auto;
 }
 
 #purpose {
@@ -88,12 +93,25 @@ p {
 #calltoaction {
 background-color: #662D91;
 border-radius: 20px;
-background-image: url();
+background-image: url(https://github.com/danmaj33/danreeves.github.io/blob/master/Final/Home/images/calltoaction.jpg?raw=true);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+text-align: center;
+text-decoration: none;
 
 }
 
-#calltoaction h2 {
+
+#calltoaction h3 {
     color: white;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+   
 }
 /* footer and below */
 .social img {
