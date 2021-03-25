@@ -1,7 +1,7 @@
 // JavaScript source code
 
 // assign the api a constant variable
-const apiURL = "https://api.openweathermap.org/data/2.5/onecall?lat=41.19235331135084&lon=-111.96818061390135&exclude=&appid=4c4183953647e4575d04149487faf8df&units=imperial";
+const apiURL = "https://api.openweathermap.org/data/2.5/onecall?lat=41.19235331135084&lon=-111.96818061390135&exclude=hourly,minutely&appid=4c4183953647e4575d04149487faf8df&units=imperial";
 // use the fetch ()
 fetch(apiURL)
     .then((response) => response.json())
@@ -54,9 +54,9 @@ fetch(apiURL)
         daydesc3.textContent = jsObject.daily[2].weather[0].description;
 
      
+// multiply the time stamp by 1000 to make it readable
 
-
-        const weekday = new Date(jsObject.daily[0].dt);
+        const weekday = new Date(jsObject.daily[1].dt*1000);
         const i = weekday.getDay();
         console.log(i)
         const dayTitle = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
@@ -80,7 +80,7 @@ fetch(apiURL)
 
         document.getElementById("sdate1").innerHTML = nextdate;
 
-        const weekday2 = new Date(jsObject.daily[1].dt);
+        const weekday2 = new Date(jsObject.daily[2].dt*1000);
         const i1 = weekday2.getDay();
         // console.log(i)
         const dayTitle1 = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
@@ -107,7 +107,7 @@ fetch(apiURL)
 
         //  day 3 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
-        const weekday3 = new Date(jsObject.daily[2].dt);
+        const weekday3 = new Date(jsObject.daily[3].dt*1000);
         const i2 = weekday3.getDay();
         //  console.log(i)
         const dayTitle2 = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];

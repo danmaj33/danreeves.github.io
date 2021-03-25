@@ -1,9 +1,9 @@
 
 
 // assign the api a constant variable
-const sapiURL = "https://api.openweathermap.org/data/2.5/onecall?lat=41.19235331135084&lon=-111.96818061390135&exclude=&appid=4c4183953647e4575d04149487faf8df&units=imperial";
+const sapiURL = "https://api.openweathermap.org/data/2.5/onecall?lat=41.191288718015706&lon=-111.96805186667922&exclude=hourly,minutely&appid=4c4183953647e4575d04149487faf8df&units=imperial";
 
-
+// 41.191288718015706, -111.96805186667922
 // use the fetch ()
 fetch(sapiURL)
   .then((response) => response.json())
@@ -22,8 +22,8 @@ fetch(sapiURL)
    const currentcond = document.querySelector('#currentcond');
    currentcond.textContent = jsObject.current.weather[0].description;
 
-   const weatheralert = document.querySelector('#currentalert');
-   weatheralert.textContent = jsObject.alert.event;
+   const weatheralert = document.querySelector('#weatheralert');
+   weatheralert.textContent = jsObject.alerts[0].event +","+ jsObject.alerts[1].event;
 
 
    
