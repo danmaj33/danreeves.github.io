@@ -90,6 +90,14 @@ p {
     text-align: center;
 }
 
+.upcomingevents{
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #262262; 
+}
+
 #calltoaction {
 background-color: #662D91;
 border-radius: 20px;
