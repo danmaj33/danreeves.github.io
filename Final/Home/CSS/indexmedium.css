@@ -4,10 +4,13 @@
 @media only screen and (min-width: 32.5em) and (max-width: 959px) {
 	.navigation {
 		display: flex;
+		margin-left: 60px;
+		
 	}
 	.navigation li {
 		display: block; /* change state in small view */
 		flex: 1 1 auto;
+		
 	}
 	.navigation a {
 		text-align: center;
@@ -22,6 +25,8 @@
 	}
 	#heroimage{
 		margin: 0 auto;
+		display: block;
+		max-width: 90%;
 	}
 	#heroimage picture img {
 		margin: 10px;

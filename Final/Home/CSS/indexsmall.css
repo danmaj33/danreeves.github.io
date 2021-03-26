@@ -8,8 +8,15 @@
 
 
 /* Small/Phone View ***************/
+h1,h2,h3,h4,h5,h6,p{
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 2px;  
+}
 
-
+ main, header, footer {
+     margin: 0 auto;
+     max-width: 90%
+ }
 nav {
 	 margin-top: 0px;
 }
@@ -74,8 +81,17 @@ p {
     text-transform: uppercase;
     color: #262262;  
 }
+
+#logo{
+    margin: 0 auto;
+    display: block;
+    max-width: 150px;
+
+}
 #heroimage{
     margin: 0 auto;
+    display: block;
+    max-width: 400px;
 }
 
 #heroimage picture img {
@@ -88,6 +104,7 @@ p {
 
 #purpose {
     text-align: center;
+    line-height: 30px;
 }
 
 .upcomingevents{
@@ -96,6 +113,7 @@ p {
     text-transform: uppercase;
     text-align: center;
     color: #262262; 
+    margin-top: 30px;
 }
 
 #calltoaction {
@@ -107,6 +125,9 @@ background-repeat: no-repeat;
 background-size: cover;
 text-align: center;
 text-decoration: none;
+margin-bottom: 40px;
+margin-top: 40px;
+box-shadow: 5px 10px 30px 1px #888888;
 
 }
 
@@ -120,13 +141,53 @@ text-decoration: none;
     padding: 10px;
     border-radius: 20px;
    
+   
+}
+
+.threeday, .stats{
+    margin: 0 auto;
+    text-align: center;
+    line-height: -3px;
+}
+
+#divday1, #divday2, #divday3 {
+    margin-top: 10px;
+    border: black;
+    border-style: solid;
+    border-width: 1px 0px;
+   
+}
+
+#divday1 img, #divday2 img, #divday3 img {
+   margin: -10px;
+   width: 75px;
+}
+
+#threeads{
+    flex-wrap: wrap;
+    margin: 0 auto;
+    display: flex;
+}
+
+#threeads img {
+    align-self: center;
+    margin: auto;
+}
+
+#contact{
+    text-align: center;
+    margin: 0 auto;
 }
 /* footer and below */
+.social{
+    
+    margin: auto;
+}
 .social img {
     height: 30px;
-    float: right;
     margin: 5px;
     box-shadow: 5px 10px 30px 1px #888888;
+    margin: auto;
     }
 
 footer {
@@ -137,6 +198,7 @@ footer {
     text-transform: uppercase;
     color: #262262;
     padding: 30px;
+    margin: auto;
 }
 
 
