@@ -16,7 +16,7 @@
 	nav {
 		background-color:white;
 		border-radius: 10px;
-		margin-top: 0px;
+		margin: 0 auto;
 	}
 
 	.navigation {
@@ -51,8 +51,8 @@
 	}
 	
 	header, footer, main{
-		max-width: 1000px;
-		margin: auto;
+		max-width: 900px;
+		margin: 0 auto;
 	}
 	.threeday {
 		text-align: center;

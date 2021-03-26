@@ -15,6 +15,13 @@
 	</head>
 
 <body>
+    <div class="weatheralert">
+    <button type="button" class="collapsible">&#x24E7;</button>
+    <div class="content">
+        <p>Weather Alert:<span id="weatheralert"></span></p>
+    </div>
+     </div>
+                  
 
 <header>
   <img id="logo" src="images/southogdenlogo.png" alt="South Ogden CIty Chamber of Commerce Logo">
@@ -62,7 +69,7 @@ Threeday forcast -->
                         <p>Current Condition: <span id="currentcond"></span></p>
                         <p>Current Temperature: <span id="temperature"></span>F&deg;</p>
                         <p>Humidity: <span id="humidity"></span></p>
-                        <p>Weather Alert: <span id="weatheralert"></span></p>
+                        
             </section>
 
     <div class="threeday">
@@ -70,15 +77,15 @@ Threeday forcast -->
 		    <h3 id="threedayheader">3 Day Forcast</h3>
 		
 			<div class="threedaycontainer">
-				<div id="divday1"><p id="sdate1"></p><h4 id="day1temp">&deg;</h4>
+				<div id="divday1"><h3 id="sdate1"></h3><h4 id="day1temp">&deg;</h4>
 					<img src="#" alt="" id="icon1">
 					<p id="daydesc1"></p></div>
 
-				<div id="divday2"><p  id="sdate2">Tuesday</p><h4 id="day2temp">&deg;</h4>
+				<div id="divday2"><h3  id="sdate2">Tuesday</h3><h4 id="day2temp">&deg;</h4>
 					<img src="#" alt="" id="icon2">
 					<p id="daydesc2"></p></div>
 
-			<div id="divday3"><p id="sdate3">Wednesday</p><h4 id="day3temp">&deg;</h4>
+			<div id="divday3"><h3 id="sdate3">Wednesday</h3><h4 id="day3temp">&deg;</h4>
 				<img src="#" alt="" id="icon3">
 				<p id="daydesc3"></p></div>
 
@@ -125,11 +132,11 @@ Please check back for more information to come based on Covid-19 guidelines clos
 <p>Phone Number: 801.555.6213</p>
 <p>info@southogdenchamber.org</p>
 </div>
-<span class="social">
-    <a href="facebook.com"><img id="facebook" src="images/facebook.png" alt="facebook home"></a>
-    <a href="instagram.com"><img id="instagram" src="images/instagram.png" alt="instagram home"></a>
-    <a href="twitter.com"><img id="twitter" src="images/twitter.png" alt="twitter home"></a>
-</span>
+<div class="social">
+    <a href="https://www.facebook.com"><img id="facebook" src="images/facebook.png" alt="facebook home"></a>
+    <a href="https://www.instagram.com"><img id="instagram" src="images/instagram.png" alt="instagram home"></a>
+    <a href="https://www.twitter.com"><img id="twitter" src="images/twitter.png" alt="twitter home"></a>
+</div>
 
 </main>
 <footer>
@@ -148,5 +155,6 @@ Please check back for more information to come based on Covid-19 guidelines clos
 <script src="javascript/navigation.js"></script>
 <script src="javascript/weatherapisouthogden.js"></script>
 		<script src="javascript/forecastapisouthogden.js"></script>
+        <script src="javascript/collapsiblebutton.js"></script>
 </body>
 </html>
