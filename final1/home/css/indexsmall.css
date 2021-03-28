@@ -160,7 +160,7 @@ p {
 #calltoaction {
 background-color: #662D91;
 border-radius: 20px;
-background-image: url(https://github.com/danmaj33/danreeves.github.io/blob/master/Final/Home/images/calltoaction.jpg?raw=true);
+background-image: url(https://github.com/danmaj33/danreeves.github.io/blob/master/final1/home/images/calltoaction.jpg?raw=true);
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
@@ -172,8 +172,12 @@ box-shadow: 5px 10px 30px 1px #888888;
 
 }
 
+#calltoaction a {
+    text-decoration: none;
+}
 
-#calltoaction h3 {
+
+#calltoaction h3, #calltoaction p {
     color: white;
     font-family: 'Barlow Condensed', sans-serif;
     letter-spacing: 2px;
