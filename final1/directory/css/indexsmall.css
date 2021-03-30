@@ -143,102 +143,19 @@ p {
     margin: 0 auto;
 }
 
-#purpose {
-    text-align: center;
-    line-height: 30px;
-}
-
-.upcomingevents{
-    font-family: 'Barlow Condensed', sans-serif;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    text-align: center;
-    color: #262262; 
-    margin-top: 30px;
-}
-
-#calltoaction {
-background-color: #662D91;
-border-radius: 20px;
-background-image: url(https://github.com/danmaj33/danreeves.github.io/blob/master/final1/home/images/calltoaction.jpg?raw=true);
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-text-align: center;
-text-decoration: none;
-margin-bottom: 40px;
-margin-top: 40px;
-box-shadow: 5px 10px 30px 1px #888888;
-
-}
-
-#calltoaction a {
-    text-decoration: none;
-}
-
-
-#calltoaction h3, #calltoaction p {
-    color: white;
-    font-family: 'Barlow Condensed', sans-serif;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    text-align: center;
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
     padding: 10px;
-    border-radius: 20px;
-   
-   
-}
-
-.threeday, .stats{
-    margin: 0 auto;
-    text-align: center;
-   
-}
-
-#divday1, #divday2, #divday3 {
-    margin-top: 10px;
-    border: black;
-    border-style: solid;
-    border-width: 1px 0px;
-   
-}
-
-#divday1 img, #divday2 img, #divday3 img {
-   margin: -10px;
-   width: 75px;
-}
-
-#threeads{
-    flex-wrap: wrap;
-    margin: 0 auto;
-    display: flex;
-}
-
-#threeads img {
-    align-self: center;
-    margin: auto;
-}
-
-#contact{
-    text-align: center;
-    margin: 0 auto;
-}
-/* footer and below */
-.social{
-    
-    margin: auto;
-    display: flex;
-}
-.social a{
-    display: inline;
-    margin: auto;
-}
-.social img {
-    height: 30px;
-    margin: 5px;
-    box-shadow: 5px 10px 30px 1px #888888;
-    margin: auto;
-    }
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
 footer {
     text-align: center;

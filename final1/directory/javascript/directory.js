@@ -1,4 +1,4 @@
-const requestURL = '';
+const requestURL = 'https://github.com/danmaj33/danreeves.github.io/blob/cca6b15ef4ba54f3539feb0aa95b335182b64e1e/final1/directory/javascript/directory.json';
 
 
 
@@ -9,11 +9,11 @@ fetch(requestURL)
   .then(function (jsonObject) {
     //   console.table(jsonObject);
       
-      const directory = jsonObject['directory'];
+      const businesses = jsonObject['businesses'];
 
 
 // For loop for cycling through each profile
-    for (let i = 0; i < directory.length; i++ ) {
+    for (let i = 0; i < businesses.length; i++ ) {
 
           //   Creating the element is here VVVVVVVVVVVVVVVV
         let card = document.createElement('div.row');
@@ -26,11 +26,11 @@ fetch(requestURL)
         
 //   Output is here VVVVVVVVVVVVVVVV
 
-        h2.textContent = directory[i].name;
-        phone.textContent = 'Phone: '+ directory[i].phone;
-        address.textContent = 'Address: ' + directory[i].address;
-        image.setAttribute('src', directory[i].imageurl);
-        image.setAttribute('alt', directory[i].name + 'Logo')
+        h2.textContent = businesses[i].name;
+        phone.textContent = 'Phone: '+ businesses[i].phone;
+        address.textContent = 'Address: ' + businesses[i].address;
+        image.setAttribute('src', businesses[i].imageurl);
+        image.setAttribute('alt', businesses[i].name + 'Logo')
 
         
        
