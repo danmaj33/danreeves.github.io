@@ -16,10 +16,11 @@ fetch(requestURL)
     for (let i = 0; i < directory.length; i++ ) {
 
           //   Creating the element is here VVVVVVVVVVVVVVVV
-        let card = document.createElement('section');
-            let h2 = document.createElement('h2');
-                let phone = document.createElement('p');
-                let address= document.createElement('p');
+        let card = document.createElement('div.row');
+        let column = document.createElement('div.column');
+        let h2 = document.createElement('h2');
+        let phone = document.createElement('p');
+        let address= document.createElement('p');
         let image = document.createElement('img');
 
         
