@@ -29,7 +29,7 @@ fetch(requestURL)
         phone.textContent = 'Phone: '+ directory[i].phone;
         address.textContent = 'Address: ' + directory[i].address;
         image.setAttribute('src', directory[i].imageurl);
-        image.setAttribute('alt', directory[i].name + 'Logo ')
+        image.setAttribute('alt', directory[i].name + 'Logo')
 
         
        

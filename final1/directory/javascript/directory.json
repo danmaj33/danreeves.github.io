@@ -1,0 +1,46 @@
+{
+  "businesses": [
+    {
+      "name": "Tony's Pizza",
+      "phone": "801-393-1985",
+      "address": "403 39th St.",
+      "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
+    },
+    {
+        "name": "Golden Jade: Chinese Food",
+        "phone": "801-475-0888",
+        "address": "4848 Harrison Blvd",
+        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
+    },
+    {
+        "name": "Ace Hardware",
+        "phone": "801-452-6010",
+        "address": "4291 Harrison Blvd",
+        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
+      },
+      {
+        "name": "The Pie Pizzeria",
+        "phone": "801-627-1920",
+        "address": "Suite 12, 4300 Harrison Blvd",
+        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
+      },
+      {
+        "name": "Ziegfeld Theater",
+        "phone": "801-555-8989",
+        "address": "3934 Washington Blvd",
+        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
+      },
+      {
+        "name": "The University Broiler",
+        "phone": "801-392-2525",
+        "address": "4342 Harrison Blvd",
+        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
+      },
+      {
+        "name": "The Look: Hair Salon",
+        "phone": "801-394-7900",
+        "address": "#443, 39th St",
+        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
+      }
+  ]
+}
