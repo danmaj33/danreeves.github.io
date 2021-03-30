@@ -1,4 +1,4 @@
-const requestURL = 'https://github.com/danmaj33/danreeves.github.io/blob/cca6b15ef4ba54f3539feb0aa95b335182b64e1e/final1/directory/javascript/directory.json';
+const requestURL = 'https://danmaj33.github.io/danreeves.github.io/final1/directory/javascript/directory.json';
 
 
 
