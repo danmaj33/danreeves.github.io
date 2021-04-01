@@ -17,9 +17,7 @@ fetch(requestURL)
 
           //   Creating the element is here VVVVVVVVVVVVVVVV
         let card = document.createElement('div');
-        card.setAttribute("class","row");
-        let column = document.createElement('div');
-        column.setAttribute("class","column");
+        card.setAttribute("class","item");
         let h3 = document.createElement('h3');
         let phone = document.createElement('p');
         let address= document.createElement('p');
@@ -32,16 +30,16 @@ fetch(requestURL)
         phone.textContent = 'Phone: '+ businesses[i].phone;
         address.textContent = 'Address: ' + businesses[i].address;
         image.setAttribute('src', businesses[i].imageurl);
-        image.setAttribute('alt', businesses[i].name + 'Logo')
+        image.setAttribute('alt', businesses[i].name + 'Logo');
 
         
        
 
-        card.appendChild(column);
-        column.appendChild(h3);
-        column.appendChild(phone);
-        column.appendChild(address);
-        column.appendChild(image);
+       
+        card.appendChild(h3);
+        card.appendChild(phone);
+        card.appendChild(address);
+        card.appendChild(image);
         
                  // where is goes V in div.cards
                  

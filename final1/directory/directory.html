@@ -3,18 +3,18 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Fo' Drizzle Weather Site: Storm Center">
+    <meta name="description" content="South Ogden City Chamber of Commerce: Directory">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet"  href="css/directorysmall.css">
     <link rel="stylesheet"  href="css/directorymedium.css"> 
     <link rel="stylesheet"  href="css/directorylarge.css">
     <link rel="stylesheet"  href="css/normalize.css">
-	<title>South Ogden City Chamber of Commerce</title>
+	<title>South Ogden City Chamber of Commerce: Directory</title>
 	<link rel="shortcut icon" href="images/favicon.ico">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 	</head>
 
-<body>
+<body onload="gridView()">
                                                     
                   
 
@@ -48,15 +48,16 @@
                                             </div>
                                             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-
-
-                                            <!-- Buttons to choose list or grid view -->
-                                            <button onclick="listView()"><i class="fa fa-bars"></i> List</button>
-                                            <button onclick="gridView()"><i class="fa fa-th-large"></i> Grid</button>
-                                          
-                                            <div class="cards">
-                                            <!-- JAVASCRIPT FROM DIRECTORY.javascript -->
-                                           </div>
+                                        <div class="gridbuttons">
+                                            <button onclick="listView()"><i class="list"></i>&#9868;</button>
+                                            <button onclick="gridView()"><i class="grid"></i>&#9871;</button>
+                                        </div>
+                                           
+                                                <div class="cards">
+                                                <!-- directory.js here  -->
+                                                </div>
+                                           
+                                              
 
 </main>
     <footer>

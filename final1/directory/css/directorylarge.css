@@ -54,44 +54,8 @@
 		max-width: 900px;
 		margin: 0 auto;
 	}
-	.threeday {
-		text-align: center;
-		font-family: 'Barlow Condensed', sans-serif;
-		letter-spacing: 2px;
-		text-transform: uppercase;
-		color: #262262;  
-	}
 
-	.stats{
-		text-align: center;
-		margin-bottom: 50px;
-	}
-	.threedaycontainer {
-display:flex;
-margin-top: 0px;
+	/* Create two equal columns that floats next to each other */
 
-	}
-	#divday1,#divday2,#divday3 {
-		display: inline;
-		margin: auto;
-		}
-		#threeads {
-			display:flex;
-		}
-		
-		#ad1, #ad2, #ad3 {
-		
-		margin: 0 auto;
-		}
-
-	#purpose {
-display: block;
-	}
-	
-	
-
-	#threeads img {
-		margin: 0 auto;
-	}
 	
 }
