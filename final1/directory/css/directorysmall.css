@@ -156,6 +156,7 @@ footer {
 }
 
 .cards {
+    margin-top: 20px;
     margin: 0 auto;
     display: block;
     grid-template-columns: repeat(1, 1fr);
@@ -165,6 +166,7 @@ footer {
 
 a {
     text-decoration: none;  
+   
 }
 
 .item {
@@ -173,6 +175,8 @@ a {
     padding: 10px;
     text-decoration: none;
     height: 290px;
+    margin: auto;
+   
 }
 
 .item:hover{

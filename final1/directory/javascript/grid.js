@@ -19,7 +19,7 @@ function gridView() {
   for (i = 0; i < elements.length; i++) {
     document.querySelector(".cards").style.width = "100%";
     document.querySelector(".cards").style.display = "grid";
-    document.querySelector(".cards").style.margin = "20px";
+   
     
   }
 }
