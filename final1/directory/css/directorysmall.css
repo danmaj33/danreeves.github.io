@@ -160,14 +160,19 @@ footer {
     display: block;
     grid-template-columns: repeat(1, 1fr);
     gap: 20px;
-    
+    text-decoration: none;
+    }
 
+a {
+    text-decoration: none;  
 }
 
-.item{
+.item {
     box-shadow: 5px 10px 30px 1px #888888;
     border-radius: 20px;
     padding: 10px;
+    text-decoration: none;
+    height: 290px;
 }
 
 .item:hover{

@@ -17,7 +17,7 @@ fetch(requestURL)
 
           //   Creating the element is here VVVVVVVVVVVVVVVV
         let link = document.createElement('a');
-        link.setAttribute("href", businesses.link);
+        link.setAttribute("href", businesses[i].link);
         let card = document.createElement('div');
         card.setAttribute("class","item");
         let h3 = document.createElement('h3');
