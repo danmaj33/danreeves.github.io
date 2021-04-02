@@ -58,7 +58,7 @@
 	/* Create two equal columns that floats next to each other */
 
 	
-}.cards {
+.cards {
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -69,6 +69,7 @@
 }
 
 .gridbuttons button {
-    
+	display: inline;
     border-radius: 10px;
+}
 }

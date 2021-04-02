@@ -158,7 +158,7 @@ footer {
 .cards {
     margin: 0 auto;
     display: block;
-    
+    grid-template-columns: repeat(1, 1fr);
     gap: 20px;
 }
 .item img {
@@ -166,7 +166,7 @@ footer {
 }
 
 .gridbuttons button {
-    
+    display: none;
     border-radius: 10px;
 }
 	/* hidden cities */
