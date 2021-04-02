@@ -16,6 +16,8 @@ fetch(requestURL)
     for (let i = 0; i < businesses.length; i++ ) {
 
           //   Creating the element is here VVVVVVVVVVVVVVVV
+        let link = document.createElement('a');
+        link.setAttribute("href", businesses.link);
         let card = document.createElement('div');
         card.setAttribute("class","item");
         let h3 = document.createElement('h3');
@@ -25,7 +27,7 @@ fetch(requestURL)
 
         
 //   Output is here VVVVVVVVVVVVVVVV
-
+       
         h3.textContent = businesses[i].name;
         phone.textContent = 'Phone: '+ businesses[i].phone;
         address.textContent = 'Address: ' + businesses[i].address;
@@ -35,7 +37,7 @@ fetch(requestURL)
         
        
 
-       
+       link.appendChild(card);
         card.appendChild(h3);
         card.appendChild(phone);
         card.appendChild(address);
@@ -43,7 +45,7 @@ fetch(requestURL)
         
                  // where is goes V in div.cards
                  
-        document.querySelector('div.cards').appendChild(card);
+        document.querySelector('div.cards').appendChild(link);
   }
 });
    
