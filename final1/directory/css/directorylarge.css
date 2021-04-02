@@ -58,4 +58,16 @@
 	/* Create two equal columns that floats next to each other */
 
 	
+}.cards {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px,
 }
+.item img {
+    max-width:100px;
+}
+
+.gridbuttons button {
+    
+    border-radius: 10px;
