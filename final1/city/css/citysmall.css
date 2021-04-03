@@ -166,6 +166,7 @@ footer {
     padding: 10px;
     flex: 1 1 80%;
     min-height: 100vh;
+    flex-wrap: wrap;
   
   }
   
@@ -173,11 +174,12 @@ footer {
   
  
   .portfolio {
-    display: grid;
+    display: block;
     height: 100%;
     grid-template-rows: repeat(8, 1fr);
     grid-template-columns: repeat(5, 1fr);
     grid-gap: 20px;
+    flex-wrap: wrap;
   }
   
   .portfolio-item {
@@ -193,6 +195,7 @@ footer {
     transition: all ease-in-out 300ms;
     position: relative;
     z-index: 10;
+  
     }
     
    
@@ -201,8 +204,8 @@ footer {
       text-shadow: 0 0 5px rgba(0, 0, 0, 0.85);
     }
     
-  .two {
-    background-image: url(//unsplash.it/800/600);
+    .portfolio-itemlargetwo {
+    background-color: blue;
   }
     
     .two:before {
@@ -225,26 +228,45 @@ footer {
     .portfolio-itemsmall {
         grid-row: span 1;
         grid-column: span 1;
+       
       }
       
       .portfolio-itemmedium {
         grid-row: span 2;
         grid-column: span 2;
+       
+        
       }
       
       .portfolio-itemlarge {
         grid-row: span 3;
         grid-column: span 3;
+        
+        
       }
       
       .portfolio-itemtall {
         grid-row: span 3;
         grid-column: span 2;
+       
+        
       }
       
       .portfolio-itemwide {
         grid-row: span 2;
         grid-column: span 3;
+       
+        
+      }
+      .portfolio div{
+          padding: 10px;
+          border-radius: 20px;
+          box-shadow: 5px 10px 30px 1px #888888;
+          background-color: white;
+          font-family: 'Barlow Condensed', sans-serif;
+          letter-spacing: 2px;
+          margin-top: 20px;
+          
       }
     
 
