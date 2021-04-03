@@ -231,12 +231,15 @@ footer {
        
       }
       
-      .portfolio-itemmedium {
+      .portfolio-itemmedium1 {
         grid-row: span 2;
         grid-column: span 2;
-       
-        
-      }
+        background-image: url();
+       }
+       .portfolio-itemmedium2 {
+        grid-row: span 2;
+        grid-column: span 2;
+       }
       
       .portfolio-itemlarge {
         grid-row: span 3;
