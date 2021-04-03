@@ -234,10 +234,14 @@ footer {
       .portfolio-itemmedium1 {
         grid-row: span 2;
         grid-column: span 2;
-        background-image: url();
+        background-image: url(https://danmaj33.github.io/danreeves.github.io/final1/city/ogdenvalleyimg.jpg#);
        }
        .portfolio-itemmedium2 {
         grid-row: span 2;
+        grid-column: span 2;
+       }
+       .portfolio-itemmedium3 {
+        grid-row: span 1;
         grid-column: span 2;
        }
       
