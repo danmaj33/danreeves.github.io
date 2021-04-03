@@ -211,7 +211,6 @@ footer {
       content: '';
       display: block;
       background: white;
-     
       position: absolute;
       top: 0;
       right: 0;
@@ -235,8 +234,13 @@ footer {
         grid-row: span 2;
         grid-column: span 2;
         background-image: url(https://danmaj33.github.io/danreeves.github.io/final1/city/images/ogdenvalleyimg.jpg);
-      
+        background-position: center;
+        background-size: cover;
        }
+       .portfolio-itemmedium1:before{
+           opacity: 0.73;
+       }
+
        .portfolio-itemmedium2 {
         grid-row: span 2;
         grid-column: span 2;
