@@ -155,8 +155,15 @@ footer {
     margin: auto;
 }
 
+.mosaic {
+    font-size: 1.2rem;
+    line-height: 1.45;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .main-content {
-    padding: 10%;
+    padding: 10px;
     flex: 1 1 80%;
     min-height: 100vh;
   
@@ -180,40 +187,15 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    /* // Refractored the code a little from the video.
-    // Moved these from the .two, thought it made
-    // more sense like this. */
     font-size: 1.5em;
     background-size: cover;
     background-position: top left;
     transition: all ease-in-out 300ms;
     position: relative;
     z-index: 10;
-    grid-row: span 1;
-    grid-column: span 1;
     }
     
-    /* &.medium {
-      grid-row: span 2;
-      grid-column: span 2;
-    }
-    
-    &.large {
-      grid-row: span 3;
-      grid-column: span 3;
-    }
-    
-    &.tall {
-      grid-row: span 3;
-      grid-column: span 2;
-    }
-    
-    &.wide {
-      grid-row: span 2;
-      grid-column: span 3;
-    }
-       */
+   
     .portfolio-item:hover {
       color: white;
       text-shadow: 0 0 5px rgba(0, 0, 0, 0.85);
@@ -240,6 +222,30 @@ footer {
     .portfolio-item:hover:before {
       opacity: 0.2;
     }
+    .portfolio-itemsmall {
+        grid-row: span 1;
+        grid-column: span 1;
+      }
+      
+      .portfolio-itemmedium {
+        grid-row: span 2;
+        grid-column: span 2;
+      }
+      
+      .portfolio-itemlarge {
+        grid-row: span 3;
+        grid-column: span 3;
+      }
+      
+      .portfolio-itemtall {
+        grid-row: span 3;
+        grid-column: span 2;
+      }
+      
+      .portfolio-itemwide {
+        grid-row: span 2;
+        grid-column: span 3;
+      }
     
 
   
