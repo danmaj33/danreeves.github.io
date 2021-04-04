@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+
+/*      Purple      #662D91
+		Tan         #F9DC94
+	    Blue     	#262262
+	
+    */
+
+
+/* Small/Phone View ***************/
+
+.collapsible {
+    
+    color: #262262;
+    cursor: pointer;
+    padding: 18px;
+    max-width: 100%;
+    border: none;
+    text-align: Center;
+    outline: none;
+    font-size: 15px;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 2px;  
+    box-shadow: 5px 10px 30px 1px #888888;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    
+  }
+  
+  .collapsible .active, .collapsible:hover {
+    box-shadow: 5px 10px 30px 1px #888888;
+    border-radius: 20px;
+  }
+  
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    border-radius: 20px;
+  }
+h1,h2,h3,h4,h5,h6,p{
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 2px;  
+}
+
+.weatheralert{
+    margin: auto;
+    max-width: 900px;
+    text-align: center;
+    
+}
+
+.weatheralert p{
+    color: red;
+}
+
+ main, header, footer {
+     margin: 0 auto;
+     max-width: 90%
+ }
+nav {
+	 margin-top: 0px;
+}
+.navigation {
+	list-style: none;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+    display: none;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 2px;
+
+}
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+    color: #262262;
+	
+	font-weight: 700;
+}
+.navigation a:hover {
+    box-shadow: 5px 10px 30px 1px #888888;
+    border-radius: 20px;
+    
+    
+}
+nav ul li.active a {
+    box-shadow: 5px 10px 30px 1px #888888;
+    border-radius: 20px;
+   
+   
+}
+
+/* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
+  <ul class="navigation responsive">
+*/
+.responsive li {
+	display: block;
+}
+
+
+h2{
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #262262;
+    box-shadow: 5px 10px 30px 1px #888888;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+
+p {
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #262262;  
+}
+
+#logo{
+    margin: 0 auto;
+    display: block;
+    max-width: 150px;
+
+}
+#heroimage{
+    margin: 0 auto;
+    display: block;
+    max-width: 400px;
+}
+
+#heroimage picture img {
+    margin: 10px;
+    box-shadow: 5px 10px 30px 1px #888888;
+    border-radius: 20px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+footer {
+    text-align: center;
+    margin: 20px;
+   font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #262262;
+    padding: 30px;
+    margin: auto;
+}
+
+.mosaic {
+    font-size: 1.2rem;
+    line-height: 1.45;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-content {
+    padding: 10px;
+    flex: 1 1 80%;
+    min-height: 100vh;
+    flex-wrap: wrap;
+  
+  }
+  
+  
+  
+ 
+  .portfolio {
+    display: block;
+    height: 100%;
+    grid-template-rows: repeat(8, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .portfolio div {
+   border-radius: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+    background-size: cover;
+    background-position: top left;
+    transition: all ease-in-out 300ms;
+    position: relative;
+    z-index: 10;
+  
+    }
+    
+   
+    .portfolio div:hover {
+      color: white;
+      text-shadow: 0 0 5px rgba(0, 0, 0, 0.85);
+      border-radius: 20px;
+    }
+    
+    .portfolio-itemlargetwo {
+    background-color: blue;
+  }
+    
+    .portfolio div:before {
+      content: '';
+      display: block;
+      background: white;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      transition: all ease-in-out 300ms;
+      z-index: -1;
+      border-radius: 20px;
+    }
+    
+    .portfolio div:hover:before {
+      opacity: 0.2;
+    }
+    .portfolio-itemsmall {
+        grid-row: span 1;
+        grid-column: span 1;
+       
+      }
+      
+      .portfolio-itemmedium1 {
+        grid-row: span 2;
+        grid-column: span 2;
+        background-image: url(https://danmaj33.github.io/danreeves.github.io/final1/city/images/ogdenvalleyimg.jpg);
+        background-position: center;
+        background-size: cover;
+       }
+       .portfolio-itemmedium1:before{
+           opacity: 0.73;
+       }
+
+       .portfolio-itemmedium2 {
+        grid-row: span 2;
+        grid-column: span 2;
+       }
+       .portfolio-itemmedium3 {
+        grid-row: span 1;
+        grid-column: span 2;
+       }
+      
+      .portfolio-itemlarge {
+        grid-row: span 3;
+        grid-column: span 3;
+        
+        
+      }
+      
+      .portfolio-itemtall {
+        grid-row: span 3;
+        grid-column: span 2;
+       
+        
+      }
+      
+      .portfolio-itemwide {
+        grid-row: span 2;
+        grid-column: span 3;
+       
+        
+      }
+      .portfolio div{
+          padding: 10px;
+          border-radius: 20px;
+          box-shadow: 5px 10px 30px 1px #888888;
+          background-color:#262262;
+          font-family: 'Barlow Condensed', sans-serif;
+          letter-spacing: 2px;
+          margin-top: 20px;
+          text-align: justify;
+          color: #262262;
+          
+          
+      }
+    
+
+  
