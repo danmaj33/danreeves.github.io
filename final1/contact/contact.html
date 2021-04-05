@@ -3,13 +3,13 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="South Ogden City Chamber of Commerce: City Page">
+    <meta name="description" content="South Ogden City Chamber of Commerce: Contact">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet"  href="css/citysmall.css">
-    <link rel="stylesheet"  href="css/citymedium.css"> 
-    <link rel="stylesheet"  href="css/citylarge.css">
+    <link rel="stylesheet"  href="css/contactsmall.css">
+    <link rel="stylesheet"  href="css/contactmedium.css"> 
+    <link rel="stylesheet"  href="css/contactlarge.css">
     <link rel="stylesheet"  href="css/normalize.css">
-	<title>South Ogden City Chamber of Commerce: City Page</title>
+	<title>South Ogden City Chamber of Commerce: Contact Page</title>
 	<link rel="shortcut icon" href="images/favicon.ico">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 	</head>
@@ -38,7 +38,7 @@
     <main>
 
 
-                                               <br><br> <h2>Chamber of Commerce City Page</h2>
+                                               <br><br> <h2>Chamber of Commerce Contact Page</h2>
                                             <div id="heroimage">
                                                     <picture>
                                                         <source srcset="images/directoryheromedium.jpg" media="(min-width:520px) and (max-width:959px)">
@@ -46,29 +46,49 @@
                                                          <img src="images/directoryherosmall.jpg" alt="South Ogden Traffic">
                                                     </picture>
                                             </div>
+                                            <div class="contact">
+                                                <div class="info">
+                                                    <h2>Contact Information</h2>
+                                                        <p>South Ogden City Chamber of Commerce</p>
+                                                        <p>Phone: 801.555.9898</p>
+                                                        <p>Email: southogdenchamber@soog.gov</p>
+                                                        <p>564 Leona Dr. <br>
+                                                           South Ogden, Ut 84403 </p>
+                                                </div>
+                                                <picture> <source srcset="images/southogdenmap.png" media="(min-width:520px) and (max-width:959px)">
+                                                    <source srcset="images/southogdenmap.png" media="(min-width:960px)">
+                                                    <img src="images/southogdenmap.png" alt="South Ogden Map"></picture>
+                                                <div class="contactform">
+                                                    <h2>Contact Forum</h2>
+                                                    <form action="/action_page.php">
+                                                        <fieldset>
+                                                   
+                                                    <label for="fullname">Full Name:</label><br>
+                                                    <input type="text" id="fullname" name="fullname" minlength="5" pattern="[A-Za-z]" title=" Please type your full name" placeholder="Jonathan Van Doe" required><br><br>
+                                                   
+                                                    <label for="email">Email:   </label><br>
+                                                    <input type="email" id="email" name="email" placeholder="user@email.org"><br><br>
+                                                    
+                                                    <label for="tel">Telephone:    </label><br>
+                                                    <input type="tel" id="tel" name="tel" placeholder="###-###-####" required><br><br>
                                             
+                                                    <label for="comments">Comments</label><br>
+                                                    <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
 
-                                        
-                                           <div class="mosaic">
-                                                <div class="main-content">
-                                                    <div class="portfolio">
-                                                        <div class="portfolio-itemmedium1">SOUTH OGDEN: BY THE NUMBERS</div>
-                                                        <div class="portfolio-itemlargetwo">Population:<br>17,063 (2019)</div>
-                                                        <div class="portfolio-itemmedium2">Mayor:<br>Russell L. Porter</div>
-                                                        <div class="portfolio-itemsmall">Area:<br>3.90 sq mi (10.10 km2)</div>
-                                                        <div class="portfolio-itemtall">Businesses:<br>25<br>Days of Sun:<br>125</div>
-                                                        <div class="portfolio-itemwide">In 2001, South Ogden elected Utah's first African American mayor. Mayor George Garwood. 
-                                                            He beat his opponent 2,010 votes to 776. After his election Mayor Garwood said, 
-                                                            "It's a joyous day, not just for the citizens of South Ogden but also for the citizens in Utah. 
-                                                            To look beyond the color of a person's skin and to see their character is a great thing."</div>
-                                                        <div class="portfolio-itemwide">History: <br>Founded in 1850 by Daniel Burch. The area was settled by members of the Mormon pioneers. 
-                                                            Daniel Burch and his family arrived in Brownsville (Ogden) in 1848. Burch came from Kentucky with
-                                                             the Lorenzo Snow company of Utah pioneers.(Wikipedia)</div>
-                                                        <div class="portfolio-itemmedium3">Elevation:<br>4,449 ft (1,356 m)</div>
-                                                      </div>
-                                               
+                                                    <button type="submit" formaction="thanks.html">Submit</button>
+                                                    </fieldset>
+                                                    </form>
+                                                </div>
+                                                <div class="boardofdirectors">
+                                                    <h2>Board of Directors</h2>
+                                                    <p>Jacobir Papatridafilou</p>
+                                                    <p>Plarim Pit Fupenyokel</p>
+                                                    <p>Kaleeka Latua Fatasonga</p>
                                                 </div>
                                             </div>
+
+                                        
+                                         
                                            
                                               
 
