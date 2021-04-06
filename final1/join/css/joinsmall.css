@@ -175,7 +175,12 @@ footer {
   .level {
     background-color: #662d9121;
   }
-          
+      
+  .thankyou {
+    text-align: center;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 2px;
+  }
           
           
 
