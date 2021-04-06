@@ -54,7 +54,7 @@ h1,h2,h3,h4,h5,h6,p{
     color: red;
 }
 
- main, header, footer {
+ main, header, footer, .map {
      margin: 0 auto;
      max-width: 90%
  }
@@ -154,15 +154,18 @@ footer {
     padding: 30px;
     margin: auto;
 }
-
-.contact img {
+.map {
+  align-content: center;
+}
+iframe {
   border-color: white;
   border-width: 20px;
   border-style: solid;
   border-radius: 20px;
   box-shadow: 5px 10px 30px 1px #888888;
   margin: auto;
-	
+	display: block;
+  max-width: 90%;
 }
 .boardofdirectors p {
   
