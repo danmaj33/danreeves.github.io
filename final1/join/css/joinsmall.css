@@ -9,30 +9,8 @@
 
 /* Small/Phone View ***************/
 
-.collapsible {
-    
-    color: #262262;
-    cursor: pointer;
-    padding: 18px;
-    max-width: 100%;
-    border: none;
-    text-align: Center;
-    outline: none;
-    font-size: 15px;
-    font-family: 'Barlow Condensed', sans-serif;
-    letter-spacing: 2px;  
-    box-shadow: 5px 10px 30px 1px #888888;
-    border-radius: 20px;
-    margin-bottom: 10px;
-    
-  }
-  
-  .collapsible .active, .collapsible:hover {
-    box-shadow: 5px 10px 30px 1px #888888;
-    border-radius: 20px;
-  }
-  
-  .content {
+
+   .content {
     padding: 0 18px;
     display: none;
     overflow: hidden;
@@ -43,16 +21,6 @@ h1,h2,h3,h4,h5,h6,p{
     letter-spacing: 2px;  
 }
 
-.weatheralert{
-    margin: auto;
-    max-width: 900px;
-    text-align: center;
-    
-}
-
-.weatheralert p{
-    color: red;
-}
 
  main, header, footer {
      margin: 0 auto;
