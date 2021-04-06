@@ -56,37 +56,38 @@
 	}
 
 	/* Create two equal columns that floats next to each other */
-	.portfolio {
-		display: grid;
-		height: 100%;
-		grid-template-rows: repeat(8, 1fr);
-		grid-template-columns: repeat(5, 1fr);
-		grid-gap: 20px;
-		flex-wrap: wrap;
-	  }
-	  .portfolio-item {
-		background: red;
-		color: red;
-		font-weight: bold;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		font-size: 1.5em;
-		background-size: cover;
-		background-position: top left;
-		transition: all ease-in-out 300ms;
-		position: relative;
-		z-index: 10;
-		}
-		.portfolio div{
-			padding: 10px;
-			border-radius: 20px;
-			box-shadow: 5px 10px 30px 1px #888888;
-			background-color: #262262;
-			font-family: 'Barlow Condensed', sans-serif;
-			letter-spacing: 2px;
-			
-		}
+	.contact img {
+		border-color: white;
+		border-width: 20px;
+		border-style: solid;
+		border-radius: 20px;
+		box-shadow: 5px 10px 30px 1px #888888;
+		margin: auto;
+	}
+	.boardofdirectors p {
+		
+		text-align: center;
 	
+	}
+	.contactform input, textarea, fieldset, button {
+		border-radius: 20px;
+		font-family: 'Barlow Condensed', sans-serif;
+		letter-spacing: 2px; 
+	}
+	fieldset{
+		box-shadow: 5px 10px 30px 1px #888888;
+		margin: auto;
+		max-width: 90%;
+	}
+	input {
+		padding: 5px;
+
+	}
+	.contactform {
+		margin: auto;
+	}
+	textarea, form {
+		margin: auto;
+	}
 
 }
