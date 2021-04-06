@@ -102,6 +102,18 @@ nav ul li.active a {
 .responsive li {
 	display: block;
 }
+h1{
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #262262;
+    box-shadow: 5px 10px 30px 1px #888888;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #f9dc943f;
+  
+  }
 
 
 h2{
