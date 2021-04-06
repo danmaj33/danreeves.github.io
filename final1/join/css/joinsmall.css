@@ -155,134 +155,28 @@ footer {
     margin: auto;
 }
 
-.mosaic {
-    font-size: 1.2rem;
-    line-height: 1.45;
-    display: flex;
-    flex-wrap: wrap;
-}
+.formwrap, form, fieldset, input, button {
+  font-family: 'Barlow Condensed', sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border-radius: 20px;
+  }
+  input {
+    padding: 3px;
+  }
+  label {
+    margin-bottom: 5px;
+  }
 
-.main-content {
-    padding: 10px;
-    flex: 1 1 80%;
-    min-height: 100vh;
-    flex-wrap: wrap;
-  
+  fieldset {
+    box-shadow: 5px 10px 30px 1px #888888;
   }
-  
-  
-  
- 
-  .portfolio {
-    display: block;
-    height: 100%;
-    grid-template-rows: repeat(8, 1fr);
-    grid-template-columns: repeat(5, 1fr);
-    grid-gap: 20px;
-    flex-wrap: wrap;
-  }
-  
-  .portfolio div {
-   border-radius: 20px;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-    font-size: 1.5em;
-    background-size: cover;
-    background-position: top left;
-    transition: all ease-in-out 300ms;
-    position: relative;
-    z-index: 10;
-  
-    }
-    
-   
-    .portfolio div:hover {
-      color: white;
-      text-shadow: 0 0 5px rgba(0, 0, 0, 0.85);
-      border-radius: 20px;
-    }
-    
-    .portfolio-itemlargetwo {
-    background-color: blue;
-  }
-    
-    .portfolio div:before {
-      content: '';
-      display: block;
-      background: white;
-      position: absolute;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      transition: all ease-in-out 300ms;
-      z-index: -1;
-      border-radius: 20px;
-    }
-    
-    .portfolio div:hover:before {
-      opacity: 0.2;
-    }
-    .portfolio-itemsmall {
-        grid-row: span 1;
-        grid-column: span 1;
-       
-      }
-      
-      .portfolio-itemmedium1 {
-        grid-row: span 2;
-        grid-column: span 2;
-        background-image: url(https://danmaj33.github.io/danreeves.github.io/final1/city/images/ogdenvalleyimg.jpg);
-        background-position: center;
-        background-size: cover;
-       }
-       .portfolio-itemmedium1:before{
-           opacity: 0.73;
-       }
 
-       .portfolio-itemmedium2 {
-        grid-row: span 2;
-        grid-column: span 2;
-       }
-       .portfolio-itemmedium3 {
-        grid-row: span 1;
-        grid-column: span 2;
-       }
-      
-      .portfolio-itemlarge {
-        grid-row: span 3;
-        grid-column: span 3;
-        
-        
-      }
-      
-      .portfolio-itemtall {
-        grid-row: span 3;
-        grid-column: span 2;
-       
-        
-      }
-      
-      .portfolio-itemwide {
-        grid-row: span 2;
-        grid-column: span 3;
-       
-        
-      }
-      .portfolio div{
-          padding: 10px;
-          border-radius: 20px;
-          box-shadow: 5px 10px 30px 1px #888888;
-          background-color:#262262;
-          font-family: 'Barlow Condensed', sans-serif;
-          letter-spacing: 2px;
-          margin-top: 20px;
-          text-align: justify;
-          color: #262262;
+  .level {
+    background-color: #662d9121;
+  }
           
           
-      }
-    
+          
 
   

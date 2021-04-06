@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="description" content="South Ogden City Chamber of Commerce: City Page">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet"  href="css/citysmall.css">
-    <link rel="stylesheet"  href="css/citymedium.css"> 
-    <link rel="stylesheet"  href="css/citylarge.css">
+    <link rel="stylesheet"  href="css/joinsmall.css">
+    <link rel="stylesheet"  href="css/joinmedium.css"> 
+    <link rel="stylesheet"  href="css/joinlarge.css">
     <link rel="stylesheet"  href="css/normalize.css">
 	<title>South Ogden City Chamber of Commerce: City Page</title>
 	<link rel="shortcut icon" href="images/favicon.ico">
@@ -28,8 +28,8 @@
        
 		                                            <li><a class="ham" href="#">&#x2630;Menu</a></li>
 		                                            <li><a href="https://danmaj33.github.io/danreeves.github.io/final1/home/index.html#">HOME</a></li>
-	                                            	<li class="active"><a href="https://danmaj33.github.io/danreeves.github.io/final1/city/southogden.html#">SOUTH OGDEN</a></li>
-		                                            <li><a href="#">JOIN</a></li>
+	                                            	<li ><a href="https://danmaj33.github.io/danreeves.github.io/final1/city/southogden.html#">SOUTH OGDEN</a></li>
+		                                            <li class="active"><a href="https://danmaj33.github.io/danreeves.github.io/final1/join/join.html#">JOIN</a></li>
 		                                            <li><a href="https://danmaj33.github.io/danreeves.github.io/final1/directory/directory.html#">DIRECTORY</a></li>
 		                                            <li><a href="#">CONTACT</a></li>
 	                                            </ul>
@@ -38,37 +38,113 @@
     <main>
 
 
-                                               <br><br> <h2>Chamber of Commerce City Page</h2>
-                                            <div id="heroimage">
-                                                    <picture>
-                                                        <source srcset="images/directoryheromedium.jpg" media="(min-width:520px) and (max-width:959px)">
-                                                         <source srcset="images/directoryherolarge.jpg" media="(min-width:960px)">
-                                                         <img src="images/directoryherosmall.jpg" alt="South Ogden Traffic">
-                                                    </picture>
-                                            </div>
+                                               <br><br> <h2>Join the South Ogden Chamber of Commerce </h2>
                                             
-
+                                            
+                                            <!-- first name - required
+                                            last name - required
+                                            title
+                                            email - required
+                                            cell phone
+                                            business name - required
+                                            business address
+                                            business website
+                                            business description
+                                            membership level selection that displays the annual fees (only one option is allowed)
+                                            There are four options: Non-profit ($100), Bronze ($200), Silver ($400), Gold ($1000)
+                                            The different levels have different perks which you can explain on the page in a key.
+                                             Things like directory listings, business trainings, social media posts, luncheon tickets, 
+                                             sponsorships with levels of advertising, etc. -->
                                         
-                                           <div class="mosaic">
-                                                <div class="main-content">
-                                                    <div class="portfolio">
-                                                        <div class="portfolio-itemmedium1">SOUTH OGDEN: BY THE NUMBERS</div>
-                                                        <div class="portfolio-itemlargetwo">Population:<br>17,063 (2019)</div>
-                                                        <div class="portfolio-itemmedium2">Mayor:<br>Russell L. Porter</div>
-                                                        <div class="portfolio-itemsmall">Area:<br>3.90 sq mi (10.10 km2)</div>
-                                                        <div class="portfolio-itemtall">Businesses:<br>25<br>Days of Sun:<br>125</div>
-                                                        <div class="portfolio-itemwide">In 2001, South Ogden elected Utah's first African American mayor. Mayor George Garwood. 
-                                                            He beat his opponent 2,010 votes to 776. After his election Mayor Garwood said, 
-                                                            "It's a joyous day, not just for the citizens of South Ogden but also for the citizens in Utah. 
-                                                            To look beyond the color of a person's skin and to see their character is a great thing."</div>
-                                                        <div class="portfolio-itemwide">History: <br>Founded in 1850 by Daniel Burch. The area was settled by members of the Mormon pioneers. 
-                                                            Daniel Burch and his family arrived in Brownsville (Ogden) in 1848. Burch came from Kentucky with
-                                                             the Lorenzo Snow company of Utah pioneers.(Wikipedia)</div>
-                                                        <div class="portfolio-itemmedium3">Elevation:<br>4,449 ft (1,356 m)</div>
-                                                      </div>
-                                               
-                                                </div>
-                                            </div>
+                                           
+                                            <div class="formwrap"></div>
+                                            <form action="/action_page.php">
+                                                <fieldset>
+                                           
+                                            <label for="firstname">First Name:</label><br>
+                                            <input type="text" id="firstname" name="firstname" minlength="1" pattern="[A-Za-z]" title=" Please type your first name" placeholder="Jonathan" required><br><br>
+
+                                            <label for="lastname">Last Name:</label><br>
+                                            <input type="text" id="lastname" name="lastname" minlength="1" pattern="[A-Za-z]" title=" Please type your last name" placeholder="Van Doe" required><br><br>
+
+                                            <label for="title">Title:</label><br>
+                                            <input type="text" id="title" name="title" minlength="1" pattern="[A-Za-z]" title=" Please type your title" placeholder="Owner" required><br><br>
+                                           
+                                            <label for="email">Email:   </label><br>
+                                            <input type="email" id="email" name="email" placeholder="user@email.org" required><br><br>
+                                            
+                                            <label for="tel">Telephone:    </label><br>
+                                            <input type="tel" id="tel" name="tel" placeholder="###-###-####" required><br><br>
+                                    
+                                            <label for="businessname">Business Name:  </label><br>
+                                            <input type="text" id="businessname" name="busnme" placeholder="Sample Unlimited" required><br><br>
+                                    
+                                            <label for="address">Business Address</label><br>
+                                            <textarea id="busaddy" name="busaddy" rows="4" cols="20"></textarea><br><br>
+                                           
+                                            <label for="url">Business Website:   </label><br>
+                                            <input type="url" id="url" name="url" placeholder="wwww.sample.com" ><br><br>
+
+                                            <label for="busdesc">Business Description</label><br>
+                                            <textarea id="busdesc" name="busdesc" rows="2" cols="20"></textarea><br><br>
+                                    
+                                                    
+                                                       <fieldset class="level"><p>Membership Level <em>(Choose one)</em></p>
+                                                        <div class="selection">
+                                                            <label>Non-Profit <input type="radio" id="level1" name="danger" value="non-profit"></label>
+                                                        </div>
+                                                        <div class="selection">
+                                                            <label>Bronze <input type="radio" id="level2" name="danger" value="bronze"></label>
+                                                        </div>
+                                                        <div class="selection">
+                                                            <label>Silver <input type="radio" id="level3" name="danger" value="silver"></label>
+                                                        </div>
+                                                    
+                                                        <div class="selection">
+                                                            <label>Gold <input type="radio" id="level3" name="danger" value="gold"></label>
+                                                        </div>
+
+                                                            <h4>Non-profit ($100)</h4>
+                                                            <ul>
+                                                                <li>Subscription to the Association's newsletter ACCCA Reports</li>
+                                                                <li>Reduced rates for newsletter advertising</li>
+                                                                <li>Opportunity for alliance agreement—generally, to participate<br> in each other’s initiatives
+                                                                     –access for the business partner,<br> and program enhancements for ACCCA.</li>
+                                                            </ul>
+                                                            <h4>Bronze ($200)</h4>
+                                                            <ul>
+                                                                <li>Non-Profit Benifits </li>
+                                                                <li>Reduced rates for sponsorship and conference options</li>
+                                                                <li>Opportunity to present at conference sessions and special events</li>
+                                                            </ul>
+                                                            <h4>Silver ($400)</h4>
+                                                            <ul>
+                                                                <li>Bronze Benefits</li>
+                                                                <li>Opportunity to participate on business relations commission</li>
+                                                                
+                                                            </ul>
+                                                            <h4>Gold ($1000)</h4>
+                                                            <ul>
+                                                                <li>Silver Benefits</li>
+                                                                <li>Opportunity to be connected with ACCCA’s network of over 250 campus<br> reps and commission volunteers.</li>
+                                                                
+                                                            </ul>
+                                                           
+                                                    </fieldset><br>
+                                                        
+                                                       
+                                      <br><br>
+                                                       
+                                    
+                                    
+                                            
+                                           
+                                      <button type="submit" formaction="thanks.html">Submit</button>
+                                    </fieldset>
+                                         
+                                        </form>
+                                    </div>
+                                            
                                            
                                               
 
