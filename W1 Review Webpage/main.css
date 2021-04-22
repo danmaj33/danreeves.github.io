@@ -2,7 +2,7 @@
 
 
 
-h1, h2, h3, h4, h5, h6 {
+h1 , h2, h3, h4, h5, h6 {
   font-family: 'Lora', serif;
 }
 
@@ -18,17 +18,21 @@ main {
     background-color: #faebd7;
 }
 /* Navigation */
-nav li a, nav li a:visited  {
+
+ul {
+    list-style: none;
+}
+nav li a, nav li a:visited, h1 a, h1 a:visited  {
 color: #faebd7;
 text-decoration: none;
 }
 
-nav li a:hover{
+nav li a:hover, h1 a:hover{
     color: white;
     text-decoration: underline;
 }
 
-nav li a:active{
+nav li a:active, h1 a:active{
     color: #deb887;  
 }
 /* other links */
