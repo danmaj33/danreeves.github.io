@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn+SC&display=swap');
+@media only screen and (max-width: 25.5em){
+  
+    body{
+            margin:auto;
+            display:inline-grid;
+         grid-gap:25px;
+         grid-template-columns: 1fr 1fr ;
+         grid-template-rows: 100px 1fr 1fr 1fr;
+         justify-content: center;
+         align-content: center;
+        }
+        .span1 {
+            grid-row: 2;
+           grid-column: 1;
+           padding-left: 5px;
+           padding-right: 5px;
+           border-radius: 10px;
+           text-align: left;
+          }
+       
+       .span2 {
+           grid-row: 3;
+           grid-column:1;
+           padding-left: 5px;
+           padding-right: 5px;
+           border-radius: 10px;
+           text-align: left;
+           }
+       
+       .span3 {
+           grid-row: 4;
+           grid-column: 1;
+           padding-left: 5px;
+           padding-right: 5px;
+           border-radius: 10px;
+           text-align: left;
+           }
+          body{
+            grid-gap: 55px;
+          }
+          header{
+              padding-bottom: 25px;
+              grid-row: 1;
+              grid-column: 1;
+          }
+}

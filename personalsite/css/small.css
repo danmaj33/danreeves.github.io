@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+/*      Yellow      #FFF33B
+		Red         #E93E3A
+	Orange      	#F3903F
+	Yellow Orange	#FDC70C
+	Blue	        #2361a3
+    */
+
+
+/* Small/Phone View ***************/
+body{
+    background-color: black;
+}
+
+header, footer, nav, main {
+    
+    max-width: 100%;
+    margin: 0 auto; 
+}
+
+header {
+    background-color: #000000;
+    padding-bottom: 100px;
+    margin-bottom: -20px;
+    border-radius: 10px; 
+}
+
+#logo {
+    width: 100%;
+    display: block;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: auto;
+    margin-bottom: -15%;
+    max-width: 462px;
+    
+}
+
+
+h1 {
+   
+    flex-wrap: wrap;
+    text-align: center;
+    margin: auto;
+    font-family: 'Staatliches', cursive;
+    color: #FDC70C;
+    text-shadow:-1px -1px 0 rgb(0, 0, 0);
+    line-height: 50px;
+}
+
+nav {
+	
+    background-color:#000000;
+    border-radius: 10px;
+    
+}
+.navigation {
+	list-style: none;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+    display: none;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 3px;
+    text-shadow:-1px -1px 0 rgb(0, 0, 0);
+    
+}
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color: #3fc9f31a;
+	font-weight: 700;
+    text-shadow: 1px 1px 5px #3fc9f3;
+}
+.navigation a:hover {
+	color: #3fc9f3;
+    border-radius: 10px;
+    text-shadow:1px 1px 10px #3fc9f3; 
+    border-bottom:  3px solid #3fc9f3; 
+    box-shadow: 0px 5px 10px #3fc9f3; 
+}
+nav ul li.active a {
+    border-bottom:  3px solid #3fc9f3;
+    color: #3fc9f3;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px #3fc9f3; 
+}
+
+/* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
+  <ul class="navigation responsive">
+*/
+.responsive li {
+	display: block;
+}
+ 
+.paragraph1, .paragraph2, .paragraph3 {
+    display: block;
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: justify;
+    padding: 20px;
+    color: #3fc9f3;
+}
+.paragraph4 {
+    display: block;
+    max-width: 980px;
+    margin: 0 auto;
+    text-align: justify;
+    padding: 20px;
+    color: #3fc9f3;
+}
+
+
+footer {
+    background-color: #000000;
+    padding: 5px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Staatliches', cursive;
+    color: beige;
+    
+}
+
+
+
+
+

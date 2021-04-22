@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Libre:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Averia+Libre:wght@700&family=Rock+Salt&display=swap');
+
+/* Media Query for large+ views */
+@media only screen and (min-width: 60em) {
+	.navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; /* change state in small view */
+		flex: 1 1 auto;
+	}
+	.navigation a {
+		text-align: center;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
+}
