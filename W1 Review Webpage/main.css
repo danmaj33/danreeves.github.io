@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lora', serif;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #6495ED;
+}
+
+main {
+    background-color: #faebd7;
+}
+/* Navigation */
+nav li a, nav li a:visited  {
+color: #faebd7;
+text-decoration: none;
+}
+
+nav li a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+nav li a:active{
+    color: #deb887;  
+}
+/* other links */
+
+p a, p a:visited  {
+    color: #6495ed;
+    text-decoration: none;
+    }
+    
+    p  a:hover{
+        
+        text-decoration: underline;
+    }
+    
+    p a:active{
+        color: #deb887;  
+    }
+
+/* article title links */
+.post-content h2 a, .post-content h2 a:visited  {
+    color: black;
+    text-decoration: none;
+    }
+    
+    .post-content h2 a:hover{
+        color: #6495ed;
+        text-decoration: underline;
+    }
+    
+    .post-content h2 a:active{
+        color: #deb887;  
+    }
