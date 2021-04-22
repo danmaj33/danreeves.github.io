@@ -1,0 +1,263 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Averia+Libre:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Averia+Libre:wght@700&family=Rock+Salt&display=swap');
+/*      Yellow      #FFF33B
+		Red         #E93E3A
+	Orange      	#F3903F
+	Yellow Orange	#FDC70C
+	Blue	        #2361a3*/
+
+
+/* Small/Phone View ***************/
+#bannertext {
+    display: block;
+    background-color: #E93E3A;
+    color: beige;
+    font-family: 'Averia Libre', cursive;
+    font-size: 1em;
+    width: 100%;
+    padding: .5em;
+    text-align: center;
+}
+.stats {
+	font-family: 'Averia Libre', cursive;
+    padding: 3rem;
+    
+	}
+
+#bannertext.notfriday{
+    display: none;
+}
+
+header, footer, nav {
+    
+    max-width: 100%;
+    margin: 0 auto;  
+    box-shadow: 2px 2px 10px black;
+}
+
+header {
+    background-color: #2361a3;
+    padding-bottom: 2.5%;
+    margin-bottom: -20px;
+    border-radius: 10px; 
+}
+
+#logo {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: auto;
+    margin-bottom: -15%;
+    max-width: 462px;
+    
+   
+}
+h1 {
+   
+    flex-wrap: wrap;
+    text-align: center;
+    margin: auto;
+    font-family:'Rock Salt', cursive;
+    color: #FDC70C;
+    text-shadow:-1px -1px 0 rgb(0, 0, 0);
+    line-height: 50px;
+}
+
+nav {
+	
+    background-color:#F3903F;
+    border-radius: 10px;
+    margin-top: -16px;
+}
+.navigation {
+	list-style: none;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+    display: none;
+    font-family: 'Averia Libre', cursive;
+    text-shadow:-1px -1px 0 rgb(0, 0, 0);
+    
+}
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	font-weight: 700;
+}
+.navigation a:hover {
+	color: #E93E3A;
+    border-color: #FFF33B;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    text-shadow:-1px -1px 0 rgb(0, 0, 0);
+}
+nav ul li.active a {
+    border-color: #FFF33B;
+    border-style: solid;
+    border-width: 1px;
+    color: #FFF33B;
+    border-radius: 10px;
+    
+}
+
+/* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
+  <ul class="navigation responsive">
+*/
+.responsive li {
+	display: block;
+}
+
+.contentbox , .fiveday, .articlebox, .herobox, .contactbox, .galleryhrd, .events {
+    display: block;
+    background-color:#fdc90c46;
+    margin: 0 auto;
+    border: 2px solid#FDC70C;
+    padding: 15px;
+    font-family: 'Averia Libre', cursive;
+    color: #2361a3;
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px black;
+    
+    }
+    .herodiv img {
+        display: block;
+		max-width: 100%;
+    	margin: 0 auto;
+        
+   }
+   
+
+    .herobox h1 {
+        padding-bottom: 20px;
+    }
+
+ .contactbox{
+        margin-top: 10px;
+       
+    }
+        
+    .social {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            display: block;
+        }
+    
+     .social img {
+               width: 35px;
+    }
+    .events {
+        margin-top: 20px;
+    }
+
+footer {
+    background-color: #2361a3;
+    padding: 5px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Averia Libre', cursive;
+    color: beige;
+    
+}
+
+.prestonfooter, a {
+    font-family: 'Averia Libre', cursive;
+    color: beige;
+    text-decoration: none;
+    text-shadow:-1px -1px 0 rgb(0, 0, 0);
+}
+/* hero page css//////////////////////////////////////////// */
+
+
+
+h1 {
+    text-align: center;font-size:2.5rem;text-shadow:3px 3px 5px #777;
+}
+
+.herodiv {
+    margin: 10px auto;
+    position: relative;
+}
+.hero div h1, .hero div h2, .hero div p {
+    margin: 0;
+}
+
+.fiveday{
+    display: none;
+}
+
+    #Day1,
+	#Day2,
+	#Day3,
+	#Day4,
+	#Day5 { 
+    
+    margin-left: auto;
+	margin-right: auto;
+    margin-bottom: 10px;
+    width: 150px;
+		height: 150px;
+    
+}
+
+#articleimg {
+    float:left;
+    margin-bottom: 0px;
+    padding: 5px;
+    padding-right: 15px;
+}
+
+
+.map{
+    display:block;
+    width: 250px;
+   
+    
+}
+/* Gallery Page>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+/* Gallery Page>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.gallery{
+    display:grid;
+    grid-template-columns: 1fr;  
+	grid-template-rows: repeat(8,1fr);
+	grid-gap: 15px;
+	grid-auto-flow: dense;
+    justify-content: center;
+    background-color:#fdc90c46;
+    margin: 0 auto;
+    border: 2px solid#FDC70C;
+    padding: 15px;
+    font-family: 'Averia Libre', cursive;
+    color: #2361a3;
+    max-width: 100%;
+    border-radius: 10px;
+}
+.gallery img {
+width: 100%;
+object-fit: cover;
+
+}
+.gallerimg1 {
+grid-column: 1;
+grid-row: 1/2;
+}
+
+
+figcaption{
+color: #F3903F;
+font-family: 'Averia Serif Libre', cursive; 
+}
+

@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+
+/* Media Query for medium+ views */
+@media only screen and (min-width: 32.5em) and (max-width: 959px) {
+	.navigation {
+		display: flex;
+		margin-left: 60px;
+		
+	}
+	.navigation li {
+		display: block; /* change state in small view */
+		flex: 1 1 auto;
+		
+	}
+	.navigation a {
+		text-align: center;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
+
+
+	main, header, article, footer, nav {
+		width: 90%;
+	}
+	#heroimage{
+		margin: 0 auto;
+		display: block;
+		max-width: 90%;
+	}
+	#heroimage picture img {
+		margin: 10px;
+		box-shadow: 5px 10px 30px 1px #888888;
+		border-radius: 20px;
+	}
+	
+	.contact img {
+		border-color: white;
+		border-width: 20px;
+		border-style: solid;
+		border-radius: 20px;
+		box-shadow: 5px 10px 30px 1px #888888;
+		margin: auto;
+		
+	}
+	.boardofdirectors p {
+		
+		text-align: center;
+	
+	}
+	.contactform input, textarea, fieldset, button {
+		border-radius: 20px;
+		font-family: 'Barlow Condensed', sans-serif;
+		letter-spacing: 2px; 
+	}
+	fieldset{
+		box-shadow: 5px 10px 30px 1px #888888;
+		margin: auto;
+		max-width: 90%;
+	}
+	input {
+		padding: 5px;
+
+	}
+	.contactform {
+		margin: auto;
+	}
+	textarea, form {
+		margin: auto;
+	}
+	
+}
