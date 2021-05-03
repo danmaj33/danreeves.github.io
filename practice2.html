@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+<meta charset="UTF-8">
+
+    </head>
+    <body>
+        <header>
+
+        </header>
+       
+<p>Strike</p> <button onclick="strikemoreClick()">+</button><button onclick="strikelessClick()">-</button><input type="text" id="strike" value="0">  <br>
+<p>Ball</p> <button onclick="ballmoreClick()">+</button><button onclick="balllessClick()">-</button><input type="text" id="ball" value="0">   <br>
+<p>Out</p> <button onclick="outmoreClick()">+</button><button onclick="outlessClick()">-</button><input type="text" id="out" value="0">   <br>
+
+
+ <script>
+let s = 0;
+let b = 0;
+let o = 0;
+function strikemoreClick() {
+    document.getElementById("strike").value = ++s;
+    
+    if (s == 3) {
+       alert("Strike Out");
+       document.getElementById("strike").value = 0;
+       s = 0;
+   
+    }
+
+}
+function strikelessClick() {
+    document.getElementById("strike").value = --s;
+
+console.log(s)
+}
+function ballmoreClick() {
+    document.getElementById("ball").value = ++b;
+
+    if (b == 4) {
+       alert("Walk");
+       document.getElementById("ball").value = 0;
+       b = 0;
+   
+    }
+
+console.log(b)
+}
+function balllessClick() {
+    document.getElementById("ball").value = --b;
+
+console.log(b)
+}
+function outmoreClick() {
+    document.getElementById("out").value = ++o;
+
+    if (o == 3) {
+       alert("Change Innings");
+       document.getElementById("out").value = 0;
+       o = 0;
+   
+    }
+
+console.log(o)
+}
+function outlessClick() {
+    document.getElementById("out").value = --o;
+
+console.log(o)
+}
+    
+
+</script>
+                      <style>
+                        
+                      </style>
+
+       
+    </body>
+</html>

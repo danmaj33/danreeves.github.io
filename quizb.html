@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+<meta charset="UTF-8">
+
+    </head>
+    <body>
+       
+       
+        <formmethod="GET"action="/processor">
+        <h1>BuyTicketstotheWebDeveloperGala</h1>
+        <p>Ticketsare$10each.Dinnerpackagesareanextra$5.Allfieldsarerequired.</p>
+        
+        <fieldset title="fieldset1">
+            <legend>TicketsandAdd-­‐ons</legend>
+            <p>
+                <labelfor="quantity">NumberofTickets</label>
+                <span class="help">Limit8</span>
+                <input type="number"value="1"name="quantity"id="quantity"step="1"min="1"max="8"required></p>
+                <p><label for="quantity">DinnerPackages</label>
+                    <span class="help">Serves2</span>
+                    <input type="number"value="1"name="quantity"id="quantity"step="1"min="1"max="8"></p></fieldset>
+                   
+                    <fieldset title="fieldset2">
+                        <legend>Payment</legend><p><label for="ccn">Creditcardnumber</label>
+                            <span class="help">No spaces or dashes,please.</span>
+                            <input type="text"id="ccn"name="ccn"placeholder="372000000000008"maxlength="16"size="16"required></p>
+                            <p><label for="expiration">Expiration date</label><span class="help"><abbr title="Two-­‐digitmonth">MM</abbr>/<abbr title="Four-­‐digitYear">MM</abbr>YYYY</span><inputtype="text"id="expiration"name="expiration"placeholder="01/2018"maxlength="7"size="7"required>
+            </p>
+                   
+        <fieldset title="fieldset3"><legend>Billing Address</legend><p><label for="name">Name</label><input type="text"id="name"name="name"placeholder="ex:JohnQ.Public"size="40"required></p><p><labelfor="street_address">StreetAddress</label><inputtype="text"id="name"name="name"placeholder="ex:12345MainStreet,Apt23"size="40"></p><p><labelfor="city">City</label><inputtype="text"id="city"name="city"placeholder="ex:Anytown"></p><p><labelfor="state">State</label><inputtype="text"id="state"name="state"placeholder="CA"maxlength="2"pattern="[A-­‐W]{2}"size="2"></p><p><labelfor="zip">ZIP</label><inputtype="text"id="zip"name="zip"placeholder="12345"maxlength="5"pattern="0-­‐9{5}"size="5"></p></fieldset><buttontype="submit">BuyTickets!</button></form>
+       
+        
+</fieldset>
+<fieldset title="fieldset4"><legend>Billing Address</legend><p><label for="name">Name</label><input type="text"id="name"name="name"placeholder="ex:JohnQ.Public"size="40"required></p><p><labelfor="street_address">StreetAddress</label><inputtype="text"id="name"name="name"placeholder="ex:12345MainStreet,Apt23"size="40"></p><p><labelfor="city">City</label><inputtype="text"id="city"name="city"placeholder="ex:Anytown"></p><p><labelfor="state">State</label><inputtype="text"id="state"name="state"placeholder="CA"maxlength="2"pattern="[A-­‐W]{2}"size="2"></p><p><labelfor="zip">ZIP</label><inputtype="text"id="zip"name="zip"placeholder="12345"maxlength="5"pattern="0-­‐9{5}"size="5"></p></fieldset><buttontype="submit">BuyTickets!</button></form>
+                      </script>
+                      <style>
+                        
+                          fieldset:nth-child(1n + 4) > p {
+                               display: none;
+                          }
+                          /* fieldset:nth-child(4) >fieldset > p{
+                                    color: lime;
+                          } */
+                          
+                         
+
+                        
+                      </style>
+
+       
+    </body>
+</html>
