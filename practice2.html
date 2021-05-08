@@ -2,22 +2,57 @@
 <html lang="en-us">
     <head>
 <meta charset="UTF-8">
+<title>Baseball Scoreboard</title>
 
     </head>
     <body>
         <header>
-
+<h1>Baseball Scoreboard</h1>
         </header>
-       
-<p>Strike</p> <button onclick="strikemoreClick()">+</button><button onclick="strikelessClick()">-</button><input type="text" id="strike" value="0">  <br>
-<p>Ball</p> <button onclick="ballmoreClick()">+</button><button onclick="balllessClick()">-</button><input type="text" id="ball" value="0">   <br>
-<p>Out</p> <button onclick="outmoreClick()">+</button><button onclick="outlessClick()">-</button><input type="text" id="out" value="0">   <br>
-
+        <fieldset>
+<div id="scoreboard">
+        <h2>Home</h2><button onclick="homerunsmoreClick()">+</button><button onclick="homerunslessClick()">-</button><input type="text" id="home" value="0"><br>
+        <h2>Visitor</h2><button onclick="visitorrunsmoreClick()">+</button><button onclick="visitorrunslessClick()">-</button><input type="text" id="visitor" value="0"><br>
+</div>  
+</fieldset>
+<fieldset>
+<h3>Strike</h3> <button onclick="strikemoreClick()">+</button><button onclick="strikelessClick()">-</button><input type="text" id="strike" value="0"><br>
+<h3>Ball</h3> <button onclick="ballmoreClick()">+</button><button onclick="balllessClick()">-</button><input type="text" id="ball" value="0"><br>
+<h3>Out</h3> <button onclick="outmoreClick()">+</button><button onclick="outlessClick()">-</button><input type="text" id="out" value="0"><br>
+</fieldset>
+<div id="visitingroster">
+<h2>Visiting Roster</h2>
+<label>1.</label><input type="text" id="player1"><br>
+<label>2.</label><input type="text" id="player2"><br>
+<label>3.</label><input type="text" id="player3"><br>
+<label>4.</label><input type="text" id="player4"><br>
+<label>5.</label><input type="text" id="player5"><br>
+<label>6.</label><input type="text" id="player6"><br>
+<label>7.</label><input type="text" id="player7"><br>
+<label>8.</label><input type="text" id="player8"><br>
+<label>9.</label><input type="text" id="player9"><br>
+<label>10.</label><input type="text" id="player10"><br>
+</div>
+<div id="homeroster">
+<h2>Home Roster</h2>
+<label>1.</label><input type="text" id="player1"><br>
+<label>2.</label><input type="text" id="player2"><br>
+<label>3.</label><input type="text" id="player3"><br>
+<label>4.</label><input type="text" id="player4"><br>
+<label>5.</label><input type="text" id="player5"><br>
+<label>6.</label><input type="text" id="player6"><br>
+<label>7.</label><input type="text" id="player7"><br>
+<label>8.</label><input type="text" id="player8"><br>
+<label>9.</label><input type="text" id="player9"><br>
+<label>10.</label><input type="text" id="player10"><br>
+</div>
 
  <script>
 let s = 0;
 let b = 0;
 let o = 0;
+let h = 0;
+let v = 0;
 function strikemoreClick() {
     document.getElementById("strike").value = ++s;
     
@@ -31,6 +66,13 @@ function strikemoreClick() {
 }
 function strikelessClick() {
     document.getElementById("strike").value = --s;
+      
+    if (s == -1) {
+      
+       document.getElementById("strike").value = 0;
+       s = 0;
+   
+    }
 
 console.log(s)
 }
@@ -48,6 +90,12 @@ console.log(b)
 }
 function balllessClick() {
     document.getElementById("ball").value = --b;
+    if (b == -1) {
+      
+       document.getElementById("ball").value = 0;
+       b = 0;
+   
+    }
 
 console.log(b)
 }
@@ -65,14 +113,88 @@ console.log(o)
 }
 function outlessClick() {
     document.getElementById("out").value = --o;
+    if (o == -1) {
+     
+       document.getElementById("out").value = 0;
+       o = 0;
+   
+    }
 
 console.log(o)
+}
+function homerunslessClick() {
+    document.getElementById("home").value = --h;
+    if (h == -1) {
+     
+       document.getElementById("home").value = 0;
+       h = 0;
+   
+    }
+
+console.log(h)
+
+}
+function homerunsmoreClick() {
+    document.getElementById("home").value = ++h;
+
+
+console.log(h)
+}
+
+function visitorrunslessClick() {
+    document.getElementById("visitor").value = --v;
+    if (v == -1) {
+     
+       document.getElementById("visitor").value = 0;
+       v = 0;
+   
+    }
+
+console.log(v)
+
+}
+function visitorrunsmoreClick() {
+    document.getElementById("visitor").value = ++v;
+
+
+console.log(v)
 }
     
 
 </script>
                       <style>
+                          input {
+                              border-radius: 10px;
+                              margin: 3px;
+                          }
+                          button {
+                              border-radius: 5px;
+                              margin: 3px;
+                          }
+                         input, label {
+                        display : inline;
+                         }
+                         div {
+                             width : 200px;
+                             display: inline-block;
+                             margin: 20px;
+                             text-align: right ;
+                         }
+
+                         #scoreboard {
+                            width : 400px;
+                             display: inline-block;
+                             margin: 20px;
+                             text-align: left ;   
+                         }
                         
+                        fieldset {
+                            width: 400px;
+                            border-radius: 10px;
+                            margin: 10px;
+                        }
+                       
+                       
                       </style>
 
        

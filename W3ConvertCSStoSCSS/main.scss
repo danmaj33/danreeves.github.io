@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+// **********Variables****************
+$body-background-color: #faebd7;
+$side-background-color: #6495ED;
+$active-color: #deb887;
+$sans-serif: Arial, Helvetica, sans-serif;
+$serif: 'Lora', serif;
+$largebreak: 990px;
+$smallbreak: 989px;
+// ****************************
+// **********MIxin****************
+@mixin headerstyle {
+    background-color: $side-background-color;
+        margin: 0px;
+        text-align: right;
+        padding: 40px;
+    }    
+
+h1 , h2, h3, h4, h5, h6 {
+    font-family: $serif;
+    }
+
+p, li a {
+    font-family: $sans-serif;
+    }
+
+.post-date {
+    font-family: $sans-serif;
+    color: grey;
+    }
+
+nav {
+
+    li a, li a:visited  {
+    color: $body-background-color;
+    text-decoration: none;
+    }
+
+    li a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+    li a:active {
+    color: $active-color;  
+}
+
+}
+
+
+h1 {
+    a, a:visited {
+    color: $body-background-color;
+    text-decoration: none;
+    }
+    
+     a:hover {
+        color: white;
+        text-decoration: underline;
+    }
+    
+     a:active {
+        color: $active-color;  
+    }
+    
+    }
+
+
+/* other links */
+
+
+p {
+    a, a:visited  {
+    color: $side-background-color;
+    text-decoration: none;
+    }
+    
+    a:hover {
+        
+        text-decoration: underline;
+    }
+    
+    a:active {
+        color: $active-color;  
+    }
+}
+
+/* article title links */
+.post-content {
+    h2 a,  h2 a:visited  {
+    color: black;
+    text-decoration: none;
+    }
+    
+    h2 a:hover{
+        color: $side-background-color;
+        text-decoration: underline;
+    }
+    
+    h2 a:active{
+        color: $active-color;  
+    }
+}
+
+ul {
+    list-style: none;
+}
+
+
+@media  screen and (min-width: $largebreak) {
+    
+body div{
+        display: flex;
+    }
+    
+header {
+       @include headerstyle;
+        max-width: 25%;
+    }
+    
+main {
+        background-color: $body-background-color;
+        max-width: 75%;
+       
+        
+    }
+article {
+        text-align: left;
+        background-color: white;
+        margin: auto;
+        padding:30px;
+        margin: 50px;
+        box-shadow: 2px 2px lightgray;
+    
+    figure img {
+       margin: 0 auto;
+    }
+    
+    }
+    
+figure {
+        align-content: center;
+        display: flex;
+        margin-top: 50px;
+    }
+
+}
+@media  screen and (min-width: $smallbreak) {
+
+body div{
+        display: block;
+    }
+    
+header {
+    @include headerstyle;
+        
+    }
+    
+main {
+        background-color: $body-background-color;
+        padding: 10px;
+     }
+    
+article {
+        text-align: left;
+        background-color: white;
+        margin: auto;
+        padding:30px;
+        margin: 20px;
+        box-shadow: 2px 2px lightgray;
+    
+    figure img {
+       margin: 0 auto;
+       width: 100%;
+       max-width: 250px;
+    }
+  }
+    
+figure {
+        align-content: center;
+        display: flex;
+        margin-top: 50px;
+    }
+
+}
